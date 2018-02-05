@@ -297,6 +297,17 @@
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
 		},
+	"\/images\/coffee.png": {
+		"ft": 32768,
+		"iS": 135334,
+		"oA": 0,
+		"oAP": "\/images\/coffee.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/learnmore.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -316,6 +327,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/photo.png": {
+		"ft": 32768,
+		"iS": 178118,
+		"oA": 0,
+		"oAP": "\/images\/photo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/products.png": {
+		"ft": 32768,
+		"iS": 87465,
+		"oA": 0,
+		"oAP": "\/images\/products.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/sec-one-bg.jpg": {
 		"ft": 16384,

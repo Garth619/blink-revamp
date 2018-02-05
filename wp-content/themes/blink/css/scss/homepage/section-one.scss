@@ -3,6 +3,7 @@
 	background-size:cover;
 	width:100%;
 	height:1025px;
+	position: relative;
 }
 
 
@@ -69,7 +70,7 @@
 		span.location_title {
 			display: block;
 			color:$grey;
-			font-size: 25px;
+			font-size: 23px;
 			text-transform: uppercase;
 			
 			letter-spacing: 0.14em;
@@ -126,3 +127,25 @@ a.book_appointment {
 			}
 		}
 	}
+
+
+
+.products {
+	position: absolute;
+	bottom:410px;
+	left:0;
+}
+
+
+.photo {
+	position: absolute;
+	bottom:70px;
+	left:60px;
+}
+
+
+.coffee {
+	position: absolute;
+	bottom:280px;
+	right:85px;
+}
