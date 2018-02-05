@@ -30,6 +30,17 @@
 			
 		</div><!-- location_wrapper -->
 		
+		<a class="book_appointment" href="">Book an Appointment</a>
+		
 	</div><!-- sec_one_internal_content -->
+	
+	<div class="learn_more_wrapper">
+		
+		
+		<span class="learn_more_title">Learn More</span><!-- learn_more_title -->
+		
+		<?php echo file_get_contents("wp-content/themes/blink/images/learnmore.svg"); ?>
+		
+	</div><!-- learn_more_wrapper -->
 	
 </section><!-- section_one -->
