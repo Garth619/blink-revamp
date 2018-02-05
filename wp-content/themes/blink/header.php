@@ -33,7 +33,23 @@
 </head>
 
 <body <?php body_class(); ?>>
-				
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+<header>
+	
+	<a class="logo" href="<?php bloginfo('url');?>">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+		
+	</a><!-- logo -->
+	
+	<div class="header_right">
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		
+	</div><!-- header_right -->
+	
+	
+</header>
+
+
 			
