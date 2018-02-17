@@ -20,11 +20,23 @@
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery1.jpg"/>
 					
+					<div class="gallery_caption">
+						
+						this is a caption this is a caption this is a caption
+						
+					</div><!-- gallery_caption -->
+					
 				</div><!-- single_gallery -->
 				
 				<div class="single_gallery">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery2.jpg"/>
+					
+					<div class="gallery_caption">
+						
+						this is a caption this is a caption this is a caption
+						
+					</div><!-- gallery_caption -->
 					
 				</div><!-- single_gallery -->
 				
@@ -32,15 +44,36 @@
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery3.jpg"/>
 					
+					<div class="gallery_caption">
+						
+						this is a caption this is a caption this is a caption
+						
+					</div><!-- gallery_caption -->
+					
 				</div><!-- single_gallery -->
 				
 				<div class="single_gallery">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery4.jpg"/>
 					
+					<div class="gallery_caption">
+						
+						this is a caption this is a caption this is a caption
+						
+					</div><!-- gallery_caption -->
+					
 				</div><!-- single_gallery -->
 				
 			</div><!-- sec_two_gallery -->
+			
+			<a class="view_gallery_link" href="">
+				
+				<span>View Gallery</span>
+				
+				<?php echo file_get_contents("wp-content/themes/blink/images/view-more.svg"); ?>
+				
+				
+			</a><!-- view_gallery -->
 			
 			
 		</div><!-- sec_two_gallery_wrapper -->
