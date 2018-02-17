@@ -1,0 +1,16 @@
+#section_three {
+	display: flex;
+}
+
+
+.sec_three_box {
+	flex-basis: 33.3333%;
+	flex-shrink: 0;
+	height:300px;
+	background: red;
+	border-right:2px solid #fff;
+	height:450px;
+	&:last-of-type {
+		border:none;
+	}
+}
