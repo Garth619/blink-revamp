@@ -7,7 +7,7 @@
 		"uuidString": "75BAEEC2-9BA0-4546-A0BF-A3E17EE2DAA6"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -317,6 +317,16 @@
 		"oAP": "\/homepage_template_parts\/section-2.php",
 		"oF": 0
 		},
+	"\/images\/blink-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/blink-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/coffee.png": {
 		"ft": 32768,
 		"iS": 135334,
@@ -326,6 +336,46 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/gallery1.jpg": {
+		"ft": 16384,
+		"iS": 50353,
+		"oA": 0,
+		"oAP": "\/images\/gallery1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery2.jpg": {
+		"ft": 16384,
+		"iS": 43832,
+		"oA": 0,
+		"oAP": "\/images\/gallery2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery3.jpg": {
+		"ft": 16384,
+		"iS": 52667,
+		"oA": 0,
+		"oAP": "\/images\/gallery3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery4.jpg": {
+		"ft": 16384,
+		"iS": 43332,
+		"oA": 0,
+		"oAP": "\/images\/gallery4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/learnmore.svg": {
@@ -508,6 +558,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
