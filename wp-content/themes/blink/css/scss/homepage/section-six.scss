@@ -1,0 +1,46 @@
+#section_six {
+	width:100%;
+	background: #f7f7f7;
+	text-align: center;
+	padding:135px 0;
+}
+
+
+svg#accent {
+	width:29px;
+	height: 27px;
+	.accent-cls-1{
+		fill:$pink;
+	}
+}
+
+
+.sec_six_inner {
+	span.signup_title {
+		display: block;
+		font-size:53px;
+		color:$grey;
+		font-family: $glosa;
+		letter-spacing: 0.02em;
+		// max-width: 500px;
+		line-height: 60px;
+		margin:10px auto;
+		&:after {
+			content:"";
+			width:50px;
+			height:3px;
+			background: $pink;
+			display: block;
+			margin:30px auto;
+			width:190px;
+		}
+	}
+	.signup_description {
+		color:$grey;
+		font-size: 25px;
+		line-height: 30px;
+		font-family: $josefin;
+		max-width: 910px;
+		margin:0 auto;
+	}
+}
