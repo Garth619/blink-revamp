@@ -1,0 +1,28 @@
+#section_five {
+	display: flex;
+	
+}
+
+
+.sec_five_left {
+	background: url(#{$themePath}images/store.jpg) top left no-repeat;
+	background-size:cover;
+	width:100%;
+	flex-grow: 1;
+	
+}
+
+
+.sec_five_right {
+	flex-basis: 65%;
+	flex-shrink: 0;
+	background: url(#{$themePath}images/grey-bg.jpg) top left repeat;
+	padding:60px 0;
+	.review_wrapper {
+		background: #fff;
+		text-align: center;
+		svg#blink_circle {
+			width:110px;
+		}
+	}
+}

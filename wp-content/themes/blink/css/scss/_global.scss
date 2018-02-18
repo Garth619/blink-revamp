@@ -29,6 +29,38 @@ img.aligncenter {
 
 
 
+.content {
+	font-size: 23px;
+	color:$grey;
+	line-height: 31px;
+	font-family: $josefin;
+	h1.intro {
+		color:$pink;
+		font-family: $glosa;
+		font-size: 92px;
+		line-height: 103px;
+		border-bottom: 1px solid #b7b7b7;
+		padding-bottom:32px;
+		margin-bottom:100px;
+		max-width:870px;
+		
+	}
+	h1, h2, h3, h4 {
+		font-style: normal;
+		font-weight:300;
+	}
+	p {
+		margin-bottom:25px;
+	}
+	blockquote {
+		color:$pink;
+		font-size: 41px;
+		line-height: 44px;
+		padding:20px 0 40px;
+	}
+}
+
+
 @media screen and (max-width: 767px) {
 	
 	

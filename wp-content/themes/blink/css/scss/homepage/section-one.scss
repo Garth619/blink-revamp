@@ -122,8 +122,14 @@ a.book_appointment {
 		}
 		svg {
 			width:60px;
+			.learn-more-cls-1 {
+				fill:$pink;
+			}
+			.learn-more-cls-2 {
+				fill:$pink;
+			}
 			.learn-more-cls-3 {
-				
+				fill:#fff;
 			}
 		}
 	}

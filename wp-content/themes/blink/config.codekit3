@@ -121,6 +121,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/section-five.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section-five.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/homepage\/section-four.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section-four.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/section-one.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -337,6 +363,20 @@
 		"oAP": "\/homepage_template_parts\/section-3.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-4.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-5.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-5.php",
+		"oF": 0
+		},
 	"\/images\/blink-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -408,6 +448,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/grey-bg.jpg": {
+		"ft": 16384,
+		"iS": 48865,
+		"oA": 0,
+		"oAP": "\/images\/grey-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/learnmore.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -427,6 +477,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/meet.jpg": {
+		"ft": 16384,
+		"iS": 93644,
+		"oA": 0,
+		"oAP": "\/images\/meet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/photo.png": {
 		"ft": 32768,
@@ -475,6 +535,16 @@
 		"iS": 76605,
 		"oA": 0,
 		"oAP": "\/images\/services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/store.jpg": {
+		"ft": 16384,
+		"iS": 130326,
+		"oA": 0,
+		"oAP": "\/images\/store.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

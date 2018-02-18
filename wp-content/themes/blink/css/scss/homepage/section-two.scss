@@ -34,17 +34,20 @@
 		display: block;
 		margin:32px 0;
 	}
+	svg {
+		width:135px;
+		height:135px;
+	}
 }
 
 
 svg#blink_circle {
-	width:135px;
-	height:135px;
+	
 	.blink_circle-cls-1{
 		fill:$pink;
 	}
 	.blink_circle-cls-2{
-		fill:pink;
+		fill:$pink;
 	}
 }
 
@@ -89,8 +92,10 @@ svg#blink_circle {
 		text-transform: lowercase;
 		letter-spacing: 0.06em;
 		max-width: 200px;
+/*
 		border-bottom: 1px solid #e0e0e0;
 		border-left:1px solid #e0e0e0;
+*/
 		font-size: 15px;
 	}
 }
@@ -117,7 +122,25 @@ a.view_gallery_link {
 		height:40px;
 		display: inline-block;
 		vertical-align: top;
+
 	}
 }
+
+
+svg#view-more {
+	.view-more-cls-1 {
+		fill:#f499b8;
+	}
+	.view-more-cls-2 {
+		fill:#f89aba;
+	}
+	.view-more-cls-3 {
+		font-size:36.74px;
+		fill:#fff;
+		font-family:JosefinSans-SemiBold, Josefin Sans;
+		font-weight:700;
+	}
+}
+
 
 
