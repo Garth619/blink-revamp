@@ -146,9 +146,17 @@
 			
 			<div class="prev_next_wrapper">
 				
-				<div class="prev"></div><!-- prev -->
+				<div class="prev slide_button">
+					
+					<?php echo file_get_contents("wp-content/themes/blink/images/arrow.svg"); ?>
+					
+				</div><!-- prev -->
 				
-				<div class="next"></div><!-- next -->
+				<div class="next slide_button">
+					
+					<?php echo file_get_contents("wp-content/themes/blink/images/arrow.svg"); ?>
+					
+				</div><!-- next -->
 				
 			</div><!-- prev_next_wrapper -->
 			

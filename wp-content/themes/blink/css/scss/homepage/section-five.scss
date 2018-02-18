@@ -46,6 +46,8 @@
 }
 
 
+
+
 .single_slide {
 	span.review_keyword {
 		color:$grey;
@@ -61,7 +63,7 @@
 		}
 	}
 	.reviews_content {
-		padding:40px 0;
+		padding:40px 0 30px;
 		color:$grey;
 		font-family: $josefin;
 		font-size: 25px;
@@ -74,9 +76,11 @@
 		font-size: 46px;
 		letter-spacing: 0.02em;
 		color:$grey;
+		display: block;
+		padding-bottom:25px;
 		&:before {
 			content:"";
-			width:9px;
+			width:7px;
 			height:3px;
 			background: $pink;
 			display: inline-block;
@@ -110,3 +114,43 @@
 		}
 	}
 }
+
+
+.prev_next_wrapper {
+	position: absolute;
+	top:235px;
+	right:-35px;
+	.slide_button {
+		background: $pink;
+		padding:20px 13px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: $pinkdark;
+		}
+		svg {
+			width:45px;	
+		}
+	}
+	.prev {
+		border-radius: 5px 5px 0 0;
+		border-bottom: 1px solid #d38da6;
+	}
+	.next {
+		border-radius: 0 0 5px 5px;
+		svg {
+			transform: rotate(180deg);
+		}
+	}
+}
+
+
+svg#arrow {
+	.arrow-cls-1 {
+		fill:none;
+		stroke:#fff;
+		stroke-miterlimit:10;
+	}
+}
+
+
