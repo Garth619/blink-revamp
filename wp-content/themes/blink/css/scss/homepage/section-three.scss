@@ -6,11 +6,49 @@
 .sec_three_box {
 	flex-basis: 33.3333%;
 	flex-shrink: 0;
-	height:300px;
-	background: red;
 	border-right:2px solid #fff;
-	height:450px;
+	position: relative;
+	a {
+		display: block;
+	}
 	&:last-of-type {
 		border:none;
+	}
+	.overlay {
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index: 1;
+		background: rgba(128, 136, 141, 0.67);
+		transition: all 300ms ease-in-out;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		span {
+			position: relative;
+			z-index: 2;
+			color:#fff;
+			text-transform: uppercase;
+			font-family: $josefinsemibold;
+			font-size:28px;
+			letter-spacing: .880em;
+		}
+	}
+	img {
+		max-width:100%;
+		height: auto;
+		display: block;
+		
+	}
+}
+
+
+.sec_three_box {
+	&:hover {
+		.overlay {
+			background: rgba(247, 152, 184, 0.67);
+		}
 	}
 }

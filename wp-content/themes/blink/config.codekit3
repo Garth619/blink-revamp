@@ -358,6 +358,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/faqs.jpg": {
+		"ft": 16384,
+		"iS": 61493,
+		"oA": 0,
+		"oAP": "\/images\/faqs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/gallery1.jpg": {
 		"ft": 16384,
 		"iS": 50353,
@@ -429,6 +439,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/pricing.jpg": {
+		"ft": 16384,
+		"iS": 76607,
+		"oA": 0,
+		"oAP": "\/images\/pricing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/products.png": {
 		"ft": 32768,
 		"iS": 87465,
@@ -445,6 +465,16 @@
 		"iS": 57855,
 		"oA": 0,
 		"oAP": "\/images\/sec-one-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/services.jpg": {
+		"ft": 16384,
+		"iS": 76605,
+		"oA": 0,
+		"oAP": "\/images\/services.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
