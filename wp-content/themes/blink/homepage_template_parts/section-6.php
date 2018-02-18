@@ -11,6 +11,12 @@
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.			
 		</div><!-- signup_description -->
 		
+		<div class="sign_up_form">
+			
+			<?php gravity_form(1, false, false, false, '', true, 123); ?>
+			
+		</div><!-- sign_up_form -->
+		
 	</div><!-- sec_six_inner -->
 	
 </section><!-- section_six -->

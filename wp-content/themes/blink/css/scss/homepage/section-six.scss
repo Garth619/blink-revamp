@@ -44,3 +44,63 @@ svg#accent {
 		margin:0 auto;
 	}
 }
+
+
+
+.validation_error {
+	display: none;
+}
+
+.sign_up_form {
+	margin:57px 0 0;
+	form {
+		display: flex;
+		justify-content: center;
+	}
+	ul {
+		list-style: none;
+		li {
+			
+			label {
+				display: none;
+			}
+			input {
+				border:1px solid #dbdbdb;
+				border-right:none;
+				font-size:22px;
+				color:$grey;
+				text-transform: uppercase;
+				font-family: $josefin;
+				padding:18px 25px 12px;
+				letter-spacing: 0.04em;
+				border-radius: 5px 0 0 5px;
+				height:58px;
+				width:370px;
+			}
+		}
+	}
+	input[type="submit"] {
+		border:none;
+		background: $pink;
+		color:#fff;
+		text-transform: uppercase;
+		padding:18px 32px 12px;
+		font-size:22px;
+		letter-spacing: 0.08em;
+		height:58px;
+		border-radius:0 5px 5px 0;
+		font-family: $josefinsemibold;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: $pinkdark;
+		}
+	}
+	.gfield_description, .validation_message {
+		color:$pink;
+		font-family: $josefin;
+		font-size: 17px;
+		padding-top:10px;
+		letter-spacing: 0.05em;
+	}
+}
