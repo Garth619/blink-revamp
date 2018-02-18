@@ -173,6 +173,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/section-seven.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section-seven.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/section-six.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -410,6 +423,13 @@
 		"oAP": "\/homepage_template_parts\/section-6.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-7.php",
+		"oF": 0
+		},
 	"\/images\/accent.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -439,6 +459,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/blog.jpg": {
+		"ft": 16384,
+		"iS": 35035,
+		"oA": 0,
+		"oAP": "\/images\/blog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/images\/coffee.png": {
 		"ft": 32768,

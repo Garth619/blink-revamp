@@ -26,6 +26,42 @@
 
 
 
+@media screen and (min-width: 1060px) {
+	
+	
+#section_seven {
+	
+	.single_post {
+		&:hover {
+			.single_post_image_wrapper {
+				.single_post_image_inner {
+					transform: scale(1.2);
+				}
+			}
+			.single_post_content {
+				background: $pink;
+				.tri_wrapper {
+					.tri {
+						border-right: 30px solid $pink;
+					}
+				}
+				span.blog_title, span.meta, span.blog_description, span.read_more {
+					color:#fff;
+				}
+			}
+		}
+	}
+	
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
 
 
 
