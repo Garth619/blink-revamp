@@ -8,6 +8,8 @@
 			
 		</div><!-- play_button_wrapper -->
 		
+		<span class="play_video">play video</span>
+		
 		<span class="large_header">Say Nothing Express Everything.</span>
 		
 		<div class="location_wrapper">

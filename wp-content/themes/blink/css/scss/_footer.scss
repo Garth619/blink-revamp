@@ -143,11 +143,12 @@ a.location_book_now {
 	background: url(#{$themePath}images/footer-bg.jpg) top left no-repeat;
 	background-size:cover;
 	width:100%;
-	//padding-top:50px;
+	padding-top:1px;
+	margin-top:-1px;
 	.form_wrapper {
 		background-color: #fff;
 		max-width:1170px;
-		margin:0px auto 0;
+		margin:-435px auto 0;
 		padding:80px 50px;
 		
 		span.form_title {
