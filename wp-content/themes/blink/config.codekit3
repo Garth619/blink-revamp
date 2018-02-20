@@ -56,6 +56,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -481,6 +494,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/faqs.jpg": {
 		"ft": 16384,
 		"iS": 61493,
@@ -490,6 +513,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/fb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/fb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/gallery1.jpg": {
 		"ft": 16384,
@@ -531,6 +564,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/google-plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/google-plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/grey-bg.jpg": {
 		"ft": 16384,
 		"iS": 48865,
@@ -540,6 +583,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/images\/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/learnmore.svg": {
 		"ft": 2097152,
@@ -580,6 +633,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/pinkbg.jpg": {
+		"ft": 16384,
+		"iS": 36358,
+		"oA": 0,
+		"oAP": "\/images\/pinkbg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/pricing.jpg": {
@@ -632,6 +695,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/tel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/tel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/Untitled-1.svg": {
 		"ft": 2097152,

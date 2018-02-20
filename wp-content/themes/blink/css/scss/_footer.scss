@@ -1,0 +1,144 @@
+footer {
+	background: url(#{$themePath}images/pinkbg.jpg) top left ;
+	width:100%;
+}
+
+
+.locations_wrapper {
+	max-width:1040px;
+	margin:0 auto;
+	text-align: center;
+	padding:122px 0;
+	span.large_header {
+		color:#fff;
+		font-family: $glosa;
+		font-size: 64px;
+		letter-spacing: 0.04em;
+	}
+}
+
+
+
+.location_col {
+	margin:106px 0;
+	color:#fff;
+	.location_title {
+		display: inline-block;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		border-bottom:2px solid #fff;
+		padding-bottom:3px;
+		font-family: $josefinsemibold;
+		font-size: 24px;
+		margin-bottom:30px;
+	}
+	a {
+		color:#fff;
+		text-decoration: none;
+	}
+	a, ul, span {
+		display: block;
+		font-size: 26px;
+		font-family: $josefin;
+		line-height: 33px;
+		letter-spacing: 0.02em;
+	
+	}
+	ul {
+		list-style: none;
+	}
+	a.address {
+		margin-bottom:35px;
+	}
+	a.footer_tel {
+		margin:31px 0;
+		svg,span {
+			display: inline-block;
+			
+		}
+		span {
+			position: relative;
+			top:-8px
+		}
+		svg {
+			width:20px;
+			fill:#fff;
+			margin-right:6px;
+		}
+	}
+	span.leave_comment {
+		svg,span {
+			display: inline-block;
+		}
+		span {
+			position: relative;
+			top:-3px;
+			
+		}
+		svg {
+			width:30px;
+			margin-right:5px;
+			.email-cls-1,.email-cls-2,.email-cls-3,.email-cls-4{
+				fill:#fff;
+			}
+			.email-cls-2,.email-cls-3,.email-cls-4{
+				stroke:$pink;
+			}
+			.email-cls-2{
+				stroke-linejoin:round;
+			}
+			.email-cls-2,.email-cls-3{
+				stroke-width:14px;
+			}
+			.email-cls-3,.email-cls-4{
+				stroke-miterlimit:10;
+			}
+			.email-cls-4{
+				stroke-width:15px;
+			}
+		}
+		
+	}
+}
+
+.social_icons {
+	margin:34px 0;
+	a {
+		height:33px;
+		width:auto;
+		display: inline-block;
+		margin:0 5px;
+		svg {
+			width:auto;
+			height:33px;
+			fill:#fff;
+			transition: all .2s ease-in-out;
+		}
+	}
+}
+
+
+a.location_book_now {
+	background: #b25675;
+	display: inline-block;
+	padding:14px 45px 10px;
+	margin:8px 0 0;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: $josefinsemibold;
+	font-size: 22px;
+	letter-spacing: 0.08em;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: #fff;
+		color:$pink;
+	}
+}
+
+
+
+/*
+svg#instagram {
+	fill:#fff;
+}
+*/
