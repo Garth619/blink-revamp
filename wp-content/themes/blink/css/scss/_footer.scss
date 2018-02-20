@@ -5,10 +5,10 @@ footer {
 
 
 .locations_wrapper {
-	max-width:1040px;
+	max-width:1070px;
 	margin:0 auto;
 	text-align: center;
-	padding:122px 0;
+	padding:122px 0 470px;
 	span.large_header {
 		color:#fff;
 		font-family: $glosa;
@@ -20,8 +20,10 @@ footer {
 
 
 .location_col {
-	margin:106px 0;
+	margin:106px 80px;
 	color:#fff;
+	display: inline-block;
+	
 	.location_title {
 		display: inline-block;
 		letter-spacing: 0.04em;
@@ -137,8 +139,104 @@ a.location_book_now {
 
 
 
-/*
-svg#instagram {
-	fill:#fff;
+#form_section {
+	background: url(#{$themePath}images/footer-bg.jpg) top left no-repeat;
+	background-size:cover;
+	width:100%;
+	//padding-top:50px;
+	.form_wrapper {
+		background-color: #fff;
+		max-width:1170px;
+		margin:0px auto 0;
+		padding:80px 50px;
+		
+		span.form_title {
+			color:$grey;
+			font-family: $glosa;
+			font-size:53px;
+			letter-spacing: 0.02em;
+			line-height: 57px;
+			display: block;
+			text-align: center;
+			&:after {
+				content:"";
+				width:200px;
+				height:3px;
+				background: $pink;
+				display: block;
+				margin:30px auto 0px;
+			}
+		}
+		ul {
+			list-style: none;
+			margin:80px auto 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			max-width:975px;
+			li#field_2_5 {
+				flex-basis: 100%;
+			}
+			li#field_2_6 {
+				ul {
+					margin:0;
+				}
+				label {
+					display: block;
+				}
+				input {
+					width:80px;
+				}
+			}
+			li {
+				margin-bottom:30px;
+				flex-basis: 48.5%;
+				position: relative;
+				&:after {
+					content:"";
+					background: url(#{$themePath}images/ast.svg) top left no-repeat;
+					width:15px;
+					height:15px;
+					position: absolute;
+					top:28px;
+					right:25px;
+					z-index: 1;
+					
+				}
+				::-webkit-input-placeholder {
+					color: #80888d;
+ 				}
+ 				::-moz-placeholder {
+ 					color: #80888d;
+ 				}
+ 				:-moz-placeholder {
+ 					color: #80888d;
+ 				}
+ 				:-ms-input-placeholder {
+ 					color: #80888d;
+ 				}
+ 				::-moz-placeholder {
+ 					opacity: 1;
+ 				}
+				label {
+					display: none;
+				}
+				input, textarea {
+					background: #f8f8f8;
+					border:none;
+					font-family: $josefin;
+					font-size: 24px;
+					letter-spacing: 0.04em;
+					padding:23px 45px 23px 25px;
+					color:#80888d;
+					width:100%;
+				}
+			}
+		}
+	}
 }
-*/
+
+
+
+
+ 
