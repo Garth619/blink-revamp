@@ -53,6 +53,15 @@
 }
 
 
+span.play_video_title {
+	color:$grey;
+	font-family: $josefinsemibold;
+	font-family: 16px;
+	display: block;
+	margin-top:10px;
+}
+
+
 .location_wrapper {
 	text-align: center;
 	margin-top:45px;
@@ -155,3 +164,45 @@ a.book_appointment {
 	bottom:280px;
 	right:85px;
 }
+
+
+
+@media screen and (max-width: 1700px) {
+	
+	.products {
+		left: -81px;
+	}
+	
+	.coffee {
+		right: 14px;
+	}
+	
+	.photo {
+		left: -88px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width:1465px) {
+	
+	
+	.coffee {
+		right: -65px;
+	}
+	
+	
+	.photo {
+		left: -130px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */

@@ -34,7 +34,7 @@
 
 <body <?php body_class(); ?>>
 
-<header>
+<header id="header_trigger">
 	
 	<a class="logo" href="<?php bloginfo('url');?>">
 		
@@ -51,5 +51,48 @@
 	
 </header>
 
-
+<div class="sticky_header">
+	
+	<div class="sticky_header_left">
+		
+		<a class="sticky_logo" href="">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+			
+		</a><!-- sticky_logo -->
+		
+		<div class="sticky_locations">
+			
+			<span class="location_title_phone">Solana Beach <a class="pink" href="">(858) 436-4456</a></span>
+			
+			<span class="location_title_phone">Mission Valley <a class="pink" href="">(619) 964-6082</a></span>
+			
+		</div><!-- sticky_locations -->
+		
+		<div class="sticky_nav">
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+		</div><!-- sticky_nav -->
+		
+	</div><!-- header_left -->
+	
+	<div class="sticky_book_now">
+		
+		<a href="">Book Now</a>
+		
+	</div><!-- sticky_book_now -->
+	
+	<div class="sticky_menu_wrapper">
+		
+		
+		<span class="menu_title">Menu</span><!-- menu_title -->
+		
+		<span class="menu_bar"></span><!-- menu_bar -->
+		<span class="menu_bar"></span><!-- menu_bar -->
+		<span class="menu_bar"></span><!-- menu_bar -->
+		
+	</div><!-- sticky_menu_wrapper -->
+	
+</div><!-- sticky_header -->
 			
