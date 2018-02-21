@@ -221,14 +221,24 @@ ul#menu-menu-2 {
 	.sticky_header_left {
 		padding-left:10px;
 		padding-right:5px;
+		a.sticky_logo {
+			width:195px;
+			img {
+				width:195px
+			}
+		}
 	}
 	
 	.sticky_book_now {
-		flex-basis: 165px;
+		flex-basis: 125px;
+		a {
+			font-size:16px;
+			padding-top: 53px;
+		}
 	}
 	
 	.sticky_nav {
-    padding-left: 1%;
+    padding-left: 3%;
    }
    
    .sticky_locations {
@@ -237,10 +247,15 @@ ul#menu-menu-2 {
 		   margin-left: 7px;
 		   a.pink {
 			   font-size: 17px;
+			   letter-spacing: 0.05em;
 		   }
 	   }
    } 
 	
+	
+	ul#menu-menu-2>li {
+    font-size: 16px;
+	}
 	
 } /* Media Query */
 
