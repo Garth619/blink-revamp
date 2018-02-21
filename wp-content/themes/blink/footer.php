@@ -114,6 +114,24 @@
 		
 	</section><!-- form_section -->
 	
+	<div class="copyright_wrapper">
+		
+		<div class="copyright_inner">
+		
+			<span class="copyright">&copy; <?php echo date("Y"); ?> Blink Lash Boutique</span>
+		
+			<a class="site_by" href="">
+				
+				<span>Site By</span>
+				
+				<img src="<?php bloginfo('template_directory');?>/images/rcm.png"/>
+				
+			</a><!-- site_by -->
+		
+		</div><!-- copyright_inner -->
+	
+	</div><!-- copyright_wrapper -->
+	
 </footer>
 
 <?php wp_footer();?>

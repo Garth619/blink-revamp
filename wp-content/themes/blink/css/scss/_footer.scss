@@ -145,6 +145,7 @@ a.location_book_now {
 	width:100%;
 	padding-top:1px;
 	margin-top:-1px;
+	padding-bottom: 170px;
 	.form_wrapper {
 		background-color: #fff;
 		max-width:1170px;
@@ -234,10 +235,66 @@ a.location_book_now {
 				}
 			}
 		}
+		input[type="submit"] {
+			border: none;
+			background: $pink;
+			color:#fff;
+			text-transform: uppercase;
+			font-size:24px;
+			font-family: $josefinsemibold;
+			margin:25px auto 0;
+			display: block;
+			padding:26px 45px 20px;
+			border-radius: 5px;
+			letter-spacing: 0.08em;
+			transition: all .2s ease-in-out;
+			cursor: pointer;
+			&:hover {
+				background: $pinkdark;
+			}
+		}
 	}
 }
 
 
+
+.copyright_wrapper {
+	background: #fff;
+	
+}
+
+
+.copyright_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width:1795px;
+	margin:0 auto;
+	height:80px;
+	font-family: $josefin;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 0.08em;
+	color:#464646;
+}
+
+a.site_by {
+	color:#464646;
+	text-decoration: none;
+	position: relative;
+	span, img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	span {
+		padding-top:7px;
+		margin-right:5px;
+	}
+}
+
+.copyright {
+	
+}
 
 
  
