@@ -102,6 +102,12 @@
 		
 		</div><!-- locations_inner -->
 		
+		<img class="products" src="<?php bloginfo('template_directory');?>/images/products.png"/>
+	
+		<img class="photo" src="<?php bloginfo('template_directory');?>/images/photo.png"/>
+	
+		<img class="coffee" src="<?php bloginfo('template_directory');?>/images/coffee.png"/>
+		
 	</section><!-- locations_wrapper -->
 	
 	<section id="form_section">
