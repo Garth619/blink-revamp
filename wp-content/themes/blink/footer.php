@@ -1,6 +1,8 @@
-<footer>
+
 	
 	<section class="locations_wrapper">
+		
+		<div class="locations_inner">
 		
 		<span class="large_header">Book an Appointment Today!</span><!-- large_header -->
 		
@@ -98,6 +100,8 @@
 			
 		</div><!-- location_col -->
 		
+		</div><!-- locations_inner -->
+		
 	</section><!-- locations_wrapper -->
 	
 	<section id="form_section">
@@ -114,25 +118,30 @@
 		
 	</section><!-- form_section -->
 	
-	<div class="copyright_wrapper">
+	<footer>
+
+		<div class="copyright_wrapper">
+			
+			<div class="copyright_inner">
+			
+				<span class="copyright">&copy; <?php echo date("Y"); ?> Blink Lash Boutique</span>
+			
+				<a class="site_by" href="">
+					
+					<span>Site By</span>
+					
+					<img src="<?php bloginfo('template_directory');?>/images/rcm.png"/>
+					
+				</a><!-- site_by -->
+			
+			</div><!-- copyright_inner -->
 		
-		<div class="copyright_inner">
-		
-			<span class="copyright">&copy; <?php echo date("Y"); ?> Blink Lash Boutique</span>
-		
-			<a class="site_by" href="">
-				
-				<span>Site By</span>
-				
-				<img src="<?php bloginfo('template_directory');?>/images/rcm.png"/>
-				
-			</a><!-- site_by -->
-		
-		</div><!-- copyright_inner -->
+		</div><!-- copyright_wrapper -->
 	
-	</div><!-- copyright_wrapper -->
+	</footer>
 	
-</footer>
+	</div><!-- flex_order -->
+
 
 <?php wp_footer();?>
 

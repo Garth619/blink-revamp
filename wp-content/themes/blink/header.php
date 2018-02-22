@@ -34,22 +34,7 @@
 
 <body <?php body_class(); ?>>
 
-<header id="header_trigger">
-	
-	<a class="logo" href="<?php bloginfo('url');?>">
-		
-		<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
-		
-	</a><!-- logo -->
-	
-	<div class="header_right">
-		
-		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
-		
-	</div><!-- header_right -->
-	
-	
-</header>
+<div class="flex_order">
 
 <div class="sticky_header">
 	
@@ -66,6 +51,10 @@
 			<span class="location_title_phone">Solana Beach <a class="pink" href="">(858) 436-4456</a></span>
 			
 			<span class="location_title_phone">Mission Valley <a class="pink" href="">(619) 964-6082</a></span>
+			
+			<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
+			
+			<span class="call_us_cta">Give Us a Call</span><!-- call_us_cta -->
 			
 		</div><!-- sticky_locations -->
 		

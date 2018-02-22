@@ -1,3 +1,7 @@
+
+
+
+
 .alignleft,
 img.alignleft {
 	display: inline;
@@ -63,6 +67,21 @@ img.aligncenter {
 
 @media screen and (max-width: 767px) {
 	
+	
+// reorder sections on mobile
+	
+.flex_order {
+	display: flex;
+	flex-direction: column;
+}
+
+.locations_wrapper {
+	order:-2;
+}
+
+#section_three {
+	order:-1;
+}
 	
 .alignleft,
 .alignright,

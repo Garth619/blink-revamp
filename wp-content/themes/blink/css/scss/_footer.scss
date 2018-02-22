@@ -1,19 +1,23 @@
 footer {
-	background: url(#{$themePath}images/pinkbg.jpg) top left ;
-	width:100%;
+	
+
 }
 
 
 .locations_wrapper {
-	max-width:1070px;
-	margin:0 auto;
-	text-align: center;
+	
 	padding:122px 0 470px;
-	span.large_header {
-		color:#fff;
-		font-family: $glosa;
-		font-size: 64px;
-		letter-spacing: 0.04em;
+	background: url(#{$themePath}images/pinkbg.jpg) top left ;
+	.locations_inner {
+		max-width:1070px;
+		margin:0 auto;
+		text-align: center;
+		span.large_header {
+			color:#fff;
+			font-family: $glosa;
+			font-size: 64px;
+			letter-spacing: 0.04em;
+		}
 	}
 }
 
@@ -295,6 +299,9 @@ a.site_by {
 .copyright {
 	
 }
+
+
+
 
 
  

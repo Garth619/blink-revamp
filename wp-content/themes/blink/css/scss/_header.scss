@@ -1,5 +1,6 @@
 header {
 	position: absolute;
+	
 	top:0;
 	left:0;
 	width:100%;
@@ -7,6 +8,7 @@ header {
 	z-index:1;
 	justify-content: space-between;
 	padding:26px 45px;
+	display: none;
 	a.logo {
 		display: block;
 		flex-basis: 305px;
@@ -54,7 +56,7 @@ header {
 
 
 .sticky_header.visible {
-	opacity: 1;
+	//opacity: 1;
 }
 
 
@@ -63,7 +65,7 @@ header {
 	position: fixed;
 	top:0;
 	left:0;
-	opacity: 0;
+	opacity: 1;
 	transition: all 300ms ease-in-out;
 	z-index: 50;
 	height:120px;
@@ -71,7 +73,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.33);
+	
 }
 
 
@@ -83,6 +85,7 @@ header {
 	align-items: center;
 	padding-left:30px;
 	padding-right:30px;
+	border-bottom:1px solid #ebebeb;
 	a.sticky_logo {
 		width:220px;
 		
@@ -94,11 +97,7 @@ header {
 }
 
 .sticky_locations {
-	
-/*
-	flex-basis: 400px;
-	flex-shrink: 0;
-*/
+
 	span.location_title_phone {
 		display: block;
 		text-align: left;
@@ -117,6 +116,9 @@ header {
 			text-decoration: none;
 			margin-left:8px;
 		}
+	}
+	svg#tel, span.call_us_cta {
+		display: none;
 	}
 }
 
@@ -184,7 +186,7 @@ header {
 	}
 }
 
-ul#menu-menu-2 {
+ul#menu-menu-1 {
 		list-style: none;
 		margin:0;
 		display: flex;
@@ -230,10 +232,12 @@ ul#menu-menu-2 {
 	}
 	
 	.sticky_book_now {
-		flex-basis: 125px;
+		// flex-basis: 125px;
 		a {
+/*
 			font-size:16px;
 			padding-top: 53px;
+*/
 		}
 	}
 	
@@ -271,6 +275,256 @@ ul#menu-menu-2 {
 			}
 		}
 	}  
+	
+	
+	.sticky_book_now {
+		flex-basis: 160px;
+		a {
+/*
+			font-size:16px;
+			padding-top: 53px;
+*/
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1360px) {
+	
+	
+	
+	
+	.sticky_header {
+		height: 107px;
+	}
+	
+	.sticky_header_left {
+		 a.sticky_logo {
+			 width:208px;
+			 img {
+				 width:208px;
+			 }
+		 } 
+	}
+	
+	
+	
+	.sticky_menu_wrapper {
+		display: flex;
+	}
+	
+	.sticky_nav {
+		display: none;
+	}
+	
+	.sticky_book_now {
+		flex-basis: 150px;
+		a {
+			font-size:19px;
+			padding-top: 46px;
+		}
+	}
+	
+	.sticky_locations {
+		margin-top:4px;
+		margin-left:5px;
+		span.location_title_phone {
+			font-size: 18px;
+			a.pink {
+				font-size:20px;
+			}
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 840px) {
+	
+	.sticky_header {
+		height:85px;
+		
+	}
+	
+	.sticky_book_now {
+		a {
+    	padding-top: 33px;
+		}
+	}
+	
+	 	
+	.sticky_header_left {
+		justify-content: flex-start;
+		
+		 a.sticky_logo {
+			  width: 188px;
+			 img {
+				width: 188px;
+			 }
+		 } 
+	}
+	
+	.sticky_menu_wrapper {
+		flex-basis: 89px;
+		span.menu_title {
+			margin-bottom: 3px;
+			margin-top:4px;
+			font-size: 17px;
+		}
+		span.menu_bar {
+			max-width: 52px;
+		}
+	}
+	
+	
+	.sticky_book_now {
+		flex-basis: 180px;
+		a {
+			font-size: 22px;
+		}
+	}
+	
+	
+.sticky_locations {
+	
+	span.location_title_phone {
+		font-size:15px;
+		a.pink {
+			font-size: 15px;
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+.sticky_header_left {
+	justify-content: center;
+	border-top:1px solid #ebebeb;
+	a.sticky_logo {
+		display: none;
+	} 
+}
+	
+.sticky_locations {
+	span.location_title_phone {
+		display: none;
+	}
+	svg#tel, span.call_us_cta {
+		display: inline-block;
+	}
+	svg#tel {
+		width:27px;
+		fill:$pink;
+	}
+	span.call_us_cta {
+		font-size: 22px;
+		text-transform: uppercase;
+		font-family: $josefinsemibold;
+		letter-spacing: 0.06em;
+		color:$grey;
+		position: relative;
+		top:-13px;
+		margin-left:10px;
+	}
+}
+
+.sticky_book_now {
+	flex-basis: auto;
+  flex-grow: 1;
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 570px) {
+	
+	
+.sticky_locations {
+		
+	svg#tel {
+		width:25px;
+		
+	}
+	span.call_us_cta {
+		font-size: 18px;
+		top:-13px;
+		margin-left:10px;
+	}
+}
+
+
+.sticky_book_now {
+	flex-basis: auto;
+  flex-grow: 1;
+	a {
+		font-size: 18px;
+		padding-top: 35px;
+	}
+}
+
+
+.sticky_menu_wrapper {
+	span.menu_title {
+		font-size: 16px;
+	}
+} 
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 448px) {
+	
+
+
+.sticky_book_now {
+	padding-left:10px;
+	padding-right:10px;
+	flex-shrink: auto;
+}
+
+	
+.sticky_locations {
+	svg#tel {
+		display: none;
+	}
+	span.call_us_cta {
+		
+		top:0px;
+		margin-left:0px;
+	}
+}
+
+
+.sticky_header_left {
+	padding-left:15px;
+	padding-right:15px;
+	span.call_us_cta {
+		max-width: 90px;
+		text-align: center;
+	}
+}
 	
 	
 	
