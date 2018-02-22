@@ -46,7 +46,7 @@
 	
 </div><!-- mobile_logo_wrapper -->
 
-<div class="sticky_header">
+<div id="sticky_trigger" class="sticky_header">
 	
 	<div class="sticky_header_left">
 		

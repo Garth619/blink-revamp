@@ -417,7 +417,8 @@ ul#menu-menu-1 {
 	display: block;
 	order:-4;
 	text-align: center;
-	padding:20px 5px;
+	padding:20px 5px 0;
+	height:146px;
 	a {
 		display: block;
 		
@@ -425,6 +426,7 @@ ul#menu-menu-1 {
 			width:100%;
 			max-width:280px;
 			height:auto;
+			margin-left:-25px;
 		}
 	}
 }
@@ -433,7 +435,11 @@ ul#menu-menu-1 {
 .sticky_header {
 	position: relative;
 	order:-3;
+}
 
+.sticky_header.visible {
+	position: fixed;
+	transform: translate3d(0,0,0);
 }
 	
 .sticky_header_left {

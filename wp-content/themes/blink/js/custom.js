@@ -63,7 +63,7 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
 
 
-// createWaypoint("header_trigger", ".sticky_header", "visible", -350, null, true);
+						createWaypoint("sticky_trigger", "#sticky_trigger", "visible", 0, null, true);
 
 
 
