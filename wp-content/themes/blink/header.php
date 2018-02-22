@@ -35,12 +35,22 @@
 <body <?php body_class(); ?>>
 
 <div class="flex_order">
+	
+<div class="mobile_logo_wrapper">
+	
+	<a href="<?php bloginfo('url');?>">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+		
+	</a>
+	
+</div><!-- mobile_logo_wrapper -->
 
 <div class="sticky_header">
 	
 	<div class="sticky_header_left">
 		
-		<a class="sticky_logo" href="">
+		<a class="sticky_logo" href="<?php bloginfo('url');?>">
 			
 			<img src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
 			

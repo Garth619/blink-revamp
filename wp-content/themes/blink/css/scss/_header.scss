@@ -55,8 +55,8 @@ header {
 }
 
 
-.sticky_header.visible {
-	//opacity: 1;
+.mobile_logo_wrapper {
+	display: none;
 }
 
 
@@ -349,13 +349,13 @@ ul#menu-menu-1 {
 @media screen and (max-width: 840px) {
 	
 	.sticky_header {
-		height:85px;
+		height:80px;
 		
 	}
 	
 	.sticky_book_now {
 		a {
-    	padding-top: 33px;
+    	padding-top: 31px;
 		}
 	}
 	
@@ -410,7 +410,31 @@ ul#menu-menu-1 {
 
 
 @media screen and (max-width: 767px) {
-	
+
+
+
+.mobile_logo_wrapper {
+	display: block;
+	order:-4;
+	text-align: center;
+	padding:20px 5px;
+	a {
+		display: block;
+		
+		img {
+			width:100%;
+			max-width:280px;
+			height:auto;
+		}
+	}
+}
+
+
+.sticky_header {
+	position: relative;
+	order:-3;
+
+}
 	
 .sticky_header_left {
 	justify-content: center;
