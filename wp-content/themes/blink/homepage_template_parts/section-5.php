@@ -164,5 +164,11 @@
 		
 	</div><!-- sec_five_right -->
 	
+	<div class="leave_review_mobile_wrapper">
+			
+		<a class="leave_review" href="">Leave a Review</a><!-- leave_review -->
+			
+	</div><!-- leave_review_wrapper -->
+	
 	
 </section><!-- section_five -->

@@ -131,7 +131,32 @@ img.aligncenter {
 	max-width:100%;
 	height:auto;
 }
+
+
+
+.content {
+	blockquote {
+		font-size: 32px;
+		line-height: 37px;
+		padding: 8px 0 30px;
+	}
+}
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 510px) {
+	
+.content {
+	h1.intro {
+		font-size: 50px;
+    line-height: 52px;
+    margin-bottom: 46px;
+	}
+}
 	
 	
 	

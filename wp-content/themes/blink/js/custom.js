@@ -77,7 +77,17 @@ $('.review_slideshow').slick({
   dots:false,
   arrows:true,
   prevArrow:".prev",
-  nextArrow:".next"
+  nextArrow:".next",
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        
+        dots: true,
+        arrows:false
+      }
+    }
+  ]
 });
 
 
