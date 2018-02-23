@@ -95,12 +95,12 @@ $('.review_slideshow').slick({
 
 
 
-/*
-$('.sec_two_gallery').slick({
+
+$('.blog_wrapper').slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  dots:false,
+  dots:true,
   arrows:false,
   mobileFirst:true,
   responsive: [
@@ -108,12 +108,9 @@ $('.sec_two_gallery').slick({
       breakpoint: 767,
       settings: "unslick"
      }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
-*/
+
 
 
 
