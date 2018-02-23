@@ -216,10 +216,48 @@ svg#view-more {
     flex-basis: 100%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 	}
 	
+	.single_gallery {
+		.gallery_caption {
+			text-align: left;
+		}
+	} 
 	
+	
+	a.view_gallery_link {
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+	}
 
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	.sec_two_gallery {
+		column-count: auto;
+		column-gap:0;
+	}
+	
+	.single_gallery {
+		margin-bottom: 0px;
+		img {
+			width:100%;
+		
+		}
+	}
+	
 	
 	
 	

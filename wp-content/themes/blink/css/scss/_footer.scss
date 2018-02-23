@@ -308,7 +308,10 @@ a.site_by {
 
 @media screen and (max-width: 767px) {
 	
-	
+
+.locations_wrapper.visible {
+	margin-top:80px;
+}
 	
 .locations_wrapper {
 	padding:0px 0;
@@ -337,6 +340,7 @@ a.site_by {
 
 .location_col {
 	margin: 70px auto;
+	width:100%;
 	&:last-of-type {
 		margin-top:5px; 
 	}

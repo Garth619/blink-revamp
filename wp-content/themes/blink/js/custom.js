@@ -64,6 +64,9 @@ jQuery(document).ready(function($){
 
 
 						createWaypoint("sticky_trigger", "#sticky_trigger", "visible", 0, null, true);
+						
+						
+						createWaypoint("sticky_trigger", ".locations_wrapper", "visible", 0, null, true);
 
 
 
@@ -76,6 +79,31 @@ $('.review_slideshow').slick({
   prevArrow:".prev",
   nextArrow:".next"
 });
+
+
+
+
+
+
+/*
+$('.sec_two_gallery').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots:false,
+  arrows:false,
+  mobileFirst:true,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: "unslick"
+     }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+*/
 
 
 
