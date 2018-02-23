@@ -2,7 +2,7 @@
 	width:100%;
 	background: #f7f7f7;
 	text-align: center;
-	padding:135px 0 165px;
+	padding:135px 70px 165px;
 }
 
 
@@ -104,3 +104,111 @@ svg#accent {
 		letter-spacing: 0.05em;
 	}
 }
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	#section_six {
+		padding: 86px 70px 135px;
+	}
+	
+	
+	
+	
+	
+	.sec_six_inner {
+		span.signup_title {
+			max-width: 500px;
+		}
+		.signup_description {
+			max-width: 700px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	#section_six {
+		 padding: 60px 25px 95px;
+	}
+	
+	   
+	
+	
+	.sec_six_inner span.signup_title {
+		 font-size: 48px;
+		 line-height: 57px;
+	}
+	
+	
+	.sign_up_form {
+		ul {
+			li {
+				input {
+					width:auto;
+					max-width: 100%;
+				}
+			}
+		}
+	} 
+	
+		
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 510px) {
+	
+	
+.sign_up_form {
+		ul {
+			li {
+				input {
+					max-width:200px;
+					font-size: 19px;
+					padding: 18px 16px 12px;
+				}
+			}
+		}
+		input[type="submit"] {
+			padding: 18px 19px 12px;
+			font-size: 19px;
+		}
+	} 
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 450px) {
+	
+	
+.sign_up_form {
+		ul {
+			li {
+				input {
+					max-width:150px;
+					
+				}
+			}
+		}
+		input[type="submit"] {
+			
+		}
+	} 
+	
+	
+} /* Media Query */
+
+
+
+
