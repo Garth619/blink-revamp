@@ -49,6 +49,22 @@
 		
 	</div><!-- sec_three_box -->
 	
+	<div class="mobile_video">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/mobile_video.jpg"/>
+		
+		<div class="mobile_play_button_wrapper">
+			
+			<div class="mobile_play_circle">
+					
+				<div class="mobile_play_tri"></div><!-- mobile_play_tri -->
+				
+			</div><!-- mobile_play_circle -->
+			
+		</div><!-- mobile_play_button_wrapper -->
+		
+	</div>
+	
 	
 	
 </section><!-- section_three -->

@@ -36,7 +36,7 @@
 
 <div class="flex_order">
 	
-<div class="mobile_logo_wrapper">
+<div id="mobile_trigger" class="mobile_logo_wrapper">
 	
 	<a href="<?php bloginfo('url');?>">
 		

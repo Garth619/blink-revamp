@@ -63,7 +63,7 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
 
 
-						createWaypoint("sticky_trigger", "#sticky_trigger", "visible", 0, null, true);
+						createWaypoint("mobile_trigger", "#sticky_trigger", "visible", -135, null, true);
 						
 						
 						createWaypoint("sticky_trigger", ".locations_wrapper", "visible", 0, null, true);

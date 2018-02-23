@@ -405,4 +405,71 @@ a.location_book_now {
 } /* Media Query */
 
 
+
+@media screen and (max-width: 575px) {
+	
+	
+	
+	.locations_wrapper {
+		.coffee {
+    	right: -208px;
+		}
+	}
+	
+	
+	.locations_wrapper {
+		.products {
+    	left: -147px;
+   }
+	} 
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 470px) {
+	
+	
+	
+	.locations_wrapper {
+		.coffee {
+    	right: -240px;
+		}
+	}
+	
+	
+	.locations_wrapper {
+		.products {
+    	left: -167px;
+    	bottom: 807px;
+   }
+	} 
+	
+	.locations_wrapper {
+		padding:0 20px;
+	}
+	
+	
+	.location_col {
+		position: relative;
+		z-index: 1;
+		margin-bottom:60px;
+		.location_title {
+			font-size: 24px;
+		}
+		a, ul, span {
+			font-size: 23px;
+			line-height: 30px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
  
