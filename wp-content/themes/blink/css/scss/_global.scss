@@ -64,6 +64,22 @@ img.aligncenter {
 	}
 }
 
+@media screen and (max-width: 1384px) {
+	
+	
+.content {
+	h1.intro {
+		font-size: 80px;
+		line-height: 95px;
+		margin-bottom: 73px;
+		max-width: 750px;
+	}
+}
+	
+	
+	
+} /* Media Query */
+
 
 @media screen and (max-width: 767px) {
 	

@@ -154,6 +154,8 @@ a.location_book_now {
 	padding-top:1px;
 	margin-top:-1px;
 	padding-bottom: 170px;
+	position: relative;
+	z-index: 1;
 	.form_wrapper {
 		background-color: #fff;
 		max-width:1170px;
