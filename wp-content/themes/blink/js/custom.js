@@ -70,6 +70,101 @@ jQuery(document).ready(function($){
 
 
 
+	
+	var windowWidth = $(window).width();
+
+
+
+	function checkWidthcase() {
+    
+    if (windowWidth < 1360) {
+	    
+	    
+	    $('.sticky_menu_wrapper').on('click', function(e) {
+  
+				$('.sticky_nav').addClass('open');
+
+			});
+			
+			$('.sticky_nav .close').on('click', function(e) {
+  
+				$('.sticky_nav').removeClass('open');
+
+			});
+
+        
+      
+    	$('ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
+	  
+
+				$(".second_sub_menu_col").empty();
+		 
+				$(this).clone().appendTo('.second_sub_menu_col').addClass('parent_menu_title');
+		
+				$(this).next('ul.sub-menu').clone().appendTo('.second_sub_menu_col')
+		 
+				$(this).addClass('active');
+				
+				$('<span class="menu_back">< Back to Main Menu</span>').appendTo('.second_sub_menu_col');
+				
+				
+				$('.menu-header').fadeOut(300);
+				
+				$('.second_sub_menu_col').delay(300).fadeIn(300);
+				
+				
+	
+				// current $('ul#menu-menu-1 > li.current-menu-parent > a').next('ul.sub-menu').clone().appendTo('.sub_menu_container').show();
+	
+	
+			});
+			
+			
+			
+			
+			$(document).on('click','.menu_back', function(e) {
+	  
+			
+				$('.second_sub_menu_col').fadeOut(300);
+				
+				$('.menu-header').delay(300).fadeIn(300);
+			
+	
+	    });
+			
+			
+			
+		} // if
+    
+};
+	
+
+checkWidthcase();
+
+
+
+
+
+
+
+
+
+
+
+
+
+// mobile menu
+
+
+
+	
+
+
+
+
+
+
+
 $('.review_slideshow').slick({
   infinite: true,
   slidesToShow: 1,

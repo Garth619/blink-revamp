@@ -70,7 +70,11 @@
 		
 		<div class="sticky_nav">
 			
+			<div class="close"></div>
+			
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+			<div class="second_sub_menu_col"></div><!-- second_sub_menu_col -->
 			
 		</div><!-- sticky_nav -->
 		
