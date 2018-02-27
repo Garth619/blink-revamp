@@ -509,6 +509,7 @@ ul#menu-menu-1 {
 			position: absolute;
 			top:30px;
 			right:30px;
+			cursor: pointer;
 			&:before, &:after {
 				content:"";
 				width:55px;
