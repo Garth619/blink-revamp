@@ -74,10 +74,15 @@ img.aligncenter {
 		margin-bottom:25px;
 	}
 	ul,ol {
-		margin-left:30px;
+		margin-left:10px;
 		li {
 			margin-bottom:10px;
+			background:url(images/dots.svg) no-repeat scroll 0 10px;
+			background-size: 6px;
+			list-style: none;
+			padding: 0 0 0 17px;
 		}
+		
 	}
 	blockquote {
 		color:$pink;
