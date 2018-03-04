@@ -61,13 +61,20 @@ img.aligncenter {
 		font-family: $glosa;
 		font-size: 47px;
 		margin:50px 0 35px;
+		line-height: 48px;
 	}
 	h1, h2, h3, h4 {
 		font-style: normal;
 		font-weight:300;
 	}
-	p {
+	p, ul, ol {
 		margin-bottom:25px;
+	}
+	ul,ol {
+		margin-left:30px;
+		li {
+			margin-bottom:10px;
+		}
 	}
 	blockquote {
 		color:$pink;
@@ -81,6 +88,10 @@ img.aligncenter {
 		&:hover {
 			text-decoration: underline;
 		}
+	}
+	strong {
+		font-weight: 300;
+		color:$pink;
 	}
 }
 
