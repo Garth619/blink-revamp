@@ -32,6 +32,13 @@
 	width:75%;
 }
 
+img.featured_image {
+	display: block;
+	margin-bottom:40px;
+	max-width: 100%;
+	height:auto;
+}
+
 
 .blog_feed {
 	column-count: 2;
@@ -74,7 +81,13 @@
 		}
 	}
 
-
+#nav-below {
+	width:100%;
+	.nav-previous, .nav-next {
+		display: inline-block;
+		margin:0 10px;
+	}
+}
 
 
 @media screen and (max-width: 1200px) {

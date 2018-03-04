@@ -2,24 +2,32 @@
 
 
 
-				<h1 class="page-title"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
 				
-				
-				<?php
-					$category_description = category_description();
-					if ( ! empty( $category_description ) )
-						echo '<div class="archive-meta">' . $category_description . '</div>';
-
-				/*
-				
-				 * include a file called loop-category.php and that will be used instead.
-				 */
-				get_template_part( 'loop', 'category' );
-				?>
-
+	<div class="internal_main">
+	
+	
+	<div class="container content blog_container">
 		
+		<?php get_sidebar('blog'); ?>
+		
+		<div class="blog_content">
+			
+			
+			<h1 class="internal"><?php printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );?></h1>
+			
+			<div class="blog_feed">
+				
+				<?php get_template_part( 'loop', 'index' );?>
+				
+			</div><!-- blog_feed -->
+			
+			
+			</div><!-- blog_content -->
+				
+	</div><!-- container -->
+	
+	
+</div><!-- internal_main -->
 
-<?php // get_sidebar(); ?>
-<?php get_footer(); ?>
+
+		<?php get_footer(); ?>

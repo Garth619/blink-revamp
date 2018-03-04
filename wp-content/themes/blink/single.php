@@ -2,11 +2,34 @@
 
 	
 
-<?php get_template_part( 'loop', 'index' ); ?>
+<div class="internal_main">
+	
+	
+	<div class="container content blog_container">
+		
+		<?php get_sidebar('blog'); ?>
+		
+		<div class="blog_content">
+			
+			<h1 class="internal"><?php the_title();?></h1>
+			
+			<img class="featured_image" src="<?php bloginfo('template_directory');?>/images/eyelash-extensions.jpg"/>
+		
+			<?php get_template_part( 'loop', 'single' ) ?>
+			
+			
+		</div><!-- blog_content -->
+				
+	</div><!-- container -->
+	
+	
+</div><!-- internal_main -->
 
-<?php // use get_template_part( 'loop', 'single' ) if needed ?>
 
 
-
-<?php // get_sidebar(); ?>
 <?php get_footer(); ?>
+
+
+
+
+

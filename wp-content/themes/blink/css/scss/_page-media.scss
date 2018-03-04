@@ -1,10 +1,5 @@
 .media_wrapper {
-	 	          //column-count: 2;
-	 
-// 	          column-width: 150px;
-	  
-	          column-gap: 4em;
-	
+
 }
 
 .single_month_wrapper {
@@ -17,6 +12,7 @@
 	}
 	h2 {
 		color:$pink;
+		margin-bottom:60px;
 	}
 }
 
@@ -58,3 +54,25 @@
 		
 	}
 }
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+.single_month_wrapper {
+	
+	&:last-of-type {
+		
+	}
+	h2 {
+		
+		margin-bottom:30px;
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
