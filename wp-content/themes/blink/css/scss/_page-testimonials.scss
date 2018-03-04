@@ -1,0 +1,73 @@
+.testominals_wrapper_page {
+	margin-top:90px;
+}
+
+.single_testimonial_page {
+	text-align: center;
+	max-width:750px;
+	margin:0 auto 80px;
+	padding-bottom:80px;
+	border-bottom:1px solid #cecece;
+	&:last-of-type {
+		border:none;
+		margin-bottom:0px;
+		padding-bottom:0px;
+	}
+	span.review_keyword_page {
+		font-size:45px;
+		font-family: $glosa;
+		letter-spacing: 0.04em;
+		display: block;
+		margin-bottom:35px;
+		
+	}
+	.stars_page {
+		margin-bottom:35px;
+		span {
+			font-size: 35px;
+			color:$pink;
+		}
+	}
+	span.reviews_name_page {
+		font-family: $honeyscriptlight;
+		font-size:50px;
+		display: block;
+		margin-top:45px;
+		&:before {
+			content:"";
+			width:20px;
+			height: 3px;
+			background: $pink;
+			display:inline-block;
+			vertical-align: top;
+			margin-top:10px;
+			margin-right: 10px;
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	.testominals_wrapper_page {
+    margin-top: 48px;
+	}
+	
+	.single_testimonial_page {
+		&:last-of-type {
+			margin-bottom:25px;
+		}
+		span.review_keyword_page {
+			font-size: 38px;
+			margin-bottom: 29px;
+		}
+		.stars_page {
+			margin-bottom:20px;
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
