@@ -121,6 +121,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-partner-savings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-partner-savings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-pricing.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -478,6 +491,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/angelica.jpg": {
+		"ft": 16384,
+		"iS": 9070,
+		"oA": 0,
+		"oAP": "\/images\/angelica.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/arrow.svg": {
 		"ft": 2097152,
@@ -1701,6 +1724,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-partnersavings.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-partnersavings.php",
 		"oF": 0
 		},
 	"\/page-pricing.php": {

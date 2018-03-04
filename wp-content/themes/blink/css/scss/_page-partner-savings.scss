@@ -1,0 +1,23 @@
+.partner_wrapper {
+	
+}
+
+
+.single_partner {
+	border-bottom:1px solid #cecece;
+	padding-bottom: 65px;
+	padding-top:10px;
+	&:last-of-type {
+		border-bottom:none;
+	}
+	img.partner_img {
+		margin-bottom:40px;
+		max-width: 100%;
+		height:auto;
+		display: block;
+	}
+	span.additional_description {
+		font-family: $josefinsemibold;
+		color:$pink;
+	}
+}

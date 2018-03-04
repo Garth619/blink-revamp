@@ -6,14 +6,14 @@
 img.alignleft {
 	display: inline;
 	float: left;
-	margin-right: 24px;
+	margin-right: 35px;
 	margin-top: 4px;
 }
 .alignright,
 img.alignright {
 	display: inline;
 	float: right;
-	margin-left: 24px;
+	margin-left: 35px;
 	margin-top: 4px;
 }
 .aligncenter,
@@ -58,10 +58,10 @@ img.aligncenter {
 		line-height: 76px;
 	}
 	h2 {
-		font-family: $glosa;
-		font-size: 47px;
+		font-family: $josefin;
+		font-size: 40px;
 		margin:50px 0 35px;
-		line-height: 48px;
+		line-height: 42px;
 	}
 	h1, h2, h3, h4 {
 		font-style: normal;
