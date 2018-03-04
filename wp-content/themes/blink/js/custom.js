@@ -208,6 +208,41 @@ $('.blog_wrapper').slick({
 
 
 
+// Pricing Toggle
+
+
+	
+	var windowWidth = $(window).width();
+
+
+
+	function priceToggle() {
+    
+    if (windowWidth < 1060) {
+        
+      
+    	$('h2.price_intro_header').on('click', function(e) {
+			
+				$(this).toggleClass('open');
+				$(this).next('.mobile_slide').slideToggle(500);
+
+			});
+    	   		
+    		
+    } 
+    
+    
+  };
+	
+
+	priceToggle();
+
+
+
+
+
+
+
 
 
 

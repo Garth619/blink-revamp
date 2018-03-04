@@ -167,3 +167,58 @@ a.price_book_it {
 		text-decoration: none;
 	}
 }
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	.price_wrapper {
+		margin-top:30px;
+	}
+	
+	
+	.price_block_section {
+		h2.price_intro_header {
+			margin:0;
+			font-size: 40px;
+			line-height: 41px;
+			cursor: pointer;
+			&:after {
+				content:"+";
+				margin:0;
+				padding:0;
+				width:auto;
+				height:auto;
+				background: transparent;
+				font-family: $josefinsemibold;
+				display: inline-block;
+				vertical-align: top;
+				position: relative;
+				top:2px;
+				margin-left:10px;
+				color:$pink;
+				transition: content 7000ms ease-in-out;
+			}
+		}
+		&:not(:first-of-type) {
+			margin-top:20px;
+		}
+		h2.price_intro_header.open {
+			&:after {
+				content:"-";
+			}
+		}
+	} 
+	
+	
+	
+	
+	
+	
+	.mobile_slide {
+		display: none;
+	}
+	
+	
+	
+} /* Media Query */
