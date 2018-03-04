@@ -7,11 +7,14 @@
 	border-bottom:1px solid #cecece;
 	padding-bottom: 65px;
 	padding-top:10px;
+	max-width:700px;
+	text-align: center;
+	margin:0 auto;
 	&:last-of-type {
 		border-bottom:none;
 	}
 	img.partner_img {
-		margin-bottom:40px;
+		margin:0 auto 40px;
 		max-width: 100%;
 		height:auto;
 		display: block;
