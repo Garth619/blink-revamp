@@ -1,0 +1,51 @@
+.faq_wrapper {
+	
+}
+
+.faq_single {
+	h2.pink {
+		color:$pink;
+	}
+}
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+.faq_single {
+	h2.pink {
+		margin:0;
+		color:$grey;
+		transition: all .2s ease-in-out;
+		&:after {
+			content:"+";
+			display: inline-block;
+			margin-left:10px;
+			color:$pink;
+			font-family: $josefinsemibold;
+		}
+	}
+	h2.open {
+		color:$pink;
+		&:after {
+			content:"-";
+		}
+	}
+	.answer {
+		max-height: 0px;
+		transition: all 600ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.answer.open {
+		max-height: 5000px;
+		opacity: 1;
+		visibility: visible;
+		padding-top:15px;
+	}
+}
+
+	
+	
+} /* Media Query */

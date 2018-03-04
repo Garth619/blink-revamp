@@ -239,10 +239,34 @@ $('.blog_wrapper').slick({
 
 
 
+// FAQ Toggle
+
+
+var windowWidth = $(window).width();
 
 
 
+	function faqToggle() {
+    
+    if (windowWidth < 1060) {
+        
+      
+    	$('.faq_single h2.question').on('click', function(e) {
+			
+				$(this).toggleClass('open');
+				$(this).next('.answer').toggleClass('open');
+// 				$(this).next('.answer').slideToggle(500);
 
+			});
+    	   		
+    		
+    } 
+    
+    
+  };
+	
+
+	faqToggle();
 
 
 
