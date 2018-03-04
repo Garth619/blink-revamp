@@ -108,6 +108,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-default.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -623,6 +636,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/eyelash-extensions.jpg": {
+		"ft": 16384,
+		"iS": 13210,
+		"oA": 0,
+		"oAP": "\/images\/eyelash-extensions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/faqs.jpg": {
 		"ft": 16384,
 		"iS": 61493,
@@ -722,6 +745,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/Jen-and-Janelle.jpg": {
+		"ft": 16384,
+		"iS": 53417,
+		"oA": 0,
+		"oAP": "\/images\/Jen-and-Janelle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/learnmore.svg": {
 		"ft": 2097152,
@@ -1790,6 +1823,13 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-blog.php",
+		"oF": 0
+		},
 	"\/page-faq.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1857,11 +1897,11 @@
 		"oAP": "\/search.php",
 		"oF": 0
 		},
-	"\/sidebar.php": {
+	"\/sidebar-blog.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sidebar.php",
+		"oAP": "\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/single.php": {
