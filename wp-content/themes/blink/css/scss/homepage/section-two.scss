@@ -111,6 +111,11 @@ a.view_gallery_link {
 	font-size: 24px;
 	letter-spacing: 0.04em;
 	margin-top:4px;
+	&:hover {
+		span {
+			color:$pink;
+		}
+	}
 	span {
 		color:$grey;
 		font-family:$josefin;
@@ -119,6 +124,7 @@ a.view_gallery_link {
 		display: inline-block;
 		padding-top:10px;
 		margin-right:5px;
+		transition: all .2s ease-in-out;
 	}
 	svg {
 		width:40px;

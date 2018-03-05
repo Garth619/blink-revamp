@@ -18,6 +18,8 @@
 				
 				<div class="single_gallery">
 					
+					<a class="" href="<?php the_permalink(49);?>">
+					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery1.jpg"/>
 					
 					<div class="gallery_caption">
@@ -26,9 +28,13 @@
 						
 					</div><!-- gallery_caption -->
 					
+					</a>
+					
 				</div><!-- single_gallery -->
 				
 				<div class="single_gallery">
+					
+					<a class="" href="<?php the_permalink(49);?>">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery2.jpg"/>
 					
@@ -38,9 +44,13 @@
 						
 					</div><!-- gallery_caption -->
 					
+					</a>
+					
 				</div><!-- single_gallery -->
 				
 				<div class="single_gallery">
+					
+					<a class="" href="<?php the_permalink(49);?>">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery3.jpg"/>
 					
@@ -50,9 +60,13 @@
 						
 					</div><!-- gallery_caption -->
 					
+					</a>
+					
 				</div><!-- single_gallery -->
 				
 				<div class="single_gallery">
+					
+					<a class="" href="<?php the_permalink(49);?>">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/gallery4.jpg"/>
 					
@@ -62,11 +76,13 @@
 						
 					</div><!-- gallery_caption -->
 					
+					</a>
+					
 				</div><!-- single_gallery -->
 				
 			</div><!-- sec_two_gallery -->
 			
-			<a class="view_gallery_link" href="">
+			<a class="view_gallery_link" href="<?php the_permalink(49);?>">
 				
 				<span>View Gallery</span>
 				

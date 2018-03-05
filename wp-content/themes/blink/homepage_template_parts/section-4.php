@@ -29,7 +29,7 @@
 				
 					<div class="meet_link">
 						
-						<a href="">
+						<a href="<?php the_permalink(39);?>">
 						
 						<?php echo file_get_contents("wp-content/themes/blink/images/view-more.svg"); ?>
 						
@@ -43,7 +43,7 @@
 					
 					<div class="meet_link">
 						
-						<a href="">
+						<a href="<?php the_permalink(41);?>">
 						
 						<?php echo file_get_contents("wp-content/themes/blink/images/view-more.svg"); ?>
 						

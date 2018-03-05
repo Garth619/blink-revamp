@@ -3,7 +3,7 @@
 	
 	<div class="sec_three_box">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/services">
 		
 		<div class="overlay">
 			
@@ -19,7 +19,7 @@
 	
 	<div class="sec_three_box">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/pricing">
 		
 		<div class="overlay">
 			
@@ -35,7 +35,7 @@
 	
 	<div class="sec_three_box">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/faq">
 		
 		<div class="overlay">
 			

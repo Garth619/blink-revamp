@@ -5,7 +5,7 @@
 		
 		<div class="single_post_homepage">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/test-copy-2-copy">
 			
 			<div class="single_post_homepage_image_wrapper">
 			
@@ -38,7 +38,7 @@
 		
 		<div class="single_post_homepage">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/test-copy-2-copy">
 			
 			<div class="single_post_homepage_image_wrapper">
 			
@@ -71,7 +71,7 @@
 		
 		<div class="single_post_homepage">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/test-copy-2-copy">
 			
 			<div class="single_post_homepage_image_wrapper">
 			
@@ -104,7 +104,7 @@
 		
 		<div class="single_post_homepage">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/test-copy-2-copy">
 			
 			<div class="single_post_homepage_image_wrapper">
 			

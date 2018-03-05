@@ -70,6 +70,12 @@ jQuery(document).ready(function($){
 
 
 
+	$('#section_one').addClass('ready');
+	
+	
+	
+	
+	
 	
 	var windowWidth = $(window).width();
 
