@@ -1,0 +1,142 @@
+.location_form_overlay.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.location_form_overlay {
+	opacity: 0;
+	visibility: hidden;
+	transition: all .2s ease-in-out;
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background:rgba(0, 0, 0, 0.5);
+	z-index:500;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	padding:0 30px;
+	.location_form_inner {
+		background: #fff;
+		max-width:700px;
+		margin:200px auto;
+		padding:80px 30px 60px;
+		position: relative;
+		span.question {
+			color:$grey;
+			font-family: $glosa;
+			font-size:53px;
+			letter-spacing: 0.02em;
+			line-height: 57px;
+			display: block;
+			text-align: center;
+			&:after {
+				content:"";
+				width:200px;
+				height:3px;
+				background: $pink;
+				display: block;
+				margin:30px auto 0px;
+			}
+		}
+		ul {
+			list-style: none;
+			margin: 70px auto 0;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			max-width:600px;
+			li {
+				margin-bottom:30px;
+			
+				position: relative;
+				&:after {
+					content:"";
+					background: url(#{$themePath}images/ast.svg) top left no-repeat;
+					width:15px;
+					height:15px;
+					position: absolute;
+					top:28px;
+					right:25px;
+					z-index: 1;
+					
+				}
+				::-webkit-input-placeholder {
+					color: #80888d;
+ 				}
+ 				::-moz-placeholder {
+ 					color: #80888d;
+ 				}
+ 				:-moz-placeholder {
+ 					color: #80888d;
+ 				}
+ 				:-ms-input-placeholder {
+ 					color: #80888d;
+ 				}
+ 				::-moz-placeholder {
+ 					opacity: 1;
+ 				}
+				label {
+					display: none;
+				}
+				select {
+					
+					border-radius: 0;
+					-webkit-appearance: none;
+				}
+				input, textarea, select {
+					background: #ededed;
+					border:none;
+					font-family: $josefin;
+					font-size: 24px;
+					letter-spacing: 0.04em;
+					padding:23px 45px 23px 25px;
+					color:#80888d;
+					width:100%;
+				}
+			}
+		}
+		input[type="submit"] {
+			border: none;
+			background: $pink;
+			color:#fff;
+			text-transform: uppercase;
+			font-size:24px;
+			font-family: $josefinsemibold;
+			margin:25px auto 0;
+			display: block;
+			padding:26px 45px 20px;
+			border-radius: 5px;
+			letter-spacing: 0.08em;
+			transition: all .2s ease-in-out;
+			cursor: pointer;
+			&:hover {
+				background: $pinkdark;
+			}
+		}
+	}
+	.gfield_description, .validation_message {
+		color:$pink;
+		font-family: $josefin;
+		font-size: 17px;
+		padding-top:10px;
+		letter-spacing: 0.05em;
+	}
+}
+
+
+
+		.overlay_close {
+			position: absolute;
+			top:45px;
+			right:45px;
+			cursor: pointer;
+			&:before, &:after {
+				content:"";
+				width:55px;
+				height:2px;
+				background: $pink;
+				display: block;
+			}
+		}

@@ -3,17 +3,17 @@
 	<div class="blog_wrapper">
 		
 		
-		<div class="single_post">
+		<div class="single_post_homepage">
 			
 			<a class="" href="">
 			
-			<div class="single_post_image_wrapper">
+			<div class="single_post_homepage_image_wrapper">
 			
-				<div class="single_post_image_inner"></div><!-- single_post_image_wrapper -->
+				<div class="single_post_homepage_image_inner"></div><!-- single_post_homepage_image_wrapper -->
 			
-			</div><!-- single_post_image_wrapper -->
+			</div><!-- single_post_homepage_image_wrapper -->
 			
-			<div class="single_post_content">
+			<div class="single_post_homepage_content">
 				
 				<div class="tri_wrapper">
 					
@@ -30,23 +30,23 @@
 				<span class="read_more">Read More</span><!-- read_more -->
 				
 				
-			</div><!-- single_post_content -->
+			</div><!-- single_post_homepage_content -->
 			
 			</a>
 			
-		</div><!-- single_post -->
+		</div><!-- single_post_homepage -->
 		
-		<div class="single_post">
+		<div class="single_post_homepage">
 			
 			<a class="" href="">
 			
-			<div class="single_post_image_wrapper">
+			<div class="single_post_homepage_image_wrapper">
 			
-				<div class="single_post_image_inner"></div><!-- single_post_image_wrapper -->
+				<div class="single_post_homepage_image_inner"></div><!-- single_post_homepage_image_wrapper -->
 			
-			</div><!-- single_post_image_wrapper -->
+			</div><!-- single_post_homepage_image_wrapper -->
 			
-			<div class="single_post_content">
+			<div class="single_post_homepage_content">
 				
 				<div class="tri_wrapper">
 					
@@ -63,23 +63,23 @@
 				<span class="read_more">Read More</span><!-- read_more -->
 				
 				
-			</div><!-- single_post_content -->
+			</div><!-- single_post_homepage_content -->
 			
 			</a>
 			
-		</div><!-- single_post -->
+		</div><!-- single_post_homepage -->
 		
-		<div class="single_post">
+		<div class="single_post_homepage">
 			
 			<a class="" href="">
 			
-			<div class="single_post_image_wrapper">
+			<div class="single_post_homepage_image_wrapper">
 			
-				<div class="single_post_image_inner"></div><!-- single_post_image_wrapper -->
+				<div class="single_post_homepage_image_inner"></div><!-- single_post_homepage_image_wrapper -->
 			
-			</div><!-- single_post_image_wrapper -->
+			</div><!-- single_post_homepage_image_wrapper -->
 			
-			<div class="single_post_content">
+			<div class="single_post_homepage_content">
 				
 				<div class="tri_wrapper">
 					
@@ -96,23 +96,23 @@
 				<span class="read_more">Read More</span><!-- read_more -->
 				
 				
-			</div><!-- single_post_content -->
+			</div><!-- single_post_homepage_content -->
 			
 			</a>
 			
-		</div><!-- single_post -->
+		</div><!-- single_post_homepage -->
 		
-		<div class="single_post">
+		<div class="single_post_homepage">
 			
 			<a class="" href="">
 			
-			<div class="single_post_image_wrapper">
+			<div class="single_post_homepage_image_wrapper">
 			
-				<div class="single_post_image_inner"></div><!-- single_post_image_wrapper -->
+				<div class="single_post_homepage_image_inner"></div><!-- single_post_homepage_image_wrapper -->
 			
-			</div><!-- single_post_image_wrapper -->
+			</div><!-- single_post_homepage_image_wrapper -->
 			
-			<div class="single_post_content">
+			<div class="single_post_homepage_content">
 				
 				<div class="tri_wrapper">
 					
@@ -129,11 +129,11 @@
 				<span class="read_more">Read More</span><!-- read_more -->
 				
 				
-			</div><!-- single_post_content -->
+			</div><!-- single_post_homepage_content -->
 			
 			</a>
 			
-		</div><!-- single_post -->
+		</div><!-- single_post_homepage -->
 		
 	</div><!-- blog_wrapper -->
 	

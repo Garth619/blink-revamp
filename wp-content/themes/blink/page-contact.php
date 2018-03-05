@@ -1,14 +1,21 @@
+<?php
 
+/* Template Name: Contact */
+
+get_header(); ?>
+
+
+<div class="internal_main">
 	
-	<section class="locations_wrapper">
+	
+	<div class="container content">
 		
-		<?php if(!is_page_template( 'page-contact.php' )) { ?>
+		<h1 class="internal center"><?php the_title();?></h1>
 		
-		<div class="locations_inner">
-		
-		<span class="large_header">Book an Appointment Today!</span><!-- large_header -->
-		
-		<div class="location_col">
+		<div class="contact_wrapper">
+			
+			
+			<div class="location_col">
 			
 			<span class="location_title">Mission Valley</span><!-- location_title -->
 			
@@ -101,82 +108,23 @@
 			<a class="location_book_now" href="">Book Now!</a><!-- location_book_now -->
 			
 		</div><!-- location_col -->
+			
+			
+			
+			
+		</div><!-- copntact_wrapper -->
 		
-		</div><!-- locations_inner -->
-		
-		<img class="products" src="<?php bloginfo('template_directory');?>/images/products.png"/>
+	</div><!-- container -->
 	
-		<img class="photo" src="<?php bloginfo('template_directory');?>/images/photo.png"/>
 	
-		<img class="coffee" src="<?php bloginfo('template_directory');?>/images/coffee.png"/>
-		
-		<?php }?> <!-- end of if not contact page -->
-		
-		<div class="location_form_overlay">
-			
-			<div class="location_form_inner">
-				
-				<div class="overlay_close"></div><!-- overlay_close -->
-				
-				<span class="question">Question or Comment?</span>
-				
-				<?php gravity_form(4, false, false, false, '', true, 678); ?>
-				
-			</div><!-- location_form_inner -->
-			
-		</div><!-- location_form_overlay -->
-		
-	</section><!-- locations_wrapper -->
-	
-	<section id="mobile_pink_bg">
-		
-		
-		
-		
-		
-	</section><!-- mobile_pink_bg -->
-	
-	<section id="form_section">
-		
-		
-		<div class="form_wrapper">
-			
-			<span class="form_title">Got a Question? Get in Touch</span><!-- form_title -->
-			
-			<?php gravity_form(2, false, false, false, '', true, 546); ?>
-			
-		</div><!-- form_wrapper -->
-		
-		
-	</section><!-- form_section -->
-	
-	<footer>
-
-		<div class="copyright_wrapper">
-			
-			<div class="copyright_inner">
-			
-				<span class="copyright">&copy; <?php echo date("Y"); ?> Blink Lash Boutique</span>
-			
-				<a class="site_by" href="">
-					
-					<span>Site By</span>
-					
-					<img src="<?php bloginfo('template_directory');?>/images/rcm.png"/>
-					
-				</a><!-- site_by -->
-			
-			</div><!-- copyright_inner -->
-		
-		</div><!-- copyright_wrapper -->
-	
-	</footer>
-	
-	</div><!-- flex_order -->
+</div><!-- internal_main -->
 
 
-<?php wp_footer();?>
 
 
-</body>
-</html>
+
+	
+
+
+
+<?php get_footer(); ?>

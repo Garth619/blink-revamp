@@ -267,6 +267,29 @@ var windowWidth = $(window).width();
 	
 
 	faqToggle();
+	
+	
+	
+
+// Leave a comment overlay
+
+
+$('.leave_comment').on('click', function(e) {
+  
+
+	$('.location_form_overlay').addClass('open');
+
+
+});
+
+
+$('.overlay_close').on('click', function(e) {
+  
+
+	$('.location_form_overlay').removeClass('open');
+
+
+});
 
 
 

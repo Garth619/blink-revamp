@@ -140,7 +140,7 @@
 			
 			<div class="leave_review_wrapper">
 			
-				<a class="leave_review" href="">Leave a Review</a><!-- leave_review -->
+				<a class="leave_review" href="//blinklashboutique.com/reviews" target="_blank">Leave a Review</a><!-- leave_review -->
 			
 			</div><!-- leave_review_wrapper -->
 			
@@ -166,7 +166,7 @@
 	
 	<div class="leave_review_mobile_wrapper">
 			
-		<a class="leave_review" href="">Leave a Review</a><!-- leave_review -->
+		<a class="leave_review" href="//blinklashboutique.com/reviews" target="_blank">Leave a Review</a><!-- leave_review -->
 			
 	</div><!-- leave_review_wrapper -->
 	

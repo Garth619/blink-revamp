@@ -57,6 +57,9 @@ footer {
 	}
 	a.address {
 		margin-bottom:35px;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 	a.footer_tel {
 		margin:31px 0;
@@ -74,6 +77,12 @@ footer {
 		}
 	}
 	span.leave_comment {
+		cursor: pointer;
+		&:hover {
+			span {
+				text-decoration: underline;
+			}
+		}
 		svg,span {
 			display: inline-block;
 		}

@@ -5,13 +5,16 @@
 .single_testimonial_page {
 	text-align: center;
 	max-width:750px;
-	margin:0 auto 80px;
-	padding-bottom:80px;
-	border-bottom:1px solid #cecece;
+	margin:0px auto 80px;
+	padding-bottom:10px;
+	border-top:1px solid #cecece;
+	padding-top:75px;
 	&:last-of-type {
-		border:none;
+// 		border:none;
+
 		margin-bottom:0px;
 		padding-bottom:0px;
+
 	}
 	span.review_keyword_page {
 		font-size:45px;
@@ -43,6 +46,29 @@
 			margin-top:10px;
 			margin-right: 10px;
 		}
+	}
+}
+
+
+a.review_button_testi {
+	display: block;
+	margin:0 auto;
+	width:300px;
+	text-align: center;
+	background:$pink;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $josefinsemibold;
+  font-size: 23px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  padding: 25px 0px 22px;
+  border-radius: 5px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $pinkdark;
+		text-decoration: none;
 	}
 }
 

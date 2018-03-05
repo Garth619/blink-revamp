@@ -8,15 +8,15 @@
 	}
 	
 	
-	.single_post {
+	.single_post_homepage {
 		flex-basis: 50%;
 		flex-shrink: 0;
 		
 		&:nth-of-type(3), &:nth-of-type(4) {
-			.single_post_image_wrapper {
+			.single_post_homepage_image_wrapper {
 				order:2;
 			}
-			.single_post_content {
+			.single_post_homepage_content {
 				order:1;
 				.tri_wrapper {
 					right:-30px;
@@ -31,12 +31,12 @@
 		a {
 			display: flex;
 			text-decoration: none;
-			.single_post_image_wrapper {
+			.single_post_homepage_image_wrapper {
 				flex-basis: 50%;
 				flex-shrink:0;
 				position: relative;
 				overflow: hidden;
-				.single_post_image_inner {
+				.single_post_homepage_image_inner {
 					width:100%;
 					height: 100%;
 					position: absolute;	
@@ -46,7 +46,7 @@
 					transition: all 1900ms cubic-bezier(.17,.66,.34,.98);
 				}
 			}
-			.single_post_content {
+			.single_post_homepage_content {
 				flex-grow: 1;
 				padding:40px;
 				position: relative;
@@ -132,10 +132,10 @@
 			
 		}
 		
-		.single_post {
+		.single_post_homepage {
 			flex-basis: 100%;
 			a {
-				.single_post_content {
+				.single_post_homepage_content {
 					padding: 70px;
 				}
 			}
@@ -144,15 +144,15 @@
 		
 		
 		
-	.single_post {
+	.single_post_homepage {
 		&:nth-of-type(4) {
 			
 		}
 		&:nth-of-type(3) {
-			.single_post_image_wrapper {
+			.single_post_homepage_image_wrapper {
 				order:1;
 			}
-			.single_post_content {
+			.single_post_homepage_content {
 				order:2;
 				.tri_wrapper {
 					left:-30px;
@@ -167,10 +167,10 @@
 		}
 		
 		&:nth-of-type(2) {
-			.single_post_image_wrapper {
+			.single_post_homepage_image_wrapper {
 				order:2;
 			}
-			.single_post_content {
+			.single_post_homepage_content {
 				order:1;
 				.tri_wrapper {
 					left:auto;
@@ -256,14 +256,14 @@
 		}
 	
 	
-		.single_post {
+		.single_post_homepage {
 			text-align: center;
 			a {
 // 				display: block;
-				.single_post_image_wrapper {
+				.single_post_homepage_image_wrapper {
 					display: none;
 				}
-				.single_post_content {
+				.single_post_homepage_content {
 					padding: 44px 25px;
 					max-width:500px;
 					margin-left:auto;

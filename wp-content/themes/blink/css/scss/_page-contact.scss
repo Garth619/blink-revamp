@@ -1,0 +1,108 @@
+.contact_wrapper {
+	text-align: center;
+	.location_col {
+		color:$grey;
+		margin: 63px 80px;
+		.location_title {
+			color:$pink;
+		}
+		a {
+			color:$grey;
+			text-decoration: none;
+		}
+		a.address {
+			transition: all .2s ease-in-out;
+			text-decoration: none;
+			&:hover {
+				color:$pink;
+				text-decoration: none;
+			}
+		}
+		ul {
+			li {
+				background: transparent;
+				margin-left:0;
+				padding:0;
+			}
+		}
+		a.footer_tel {
+			svg {
+				width:20px;
+				fill:$pink;
+				margin-right:6px;
+			}
+		}
+	span.leave_comment {
+		transition: all .2s ease-in-out;
+		text-decoration: none;
+		&:hover {
+			span {
+				color:$pink;
+				text-decoration: none;
+			}
+		}
+		span {
+			transition: all .2s ease-in-out;
+		}
+		svg {
+			.email-cls-1,.email-cls-2,.email-cls-3,.email-cls-4{
+				fill:$pink;
+			}
+			.email-cls-2,.email-cls-3,.email-cls-4{
+				stroke:#fff;
+			}
+		}
+	}
+}
+.social_icons {
+	a {
+		svg {
+			fill:$pink;
+			.social-1{
+				fill:$pink;
+			}
+		}
+	}
+}
+
+
+a.location_book_now {
+	background:$pink ;
+	color:#fff;
+	&:hover {
+		background: $pinkdark;
+		color:#fff;
+		text-decoration: none;
+	}
+}
+
+} // contact_wrapper
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+.contact_wrapper {
+	.location_col {
+		  margin: 63px 0px;
+	}
+}
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+.contact_wrapper {
+	.location_col {
+		&:first-of-type {
+			margin-top:20px;
+		}
+		  
+	}
+}
+	
+	
+} /* Media Query */

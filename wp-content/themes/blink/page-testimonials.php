@@ -12,6 +12,8 @@ get_header(); ?>
 		
 		<h1 class="internal center"><?php the_title();?></h1>
 		
+		<a class="review_button_testi" href="//blinklashboutique.com/reviews" target="_blink">Leave A review!</a><!-- review_button_testi -->
+		
 		<div class="testominals_wrapper_page">
 			
 			
