@@ -92,12 +92,16 @@
 }
 
 
+
 .meet_link {
 	margin-top:5px;
 	float:left;
 	width:48%;
 	a {
 		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
 		svg {
 			float:left;
 			margin-right:10px;

@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "75BAEEC2-9BA0-4546-A0BF-A3E17EE2DAA6"
+		"uuidString": "B9C3CC45-6F5B-4EBC-84EE-04869B398677"
 		}
 	],
 "creatorBuild": "26330",
@@ -391,7 +391,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/fonts\/demo.html": {
@@ -638,12 +638,12 @@
 		},
 	"\/images\/blog.jpg": {
 		"ft": 16384,
-		"iS": 35035,
+		"iS": 34045,
 		"oA": 0,
 		"oAP": "\/images\/blog.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/coffee.png": {
@@ -690,12 +690,12 @@
 		},
 	"\/images\/eyelash-extensions.jpg": {
 		"ft": 16384,
-		"iS": 13210,
+		"iS": 73247,
 		"oA": 0,
 		"oAP": "\/images\/eyelash-extensions.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/faqs.jpg": {
@@ -780,12 +780,12 @@
 		},
 	"\/images\/grey-bg.jpg": {
 		"ft": 16384,
-		"iS": 48865,
+		"iS": 49217,
 		"oA": 0,
 		"oAP": "\/images\/grey-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/instagram.svg": {
@@ -840,22 +840,22 @@
 		},
 	"\/images\/menu-bg.jpg": {
 		"ft": 16384,
-		"iS": 43427,
+		"iS": 42834,
 		"oA": 0,
 		"oAP": "\/images\/menu-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/mobile_video.jpg": {
 		"ft": 16384,
-		"iS": 158512,
+		"iS": 31934,
 		"oA": 0,
 		"oAP": "\/images\/mobile_video.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/photo.png": {
@@ -1056,7 +1056,7 @@
 		"oA": 0,
 		"oAP": "\/js\/home-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/internal-min.js": {
@@ -1076,7 +1076,7 @@
 		"oA": 0,
 		"oAP": "\/js\/internal-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/slick\/.gitignore": {
@@ -1940,12 +1940,12 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 8762,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1993,10 +1993,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 539487340,
+	"creationDate": 542048773,
 	"displayValue": "blink",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-lotr"
+	"iconImageName": "meme-obama"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2411,7 +2411,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -2575,7 +2575,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -3977,7 +3977,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

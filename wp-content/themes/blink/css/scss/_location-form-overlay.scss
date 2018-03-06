@@ -126,7 +126,35 @@
 }
 
 
-
+	
+		
+	// all overlay close buttons
+		
+		
+		
+	.book_now_overlay.open, .call_now_overlay.open, .location_form_overlay.open {
+		
+		.overlay_close {
+			
+			&:before, &:after {
+				transform-origin: 28px 0 0;
+				transition-delay: 1000ms;
+			}
+			&:before {
+				transform: rotate(-45deg);
+			}
+			&:after {
+				transform: rotate(45deg);
+			}
+		}
+		
+	}
+	
+	
+	
+	
+	
+		
 		.overlay_close {
 			position: absolute;
 			top:45px;
@@ -138,8 +166,12 @@
 				height:2px;
 				background: $pink;
 				display: block;
+				transform-origin: 28px 0 0;
+				transition: all 500ms cubic-bezier(.17,.66,.34,.98);
 			}
 		}
+		
+	
 		
 		
 		
@@ -193,6 +225,18 @@
     	margin: 43px auto;
 		}
 	}
+	
+	
+		.overlay_close {
+			
+			
+			right:30px;
+			
+			&:before, &:after {
+				
+			}
+		}
+
 	
 	
 	
