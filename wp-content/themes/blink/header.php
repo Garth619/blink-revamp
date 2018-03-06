@@ -82,7 +82,7 @@
 	
 	<div class="sticky_book_now">
 		
-		<a href="<?php the_permalink(22);?>">Book Now</a>
+		<a>Book Now</a>
 		
 	</div><!-- sticky_book_now -->
 	

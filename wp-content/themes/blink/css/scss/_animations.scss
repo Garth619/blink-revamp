@@ -311,6 +311,20 @@ svg#accent {
 }
 
 
+// section seven
+
+
+
+#section_seven .single_post_homepage a .single_post_homepage_image_wrapper .single_post_homepage_image_inner {
+	transform: scale(1.2);
+}
+
+
+#section_seven.visible .single_post_homepage a .single_post_homepage_image_wrapper .single_post_homepage_image_inner {
+	transform: scale(1);
+}
+
+
 	
 } /* Media Query */
 
@@ -320,7 +334,7 @@ svg#accent {
 @media screen and (min-width: 1060px) {
 	
 	
-#section_seven {
+#section_seven.visible {
 	
 	.single_post_homepage {
 		&:hover {
@@ -330,10 +344,10 @@ svg#accent {
 				}
 			}
 			.single_post_homepage_content {
-				background: $grey;
+				background: #a3acb2;
 				.tri_wrapper {
 					.tri {
-						border-right: 30px solid $grey;
+						border-right: 30px solid #a3acb2;
 					}
 				}
 				span.blog_title, span.meta, span.blog_description, span.read_more {

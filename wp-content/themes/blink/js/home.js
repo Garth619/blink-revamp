@@ -54,6 +54,8 @@ jQuery(document).ready(function($){
 						createWaypoint("section_five", "#section_five", "visible", 300, null, true);
 						
 						createWaypoint("section_six", "#section_six", "visible", 300, null, true);
+						
+						createWaypoint("section_seven", "#section_seven", "visible", 370, null, true);
 
 
 

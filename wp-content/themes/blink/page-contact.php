@@ -19,7 +19,7 @@ get_header(); ?>
 			
 			<span class="location_title">Mission Valley</span><!-- location_title -->
 			
-			<a class="address" href="">7801 Mission Center Ct., Suite 104<br/>San Diego, CA 92108</a>
+			<a class="address" href="https://www.google.com/maps/place/Blink+Lash+Boutique/@32.7730688,-117.1583384,17z/data=!3m1!4b1!4m5!3m4!1s0x80d9553ea5c0eedb:0x21764171a26272f4!8m2!3d32.7730688!4d-117.1561444" target="_blank">7801 Mission Center Ct., Suite 104<br/>San Diego, CA 92108</a>
 			
 			<ul class="hours">
 				<li>Tuesday – Friday 9AM - 7PM</li>
@@ -58,28 +58,28 @@ get_header(); ?>
 				
 			</div><!-- social_icons -->
 			
-			<a class="location_book_now" href="">Book Now!</a><!-- location_book_now -->
+			<a class="location_book_now" href="http://www.secure-booker.com/blinksandiego/MakeAppointment/Search.aspx" target="_blank">Book Now!</a><!-- location_book_now -->
 			
 		</div><!-- location_col -->
 		
 		<div class="location_col">
 			
-			<span class="location_title">Mission Valley</span><!-- location_title -->
+			<span class="location_title">SOLANA BEACH</span><!-- location_title -->
 			
-			<a class="address" href="">7801 Mission Center Ct., Suite 104<br/>San Diego, CA 92108</a>
+			<a class="address" href="https://www.google.com/maps/place/Blink+Lash+Boutique+Solana+Beach/@32.9932,-117.261541,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc0ed31032cb57:0xe682c801d05ecb90!8m2!3d32.9932!4d-117.259347" target="blank">665 San Rodolfo Dr. Ste. 108<br/> Solana Beach, CA 92075</a>
 			
 			<ul class="hours">
-				<li>Tuesday – Friday 9AM - 7PM</li>
-				<li>Saturday 9AM - 3PM</li>
+				<li>Monday 11am - 5pm</li>
+				<li>Tuesday - Friday 9am - 8pm</li>
+				<li>Saturday 9am - 3pm</li>
 				<li>Closed Sunday</li>
-				<li>Closed Monday</li>
 			</ul>
 			
-			<a class="footer_tel" href="tel:619 964-6082">
+			<a class="footer_tel" href="tel:(858) 436-4456">
 				
 				<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
 				
-				<span>(619) 964-6082</span>
+				<span>(858) 436-4456</span>
 			
 			</a>
 			
@@ -105,7 +105,7 @@ get_header(); ?>
 				
 			</div><!-- social_icons -->
 			
-			<a class="location_book_now" href="">Book Now!</a><!-- location_book_now -->
+			<a class="location_book_now" href="http://www.secure-booker.com/blinksolana/MakeAppointment/Search.aspx" target="_blank">Book Now!</a><!-- location_book_now -->
 			
 		</div><!-- location_col -->
 			

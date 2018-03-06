@@ -51,7 +51,7 @@
 				
 			</div><!-- social_icons -->
 			
-			<a class="location_book_now" href="<?php the_permalink(22);?>">Book Now!</a><!-- location_book_now -->
+			<a class="location_book_now" href="http://www.secure-booker.com/blinksandiego/MakeAppointment/Search.aspx" target="_blank">Book Now!</a><!-- location_book_now -->
 			
 		</div><!-- location_col -->
 		
@@ -98,7 +98,7 @@
 				
 			</div><!-- social_icons -->
 			
-			<a class="location_book_now" href="<?php the_permalink(22);?>">Book Now!</a><!-- location_book_now -->
+			<a class="location_book_now" href="http://www.secure-booker.com/blinksolana/MakeAppointment/Search.aspx" target="_blank">Book Now!</a><!-- location_book_now -->
 			
 		</div><!-- location_col -->
 		
@@ -171,6 +171,43 @@
 		</div><!-- copyright_wrapper -->
 	
 	</footer>
+	
+	<div class="book_now_overlay">
+		
+		<div class="book_now_overlay_inner">
+			
+			<div class="overlay_close"></div><!-- overlay_close -->
+			
+			<span class="select_location">Book a Location</span><!-- select_location -->
+			
+			<a class="location" href="http://www.secure-booker.com/blinksandiego/MakeAppointment/Search.aspx" target="_blank">Mission Valley</a>
+			
+			<a class="location" href="http://www.secure-booker.com/blinksolana/MakeAppointment/Search.aspx" target="_blank">Solana Beach</a>
+			
+		</div><!-- book_now_overlay_inner -->
+		
+		
+	</div><!-- book_now_overlay -->
+	
+	
+	<div class="call_now_overlay">
+		
+		<div class="call_now_overlay_inner">
+			
+			<div class="overlay_close"></div><!-- overlay_close -->
+			
+			<span class="call_location">Call a Location</span><!-- select_location -->
+			
+			<a class="location" href="tel:6199646082">Mission Valley</a>
+			
+			<a class="location" href="tel:8584364456">Solana Beach</a>
+			
+		</div><!-- call_now_overlay_inner -->
+		
+		
+	</div><!-- call_now_overlay -->
+	
+	
 	
 	</div><!-- flex_order -->
 

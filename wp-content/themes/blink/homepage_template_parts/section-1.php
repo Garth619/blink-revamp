@@ -32,7 +32,7 @@
 			
 		</div><!-- location_wrapper -->
 		
-		<a class="book_appointment" href="<?php the_permalink(22);?>">Book an Appointment</a>
+		<a class="book_appointment">Book an Appointment</a>
 		
 	</div><!-- sec_one_internal_content -->
 	

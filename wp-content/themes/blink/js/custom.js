@@ -289,10 +289,40 @@ $('.leave_comment').on('click', function(e) {
 });
 
 
+// Book now overlay
+
+
+
+$('.sticky_book_now, a.book_appointment').on('click', function(e) {
+  
+
+	$('.book_now_overlay').addClass('open');
+
+
+});
+
+
+
+// Call us overlay
+
+
+$('svg#tel, .call_us_cta').on('click', function(e) {
+  
+
+	$('.call_now_overlay').addClass('open');
+
+
+});
+
+
+
+// Overlay Close
+
+
 $('.overlay_close').on('click', function(e) {
   
 
-	$('.location_form_overlay').removeClass('open');
+	$('.location_form_overlay, .book_now_overlay, .call_now_overlay').removeClass('open');
 
 
 });
