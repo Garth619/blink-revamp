@@ -207,7 +207,43 @@
 		
 	</div><!-- call_now_overlay -->
 	
+	<?php if(is_front_page()) { ?>
 	
+	
+	<div class="video_overlay">
+		
+		<div class="video_overlay_inner">
+			
+			<span class="video_close"><span>X</span> Close</span><!-- video_close -->
+			
+			<video id="video" preload="meta" autobuffer>
+				
+				<source src="<?php bloginfo('template_directory');?>/images/video/video.ogg" type="video/ogv">
+				<source src="<?php bloginfo('template_directory');?>/images/video/video.webm" type="video/webm">
+				<source src="<?php bloginfo('template_directory');?>/images/video/video.mp4" type="video/mp4">
+				
+			</video>
+			
+			<div class="pause_wrapper">
+				<div class="pause_bar"></div>
+				<div class="pause_bar"></div>
+				<span>Pause</span>
+			</div>
+			
+			
+			<div class="overlay_play_wrapper">
+				
+				<div class="overlay_play"></div><!-- overlay_play -->
+				
+			</div><!-- overlay_play_wrapper -->
+			
+		</div><!-- video_overlay_inner -->
+		
+	</div><!-- video_overlay -->
+		
+	
+	
+	<?php } ?>
 	
 	</div><!-- flex_order -->
 

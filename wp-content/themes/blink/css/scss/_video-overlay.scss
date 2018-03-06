@@ -1,0 +1,148 @@
+.video_overlay.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.video_overlay {
+	opacity: 0;
+	visibility: hidden;
+	transition: all 400ms linear;
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background:rgba(0, 0, 0, 0.7);
+	z-index:500;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	padding:0 30px;
+	.video_overlay_inner {
+		max-width:800px;
+		margin:200px auto;
+		padding:0;
+		position: relative;
+		video {
+			width:100%;
+			height:auto;
+			cursor: pointer;
+			display: block;
+		}
+	}
+}
+
+
+span.video_close {
+	font-family: $josefinsemibold;
+	display: block;
+	margin-bottom:5px;
+	float:right;
+	color:#fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	transition: all .2s ease-in-out;
+	position: absolute;
+	top:-20px;
+	right:0;
+	&:hover {
+		color:$pink;
+	}
+	span {
+		color:$pink;
+	}
+}
+
+.pause_wrapper.hide {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	cursor: pointer;
+}
+
+.pause_wrapper {
+	position: absolute;
+	top:15px;
+	left:10px;
+	z-index: 50;
+	pointer-events: none;
+	opacity:1;
+	visibility: visible;
+	cursor: pointer;
+	transition: all .2s linear;
+	.pause_bar {
+		width:5px;
+		height:20px;
+		background: $pink;
+		display: inline-block;
+		margin-right:1px;
+	}
+	span {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $josefinsemibold;
+		display: inline-block;
+		vertical-align: top;
+		margin-top:6px;
+		font-size: 14px;
+		margin-left:4px;
+		letter-spacing: 0.08em;
+	}
+}
+
+
+.overlay_play_wrapper.show {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: none;
+	cursor: pointer;
+	.overlay_play {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+.overlay_play_wrapper {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:50px;
+	background: rgba(0, 0, 0, 0.5);
+	pointer-events: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .2s linear;
+	cursor: pointer;
+	.overlay_play {
+		width:80px;
+		height:80px;
+		background: $pink;
+		border-radius: 50%;
+		display: flex;
+		opacity: 0;
+		transform: translateY(-10px);
+		transition: transform 600ms cubic-bezier(.17,.66,.34,.98), opacity 200ms linear;
+		&:before {
+			content:"";
+			display: block;
+			width: 0; 
+			height: 0; 
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid #fff;
+			margin:20px 0 0 33px;
+		}
+		&:hover {
+			background: $pinkdark;
+		}
+	}
+}
+
+

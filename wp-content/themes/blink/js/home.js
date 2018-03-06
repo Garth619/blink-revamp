@@ -56,9 +56,64 @@ jQuery(document).ready(function($){
 						createWaypoint("section_six", "#section_six", "visible", 300, null, true);
 						
 						createWaypoint("section_seven", "#section_seven", "visible", 370, null, true);
+						
+	
+	
+	
+	
+	// Video overlay
+	
+	
+	var video = document.getElementById("video");
+	
+	
+	$('.play_button_wrapper').on('click', function(e) {
+	  
+		$('.video_overlay').addClass('open');
+		
+		video.play();
+	
+	});
+	
+
+	$('#video').on('click', function(e) {
+  
+		$('.pause_wrapper').toggleClass('hide');
+		$('.overlay_play_wrapper').toggleClass('show');
+	
+	});
+	
+
+
+video.addEventListener("click", function() {
+  
+  if (video.paused == true) {
+  
+  	video.play();
+  	
+  } else {
+   
+    video.pause();
+    
+   }
+	
+});
+
+
+$('span.video_close').on('click', function(e) {
+	  
+		$('.video_overlay').removeClass('open');
+		
+			video.pause();
+	
+});
 
 
 
 
+
+	
+	
+	
 }); // Document Ready
 

@@ -114,7 +114,7 @@ a.book_appointment {
 	border-radius: 5px;
 	display: inline-block;
 	margin:37px 0 0;
-	transition: all .2s ease-in-out;
+	transition: all 200ms ease-in-out;
 	cursor: pointer;
 	&:hover {
 		background:#ef739a;
