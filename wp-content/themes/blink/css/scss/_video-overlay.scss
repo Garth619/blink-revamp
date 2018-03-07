@@ -146,3 +146,16 @@ span.video_close {
 }
 
 
+
+@media screen and (max-width: 1060px) {
+	
+	
+	.overlay_play_wrapper, .pause_wrapper, .overlay_play_wrapper.show, .pause_wrapper.hide {
+		display: none;
+	}
+	
+	
+	
+	
+} /* Media Query */
+

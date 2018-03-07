@@ -110,6 +110,30 @@ $('span.video_close').on('click', function(e) {
 
 
 
+// mobile
+
+
+var elem = document.getElementById("video");
+
+$('.mobile_video').on('click', function(e) {
+  
+	$('.video_overlay').addClass('open');
+		
+	video.play();
+	
+/*
+	if (elem.requestFullscreen) {
+  	elem.requestFullscreen();
+	}
+*/
+	
+	
+
+
+});
+
+
+
 
 
 	

@@ -3837,6 +3837,11 @@ span.video_close {
     .overlay_play_wrapper .overlay_play:hover {
       background: #ef739a; }
 
+@media screen and (max-width: 1060px) {
+  .overlay_play_wrapper, .pause_wrapper, .overlay_play_wrapper.show, .pause_wrapper.hide {
+    display: none; } }
+
+/* Media Query */
 @-webkit-keyframes learn_more_scroll {
   0% {
     -webkit-transform: translateY(-3px);
@@ -3847,7 +3852,6 @@ span.video_close {
   100% {
     -webkit-transform: translateY(-3px);
             transform: translateY(-3px); } }
-
 @keyframes learn_more_scroll {
   0% {
     -webkit-transform: translateY(-3px);
