@@ -550,6 +550,7 @@ ul#menu-menu-1 {
 		opacity: 0;
 		visibility: hidden;
 		transition: all 300ms ease-in-out;
+		//-webkit-overflow-scrolling: touch;
 		.close {
 			position: absolute;
 			top:40px;
@@ -692,7 +693,7 @@ ul#menu-menu-1 {
 			list-style: none;
 		}
 		li {
-			font-size: 25px;
+			font-size: 23px;
 			margin-bottom:55px;
 			text-align: center;
 			text-transform: uppercase;
@@ -931,7 +932,7 @@ ul#menu-menu-1 {
 		margin-bottom: 74px;
 	}
 	li {
-		margin-bottom: 45px;
+		margin-bottom: 25px;
 	}
 	span.menu_back {
 		width:100%;

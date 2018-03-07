@@ -147,19 +147,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/scss\/_page-beforeafter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/_page-beforeafter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/css\/scss\/_page-blog.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -247,19 +234,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_page-pricing.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/scss\/_page-specials.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/scss\/_page-specials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -430,7 +404,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/fonts\/demo.html": {
@@ -665,46 +639,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ba-02.jpg": {
-		"ft": 16384,
-		"iS": 67853,
-		"oA": 0,
-		"oAP": "\/images\/ba-02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/ba-05.jpg": {
-		"ft": 16384,
-		"iS": 66828,
-		"oA": 0,
-		"oAP": "\/images\/ba-05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/ba-bashful-classic.jpg": {
-		"ft": 16384,
-		"iS": 87256,
-		"oA": 0,
-		"oAP": "\/images\/ba-bashful-classic.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/ba-bashfull-classic.jpg": {
-		"ft": 16384,
-		"iS": 96169,
-		"oA": 0,
-		"oAP": "\/images\/ba-bashfull-classic.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/blink-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -714,6 +648,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/blog.jpg": {
+		"ft": 16384,
+		"iS": 34045,
+		"oA": 0,
+		"oAP": "\/images\/blog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/coffee.png": {
 		"ft": 32768,
@@ -759,9 +703,19 @@
 		},
 	"\/images\/eyelash-extensions.jpg": {
 		"ft": 16384,
-		"iS": 13210,
+		"iS": 73247,
 		"oA": 0,
 		"oAP": "\/images\/eyelash-extensions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/faqs.jpg": {
+		"ft": 16384,
+		"iS": 61493,
+		"oA": 0,
+		"oAP": "\/images\/faqs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -777,6 +731,56 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/footer-bg.jpg": {
+		"ft": 16384,
+		"iS": 161146,
+		"oA": 0,
+		"oAP": "\/images\/footer-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery1.jpg": {
+		"ft": 16384,
+		"iS": 50353,
+		"oA": 0,
+		"oAP": "\/images\/gallery1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery2.jpg": {
+		"ft": 16384,
+		"iS": 43832,
+		"oA": 0,
+		"oAP": "\/images\/gallery2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery3.jpg": {
+		"ft": 16384,
+		"iS": 52667,
+		"oA": 0,
+		"oAP": "\/images\/gallery3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gallery4.jpg": {
+		"ft": 16384,
+		"iS": 43332,
+		"oA": 0,
+		"oAP": "\/images\/gallery4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/google-plus.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -786,6 +790,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/grey-bg.jpg": {
+		"ft": 16384,
+		"iS": 49217,
+		"oA": 0,
+		"oAP": "\/images\/grey-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/instagram.svg": {
 		"ft": 2097152,
@@ -827,11 +841,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/meet.jpg": {
+		"ft": 16384,
+		"iS": 93644,
+		"oA": 0,
+		"oAP": "\/images\/meet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/menu-bg.jpg": {
 		"ft": 16384,
-		"iS": 43427,
+		"iS": 42834,
 		"oA": 0,
 		"oAP": "\/images\/menu-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/mobile_video.jpg": {
+		"ft": 16384,
+		"iS": 31934,
+		"oA": 0,
+		"oAP": "\/images\/mobile_video.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -846,6 +880,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/pinkbg.jpg": {
+		"ft": 16384,
+		"iS": 36358,
+		"oA": 0,
+		"oAP": "\/images\/pinkbg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/placeholder.png": {
@@ -869,6 +913,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/pricing.jpg": {
+		"ft": 16384,
+		"iS": 76607,
+		"oA": 0,
+		"oAP": "\/images\/pricing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/products.png": {
 		"ft": 32768,
 		"iS": 87465,
@@ -878,6 +932,47 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/rcm.png": {
+		"ft": 32768,
+		"iS": 3427,
+		"oA": 0,
+		"oAP": "\/images\/rcm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sec-one-bg.jpg": {
+		"ft": 16384,
+		"iS": 57855,
+		"oA": 0,
+		"oAP": "\/images\/sec-one-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/services.jpg": {
+		"ft": 16384,
+		"iS": 76605,
+		"oA": 0,
+		"oAP": "\/images\/services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/store.jpg": {
+		"ft": 16384,
+		"iS": 130326,
+		"oA": 0,
+		"oAP": "\/images\/store.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/studiobarrelogo.jpg": {
@@ -1814,13 +1909,6 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
-	"\/page-beforeafter.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-beforeafter.php",
-		"oF": 0
-		},
 	"\/page-blog.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1870,13 +1958,6 @@
 		"oAP": "\/page-pricing.php",
 		"oF": 0
 		},
-	"\/page-pricingspecials.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-pricingspecials.php",
-		"oF": 0
-		},
 	"\/page-testimonials.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1893,7 +1974,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 8762,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,

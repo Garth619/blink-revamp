@@ -180,9 +180,10 @@ a.price_book_it {
 	.price_block_section {
 		h2.price_intro_header {
 			margin:0;
-			font-size: 40px;
-			line-height: 41px;
+			font-size: 33px;
+			line-height: 35px;
 			cursor: pointer;
+			font-family: $josefin;
 			&:after {
 				content:"+";
 				margin:0;
@@ -198,6 +199,7 @@ a.price_book_it {
 				margin-left:10px;
 				color:$pink;
 				transition: content 7000ms ease-in-out;
+				
 			}
 		}
 		&:not(:first-of-type) {
@@ -211,7 +213,11 @@ a.price_book_it {
 	} 
 	
 	
-	
+	.pricing_single_wrapper {
+		 h3.price_single_header {
+			font-size: 43px;
+		 }
+	}
 	
 	
 	
