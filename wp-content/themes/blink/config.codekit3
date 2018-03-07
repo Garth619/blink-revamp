@@ -715,16 +715,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/blog.jpg": {
-		"ft": 16384,
-		"iS": 35035,
-		"oA": 0,
-		"oAP": "\/images\/blog.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/coffee.png": {
 		"ft": 32768,
 		"iS": 135334,
@@ -777,16 +767,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/faqs.jpg": {
-		"ft": 16384,
-		"iS": 61493,
-		"oA": 0,
-		"oAP": "\/images\/faqs.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/fb.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -797,56 +777,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/footer-bg.jpg": {
-		"ft": 16384,
-		"iS": 161146,
-		"oA": 0,
-		"oAP": "\/images\/footer-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/gallery1.jpg": {
-		"ft": 16384,
-		"iS": 50353,
-		"oA": 0,
-		"oAP": "\/images\/gallery1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/gallery2.jpg": {
-		"ft": 16384,
-		"iS": 43832,
-		"oA": 0,
-		"oAP": "\/images\/gallery2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/gallery3.jpg": {
-		"ft": 16384,
-		"iS": 52667,
-		"oA": 0,
-		"oAP": "\/images\/gallery3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/gallery4.jpg": {
-		"ft": 16384,
-		"iS": 43332,
-		"oA": 0,
-		"oAP": "\/images\/gallery4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/google-plus.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -856,16 +786,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/grey-bg.jpg": {
-		"ft": 16384,
-		"iS": 48865,
-		"oA": 0,
-		"oAP": "\/images\/grey-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/images\/instagram.svg": {
 		"ft": 2097152,
@@ -907,31 +827,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/meet.jpg": {
-		"ft": 16384,
-		"iS": 93644,
-		"oA": 0,
-		"oAP": "\/images\/meet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/menu-bg.jpg": {
 		"ft": 16384,
 		"iS": 43427,
 		"oA": 0,
 		"oAP": "\/images\/menu-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/mobile_video.jpg": {
-		"ft": 16384,
-		"iS": 158512,
-		"oA": 0,
-		"oAP": "\/images\/mobile_video.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -946,16 +846,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/images\/pinkbg.jpg": {
-		"ft": 16384,
-		"iS": 36358,
-		"oA": 0,
-		"oAP": "\/images\/pinkbg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/images\/placeholder.png": {
@@ -979,16 +869,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/pricing.jpg": {
-		"ft": 16384,
-		"iS": 76607,
-		"oA": 0,
-		"oAP": "\/images\/pricing.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/products.png": {
 		"ft": 32768,
 		"iS": 87465,
@@ -998,47 +878,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/images\/rcm.png": {
-		"ft": 32768,
-		"iS": 3427,
-		"oA": 0,
-		"oAP": "\/images\/rcm.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/sec-one-bg.jpg": {
-		"ft": 16384,
-		"iS": 57855,
-		"oA": 0,
-		"oAP": "\/images\/sec-one-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/services.jpg": {
-		"ft": 16384,
-		"iS": 76605,
-		"oA": 0,
-		"oAP": "\/images\/services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/store.jpg": {
-		"ft": 16384,
-		"iS": 130326,
-		"oA": 0,
-		"oAP": "\/images\/store.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/images\/studiobarrelogo.jpg": {
