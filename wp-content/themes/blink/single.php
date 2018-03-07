@@ -13,7 +13,10 @@
 			
 			<h1 class="internal"><?php the_title();?></h1>
 			
+			<span class="meta"><?php $pfx_date = get_the_date(); echo $pfx_date ?></span><!-- meta -->
+			
 			<img class="featured_image" src="<?php bloginfo('template_directory');?>/images/eyelash-extensions.jpg"/>
+			
 		
 			<?php get_template_part( 'loop', 'single' ) ?>
 			

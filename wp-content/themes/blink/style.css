@@ -455,6 +455,9 @@ img.aligncenter {
     float: none;
     max-width: 100%;
     height: auto; }
+  .content h2 {
+    font-size: 36px;
+    line-height: 38px; }
   .content blockquote {
     font-size: 32px;
     line-height: 37px;
@@ -2816,6 +2819,10 @@ img.featured_image {
     display: inline-block;
     margin: 0 10px; }
 
+body.single span.meta {
+  margin: -40px 0 25px;
+  display: block; }
+
 @media screen and (max-width: 1200px) {
   .blog_feed {
     -webkit-column-count: 1;
@@ -2847,6 +2854,12 @@ img.featured_image {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1; } }
+
+/* Media Query */
+@media screen and (max-width: 840px) {
+  body.single span.meta {
+    margin: -20px 0 25px;
+    display: block; } }
 
 /* Media Query */
 .contact_wrapper {
@@ -2910,6 +2923,52 @@ img.featured_image {
     margin-top: 20px; } }
 
 /* Media Query */
+.single_special {
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 33px; }
+  .single_special h2 {
+    color: #f8a5bf; }
+  .single_special:last-of-type {
+    border: none; }
+
+.before_after_wrapper {
+  text-align: center; }
+  .before_after_wrapper h2 {
+    color: #f8a5bf; }
+
+.ba_section {
+  margin-bottom: 86px; }
+  .ba_section:last-of-type {
+    margin-bottom: 0; }
+
+.ba_slideshow {
+  max-width: 560px;
+  margin: 0 auto; }
+  .ba_slideshow .ba_single_slide {
+    width: 100%; }
+    .ba_slideshow .ba_single_slide img {
+      width: 100%;
+      height: auto;
+      display: block; }
+  .ba_slideshow .slick-dots {
+    bottom: -60px; }
+    .ba_slideshow .slick-dots li.slick-active button:before {
+      color: #f8a5bf; }
+    .ba_slideshow .slick-dots li:hover button:before {
+      color: #f8a5bf; }
+    .ba_slideshow .slick-dots li {
+      margin: 0;
+      width: 23px;
+      padding: 0;
+      background: transparent; }
+      .ba_slideshow .slick-dots li button {
+        width: 16px; }
+        .ba_slideshow .slick-dots li button:before {
+          width: 23px;
+          opacity: 1;
+          color: #80888d;
+          font-size: 30px; }
+
 .locations_wrapper {
   position: relative;
   padding: 122px 0 470px;

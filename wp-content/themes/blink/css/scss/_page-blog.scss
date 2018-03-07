@@ -90,6 +90,14 @@ img.featured_image {
 }
 
 
+body.single {
+	span.meta {
+		margin:-40px 0 25px;
+		display: block;
+	}
+}
+
+
 @media screen and (max-width: 1200px) {
 	
 	
@@ -154,6 +162,21 @@ img.featured_image {
 	}
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 840px) {
+	
+	
+body.single {
+	span.meta {
+		margin:-20px 0 25px;
+		display: block;
+	}
+}
 	
 	
 	

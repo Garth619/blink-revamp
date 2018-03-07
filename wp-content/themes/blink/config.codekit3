@@ -147,6 +147,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-beforeafter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-beforeafter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-blog.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -234,6 +247,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_page-pricing.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-specials.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-specials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -639,6 +665,46 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/ba-02.jpg": {
+		"ft": 16384,
+		"iS": 67853,
+		"oA": 0,
+		"oAP": "\/images\/ba-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ba-05.jpg": {
+		"ft": 16384,
+		"iS": 66828,
+		"oA": 0,
+		"oAP": "\/images\/ba-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ba-bashful-classic.jpg": {
+		"ft": 16384,
+		"iS": 87256,
+		"oA": 0,
+		"oAP": "\/images\/ba-bashful-classic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ba-bashfull-classic.jpg": {
+		"ft": 16384,
+		"iS": 96169,
+		"oA": 0,
+		"oAP": "\/images\/ba-bashfull-classic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/blink-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -651,7 +717,7 @@
 		},
 	"\/images\/blog.jpg": {
 		"ft": 16384,
-		"iS": 34045,
+		"iS": 35035,
 		"oA": 0,
 		"oAP": "\/images\/blog.jpg",
 		"oF": 0,
@@ -703,7 +769,7 @@
 		},
 	"\/images\/eyelash-extensions.jpg": {
 		"ft": 16384,
-		"iS": 73247,
+		"iS": 13210,
 		"oA": 0,
 		"oAP": "\/images\/eyelash-extensions.jpg",
 		"oF": 0,
@@ -793,7 +859,7 @@
 		},
 	"\/images\/grey-bg.jpg": {
 		"ft": 16384,
-		"iS": 49217,
+		"iS": 48865,
 		"oA": 0,
 		"oAP": "\/images\/grey-bg.jpg",
 		"oF": 0,
@@ -853,7 +919,7 @@
 		},
 	"\/images\/menu-bg.jpg": {
 		"ft": 16384,
-		"iS": 42834,
+		"iS": 43427,
 		"oA": 0,
 		"oAP": "\/images\/menu-bg.jpg",
 		"oF": 0,
@@ -863,7 +929,7 @@
 		},
 	"\/images\/mobile_video.jpg": {
 		"ft": 16384,
-		"iS": 31934,
+		"iS": 158512,
 		"oA": 0,
 		"oAP": "\/images\/mobile_video.jpg",
 		"oF": 0,
@@ -1909,6 +1975,13 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-beforeafter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-beforeafter.php",
+		"oF": 0
+		},
 	"\/page-blog.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1958,6 +2031,13 @@
 		"oAP": "\/page-pricing.php",
 		"oF": 0
 		},
+	"\/page-pricingspecials.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-pricingspecials.php",
+		"oF": 0
+		},
 	"\/page-testimonials.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1974,7 +2054,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 8762,
+		"iS": 57403,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,

@@ -1,0 +1,10 @@
+.single_special {
+	border-bottom:1px solid #cecece;
+	padding-bottom:33px;
+	h2 {
+		color:$pink;
+	}
+	&:last-of-type {
+		border:none;
+	}
+}

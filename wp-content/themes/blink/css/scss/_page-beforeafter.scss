@@ -1,0 +1,59 @@
+.before_after_wrapper {
+	text-align: center;
+	h2 {
+		color:$pink;
+	}
+}
+
+
+.ba_section {
+	margin-bottom: 86px;
+	&:last-of-type {
+		margin-bottom:0;
+	}
+}
+
+.ba_slideshow {
+	max-width:560px;
+	margin:0 auto;
+	.ba_single_slide {
+		width:100%;
+		img {
+			width:100%;
+			height:auto;
+			display: block;
+		}
+	}
+	.slick-dots {
+		bottom: -60px;
+		li.slick-active {
+			button {
+				&:before {
+					color:$pink;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					color:$pink;
+				}
+			}
+		}
+		li {
+			margin:0;
+			width:23px;
+			padding:0;
+			background: transparent;
+			button {
+				width:16px;
+				&:before {
+					width:23px;
+					opacity: 1;
+					color: $grey;
+					font-size:30px;
+				}
+			}
+		}
+	}
+}

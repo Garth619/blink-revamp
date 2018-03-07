@@ -213,6 +213,17 @@ $('.blog_wrapper').slick({
 });
 
 
+// Before and after 
+
+
+$('.ba_slideshow').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots:true
+});
+
+
 
 // Pricing Toggle
 
