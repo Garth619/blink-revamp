@@ -553,7 +553,7 @@ ul#menu-menu-1 {
 		//-webkit-overflow-scrolling: touch;
 		.close {
 			position: absolute;
-			top:40px;
+			top:57px;
 			right:30px;
 			cursor: pointer;
 			&:before, &:after {
@@ -926,18 +926,19 @@ ul#menu-menu-1 {
 
 
 .second_sub_menu_col {
-	padding: 121px 45px 0;
+	padding: 150px 45px 0;
 	a.parent_menu_title {
 		font-size: 60px;
 		margin-bottom: 74px;
 	}
 	li {
-		margin-bottom: 25px;
+		margin-bottom: 35px;
+		font-size: 21px;
 	}
 	span.menu_back {
 		width:100%;
 		left:0px;
-		top: 75px;
+		top: 105px;
 		font-size: 16px;
 	}
 }
@@ -959,7 +960,8 @@ ul#menu-menu-1 {
 			}
 		}
 		> li {
-				margin-bottom: 45px;
+				margin-bottom: 35px;
+				font-size:21px;
 				&:hover {
 					> a {
 							
