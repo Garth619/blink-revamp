@@ -2,13 +2,13 @@
 	
 	<div class="sec_two_inner">
 		
-		<div class="sec_two_content">
+		<div class="sec_two_content content">
 			
 			<?php echo file_get_contents("wp-content/themes/blink/images/blink-circle.svg"); ?>
 			
-			<span class="sec_two_intro">Dare to Be Fabulous Flirty and fierce with flawless lashes</span><!-- sec_two_intro -->
+			<span class="sec_two_intro"<?php the_field( 'section_two_header' ); ?></span><!-- sec_two_intro -->
 			
-			<span class="sec_two_intro_content">For a look that says everything – your passions, aspirations, the truth of your heart – you deserve the best.  Blink Lash Boutique, a premier eyelash extensions salon founded in San Diego by two industry pioneers, is here to help you achieve your beauty without boundaries.  It’s time to let yourself be the version of yourself you imagine.</span><!-- sec_two_intro_content -->
+			<span class="sec_two_intro_content"><?php the_field( 'section_two_content' ); ?></span><!-- sec_two_intro_content -->
 			
 		</div><!-- sec_two_content -->
 		
@@ -16,15 +16,52 @@
 			
 			<div class="sec_two_gallery">
 				
+				
+					
+					<?php $gallery_images = get_field('gallery_images');?>
+		
+				 
+						<div class="single_gallery">
+					
+							<a class="" href="<?php the_permalink(49);?>">
+						
+								<img src="<?php echo $gallery_images['featured_image_one']['url']; ?>" alt="<?php echo $gallery_images['featured_image_one']['alt']; ?>" />
+					
+								<div class="gallery_caption">
+						
+								<?php echo $gallery_images['featured_image_caption']; ?>
+						
+							</div><!-- gallery_caption -->
+					
+						</a>
+					
+					</div><!-- single_gallery -->
+				    
+					<div class="single_gallery">
+					
+						<a class="" href="<?php the_permalink(49);?>">
+					
+							<img src="<?php echo $gallery_images['image_two']['url']; ?>" alt="<?php echo $gallery_images['image_two']['alt']; ?>" />
+					
+							<div class="gallery_caption">
+						
+								<?php echo $gallery_images['image_two_caption']; ?>
+					
+						</div><!-- gallery_caption -->
+					
+						</a>
+					
+				</div><!-- single_gallery -->
+				
 				<div class="single_gallery">
 					
 					<a class="" href="<?php the_permalink(49);?>">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/gallery1.jpg"/>
+					<img src="<?php echo $gallery_images['image_three']['url']; ?>" alt="<?php echo $gallery_images['image_three']['alt']; ?>" />
 					
 					<div class="gallery_caption">
 						
-						this is a caption this is a caption this is a caption
+						<?php echo $gallery_images['image_three_caption']; ?>
 						
 					</div><!-- gallery_caption -->
 					
@@ -36,43 +73,11 @@
 					
 					<a class="" href="<?php the_permalink(49);?>">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/gallery2.jpg"/>
+					<img src="<?php echo $gallery_images['image_four']['url']; ?>" alt="<?php echo $gallery_images['image_four']['alt']; ?>" />
 					
 					<div class="gallery_caption">
 						
-						this is a caption this is a caption this is a caption
-						
-					</div><!-- gallery_caption -->
-					
-					</a>
-					
-				</div><!-- single_gallery -->
-				
-				<div class="single_gallery">
-					
-					<a class="" href="<?php the_permalink(49);?>">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/gallery3.jpg"/>
-					
-					<div class="gallery_caption">
-						
-						this is a caption this is a caption this is a caption
-						
-					</div><!-- gallery_caption -->
-					
-					</a>
-					
-				</div><!-- single_gallery -->
-				
-				<div class="single_gallery">
-					
-					<a class="" href="<?php the_permalink(49);?>">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/gallery4.jpg"/>
-					
-					<div class="gallery_caption">
-						
-						this is a caption this is a caption this is a caption
+						<?php echo $gallery_images['image_four_caption']; ?>
 						
 					</div><!-- gallery_caption -->
 					
