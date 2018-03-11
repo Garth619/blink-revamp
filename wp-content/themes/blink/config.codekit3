@@ -797,7 +797,7 @@
 		"oAP": "\/images\/faqs.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/fb.svg": {
@@ -999,7 +999,7 @@
 		"oAP": "\/images\/pricing.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/products.png": {

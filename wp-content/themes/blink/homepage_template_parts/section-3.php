@@ -1,53 +1,36 @@
 <section id="section_three">
 	
 	
-	<div class="sec_three_box">
-		
-		<a href="<?php bloginfo('url');?>/services">
-		
-		<div class="overlay">
+	<?php if(get_field('section_three_boxes')): ?>
+	 
+		<?php while(has_sub_field('section_three_boxes')): ?>
+	 
 			
-			<span class="sec_box_title">Services</span><!-- sec_box_title -->
+			<div class="sec_three_box">
+		
+				<a href="<?php the_sub_field( 'page_link' ); ?>">
+		
+				<div class="overlay">
 			
-		</div><!-- overlay -->
+					<span class="sec_box_title"><?php the_sub_field( 'title' ); ?></span><!-- sec_box_title -->
+			
+				</div><!-- overlay -->
+				
+				<?php $image_background = get_sub_field( 'image_background' ); ?>
 		
-		<img src="<?php bloginfo('template_directory');?>/images/services.jpg"/>
+				<img src="<?php echo $image_background['url']; ?>" alt="<?php echo $image_background['alt']; ?>" />
 		
-		</a>
+				</a>
 		
-	</div><!-- sec_three_box -->
+			</div><!-- sec_three_box -->
+			
+	    
+		<?php endwhile; ?>
+	 
+	<?php endif; ?>
 	
-	<div class="sec_three_box">
-		
-		<a href="<?php bloginfo('url');?>/pricing">
-		
-		<div class="overlay">
-			
-			<span class="sec_box_title">Pricing</span><!-- sec_box_title -->
-			
-		</div><!-- overlay -->
-		
-		<img src="<?php bloginfo('template_directory');?>/images/pricing.jpg"/>
-		
-		</a>
-		
-	</div><!-- sec_three_box -->
 	
-	<div class="sec_three_box">
-		
-		<a href="<?php bloginfo('url');?>/faq">
-		
-		<div class="overlay">
-			
-			<span class="sec_box_title">Faqs</span><!-- sec_box_title -->
-			
-		</div><!-- overlay -->
-		
-		<img src="<?php bloginfo('template_directory');?>/images/faqs.jpg"/>
-		
-		</a>
-		
-	</div><!-- sec_three_box -->
+	
 	
 	<div class="mobile_video">
 		
