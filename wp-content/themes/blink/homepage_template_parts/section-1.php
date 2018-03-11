@@ -10,25 +10,26 @@
 		
 		<span class="play_video_title">play video</span>
 		
-		<span class="large_header">Say Nothing Express Everything.</span>
+		<span class="large_header"><?php the_field( 'welcome_tagline' ); ?></span>
 		
 		<div class="location_wrapper">
 			
-			<div class="location_single">
-				
-				<span class="location_title">Solana Beach</span><!-- location_title -->
-				
-				<a class="tel" href="">(858 436-4456)</a><!-- tel -->
-				
-			</div><!-- location_single -->
 			
-			<div class="location_single">
+			<?php if(get_field('locations_info',18)): ?>
+			 
+				<?php while(has_sub_field('locations_info',18)): ?>
+			 
+					<div class="location_single">
 				
-				<span class="location_title">Mission Valley</span><!-- location_title -->
+						<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
 				
-				<a class="tel" href="">(619) 964-6082</a><!-- tel -->
+						<a class="tel" href="tel:<?php the_sub_field( 'phone' ); ?>"><?php the_sub_field( 'phone' ); ?></a><!-- tel -->
 				
-			</div><!-- location_single -->
+					</div><!-- location_single -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 		</div><!-- location_wrapper -->
 		

@@ -8,99 +8,76 @@
 		
 		<span class="large_header">Book an Appointment Today!</span><!-- large_header -->
 		
-		<div class="location_col">
-			
-			<span class="location_title">Mission Valley</span><!-- location_title -->
-			
-			<a class="address" href="https://www.google.com/maps/place/Blink+Lash+Boutique/@32.7730688,-117.1583384,17z/data=!3m1!4b1!4m5!3m4!1s0x80d9553ea5c0eedb:0x21764171a26272f4!8m2!3d32.7730688!4d-117.1561444" target="_blank">7801 Mission Center Ct., Suite 104<br/>San Diego, CA 92108</a>
-			
-			<ul class="hours">
-				<li>Tuesday – Friday 9AM - 7PM</li>
-				<li>Saturday 9AM - 3PM</li>
-				<li>Closed Sunday</li>
-				<li>Closed Monday</li>
-			</ul>
-			
-			<a class="footer_tel" href="tel:619 964-6082">
-				
-				<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
-				
-				<span>(619) 964-6082</span>
-			
-			</a>
-			
-			<span class="leave_comment" href="">
-			
-				<?php echo file_get_contents("wp-content/themes/blink/images/email.svg"); ?>
-			
-				<span>Question/Comment</span>
-			
-			</span><!-- leave_comment -->
-			
-			<div class="social_icons">
-				
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/fb.svg"); ?></a>
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/instagram.svg"); ?></a>
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/google-plus.svg"); ?></a>
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/twitter.svg"); ?></a>
-				
-				
-			</div><!-- social_icons -->
-			
-			<a class="location_book_now" href="http://www.secure-booker.com/blinksandiego/MakeAppointment/Search.aspx" target="_blank">Book Now!</a><!-- location_book_now -->
-			
-		</div><!-- location_col -->
 		
-		<div class="location_col">
-			
-			<span class="location_title">SOLANA BEACH</span><!-- location_title -->
-			
-			<a class="address" href="https://www.google.com/maps/place/Blink+Lash+Boutique+Solana+Beach/@32.9932,-117.261541,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc0ed31032cb57:0xe682c801d05ecb90!8m2!3d32.9932!4d-117.259347" target="blank">665 San Rodolfo Dr. Ste. 108<br/> Solana Beach, CA 92075</a>
-			
-			<ul class="hours">
-				<li>Monday 11am - 5pm</li>
-				<li>Tuesday - Friday 9am - 8pm</li>
-				<li>Saturday 9am - 3pm</li>
-				<li>Closed Sunday</li>
-			</ul>
-			
-			<a class="footer_tel" href="tel:(858) 436-4456">
-				
-				<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
-				
-				<span>(858) 436-4456</span>
-			
-			</a>
-			
-			<span class="leave_comment" href="">
-			
-				<?php echo file_get_contents("wp-content/themes/blink/images/email.svg"); ?>
-			
-				<span>Question/Comment</span>
-			
-			</span><!-- leave_comment -->
-			
-			<div class="social_icons">
+		
+		
+			<?php if(get_field('locations_info',18)): ?>
+		 
+			<?php while(has_sub_field('locations_info',18)): ?>
+		 
 				
 				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/fb.svg"); ?></a>
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/instagram.svg"); ?></a>
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/google-plus.svg"); ?></a>
-				
-				<a class="" href=""><?php echo file_get_contents("wp-content/themes/blink/images/twitter.svg"); ?></a>
-				
-				
-			</div><!-- social_icons -->
+				<div class="location_col">
 			
-			<a class="location_book_now" href="http://www.secure-booker.com/blinksolana/MakeAppointment/Search.aspx" target="_blank">Book Now!</a><!-- location_book_now -->
+					<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
 			
-		</div><!-- location_col -->
+					<a class="address" href="<?php the_sub_field( 'address_link' ); ?>" target="_blank"><?php the_sub_field( 'address' ); ?></a>
+			
+					
+					<?php if(get_sub_field('hours')): ?>
+						
+						<ul class="hours">
+					 
+						<?php while(has_sub_field('hours')): ?>
+					 
+							<li><?php the_sub_field( 'single_line_hours' ); ?></li>
+					    
+						<?php endwhile; ?>
+						
+						</ul>
+					 
+					<?php endif; ?>
+
+			
+					<a class="footer_tel" href="tel:<?php the_sub_field( 'phone' ); ?>">
+				
+					<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
+				
+					<span><?php the_sub_field( 'phone' ); ?></span>
+			
+				</a>
+			
+				<span class="leave_comment" href="">
+			
+					<?php echo file_get_contents("wp-content/themes/blink/images/email.svg"); ?>
+			
+					<span>Question/Comment</span>
+			
+				</span><!-- leave_comment -->
+			
+				<div class="social_icons">
+				
+				
+					<a class="" href="<?php the_sub_field( 'facebook_link' ); ?>" target="_blank"><?php echo file_get_contents("wp-content/themes/blink/images/fb.svg"); ?></a>
+				
+					<a class="" href="<?php the_sub_field( 'instagram_link' ); ?>" target="_blank"><?php echo file_get_contents("wp-content/themes/blink/images/instagram.svg"); ?></a>
+				
+					<a class="" href="<?php the_sub_field( 'google_plus' ); ?>" target="_blank"><?php echo file_get_contents("wp-content/themes/blink/images/google-plus.svg"); ?></a>
+				
+					<a class="" href="<?php the_sub_field( 'twitter' ); ?>" target="_blank"><?php echo file_get_contents("wp-content/themes/blink/images/twitter.svg"); ?></a>
+				
+				
+				</div><!-- social_icons -->
+			
+				<a class="location_book_now" href="<?php the_sub_field( 'book_now_link' ); ?>" target="_blank">Book Now!</a><!-- location_book_now -->
+			
+			</div><!-- location_col -->
+				
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>		
 		
 		</div><!-- locations_inner -->
 		
@@ -180,9 +157,19 @@
 			
 			<span class="select_location">Book a Location</span><!-- select_location -->
 			
-			<a class="location" href="http://www.secure-booker.com/blinksandiego/MakeAppointment/Search.aspx" target="_blank">Mission Valley</a>
 			
-			<a class="location" href="http://www.secure-booker.com/blinksolana/MakeAppointment/Search.aspx" target="_blank">Solana Beach</a>
+			<?php if(get_field('locations_info',18)): ?>
+			 
+				<?php while(has_sub_field('locations_info',18)): ?>
+			 
+				
+					<a class="location" href="<?php the_sub_field( 'book_now_link' ); ?>" target="_blank"><?php the_sub_field( 'location_title' ); ?></a>
+					
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
 			
 		</div><!-- book_now_overlay_inner -->
 		
@@ -218,9 +205,9 @@
 			
 			<video id="video" preload="meta" autobuffer>
 				
-				<source src="<?php bloginfo('template_directory');?>/images/video/video.ogg" type="video/ogv">
-				<source src="<?php bloginfo('template_directory');?>/images/video/video.webm" type="video/webm">
-				<source src="<?php bloginfo('template_directory');?>/images/video/video.mp4" type="video/mp4">
+				<source src="<?php the_field( 'video_files_ogg' ); ?>" type="video/ogv">
+				<source src="<?php the_field( 'video_files_webm' ); ?>" type="video/webm">
+				<source src="<?php the_field( 'video_files_mp4' ); ?>" type="video/mp4">
 				
 			</video>
 			
