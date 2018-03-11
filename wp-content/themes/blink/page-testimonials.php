@@ -16,169 +16,44 @@ get_header(); ?>
 		
 		<div class="testominals_wrapper_page">
 			
+			<?php if(get_field('reviews')): ?>
+				 
+					<?php while(has_sub_field('reviews')): ?>
+				 
+							<div class="single_testimonial_page">
+					
+								
+					
+								<span class="review_keyword_page">"<?php the_sub_field( 'keyword' ); ?>"</span><!-- review_keyword -->
+					
+								<div class="stars_page">
+						
+									<span>&starf;</span>
+									<span>&starf;</span>
+									<span>&starf;</span>
+									<span>&starf;</span>
+									<span>&starf;</span>
+						
+								</div><!-- stars -->
+					
+							<div class="reviews_content_page">
+						
+								<?php the_sub_field( 'review_content' ); ?>
+						
+							</div><!-- reviews_content -->
+					
+					<span class="reviews_name_page"><?php the_sub_field( 'client_name' ); ?></span><!-- reviews_name -->
+					
+					
+					
+				</div><!-- single_slide -->
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
 			
-			<div class="single_testimonial_page">
-				
-				
-				<span class="review_keyword_page">"Exceptional"</span><!-- review_keyword -->
-					
-					<div class="stars_page">
-						
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-					
-					</div><!-- stars -->
-					
-					<div class="reviews_content_page">
-						
-					“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste”
-						
-						
-					</div><!-- reviews_content -->
-					
-					<span class="reviews_name_page">Client Name</span><!-- reviews_name -->
-				
-				
-			</div><!-- single_testimonial -->
 			
-			<div class="single_testimonial_page">
-				
-				
-				<span class="review_keyword_page">"Exceptional"</span><!-- review_keyword -->
-					
-					<div class="stars_page">
 						
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-					
-					</div><!-- stars -->
-					
-					<div class="reviews_content_page">
-						
-					“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste”
-						
-						
-					</div><!-- reviews_content -->
-					
-					<span class="reviews_name_page">Client Name</span><!-- reviews_name -->
-				
-				
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial_page">
-				
-				
-				<span class="review_keyword_page">"Exceptional"</span><!-- review_keyword -->
-					
-					<div class="stars_page">
-						
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-					
-					</div><!-- stars -->
-					
-					<div class="reviews_content_page">
-						
-					“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste”
-						
-						
-					</div><!-- reviews_content -->
-					
-					<span class="reviews_name_page">Client Name</span><!-- reviews_name -->
-				
-				
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial_page">
-				
-				
-				<span class="review_keyword_page">"Exceptional"</span><!-- review_keyword -->
-					
-					<div class="stars_page">
-						
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-					
-					</div><!-- stars -->
-					
-					<div class="reviews_content_page">
-						
-					“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste”
-						
-						
-					</div><!-- reviews_content -->
-					
-					<span class="reviews_name_page">Client Name</span><!-- reviews_name -->
-				
-				
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial_page">
-				
-				
-				<span class="review_keyword_page">"Exceptional"</span><!-- review_keyword -->
-					
-					<div class="stars_page">
-						
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-					
-					</div><!-- stars -->
-					
-					<div class="reviews_content_page">
-						
-					“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste”
-						
-						
-					</div><!-- reviews_content -->
-					
-					<span class="reviews_name_page">Client Name</span><!-- reviews_name -->
-				
-				
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial_page">
-				
-				
-				<span class="review_keyword_page">"Exceptional"</span><!-- review_keyword -->
-					
-					<div class="stars_page">
-						
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-						<span>&starf;</span>
-					
-					</div><!-- stars -->
-					
-					<div class="reviews_content_page">
-						
-					“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste”
-						
-						
-					</div><!-- reviews_content -->
-					
-					<span class="reviews_name_page">Client Name</span><!-- reviews_name -->
-				
-				
-			</div><!-- single_testimonial -->
-			
 			
 		</div><!-- testominals_wrapper -->
 				

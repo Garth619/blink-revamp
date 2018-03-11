@@ -1863,8 +1863,10 @@ svg#view-more .view-more-cls-3 {
 
 /* Media Query */
 #section_five {
-  background: url(images/store.jpg) top left no-repeat;
-  background-size: 922px 964px; }
+  /*
+	background: url(images/store.jpg) top left no-repeat;
+	background-size:922px 964px;
+*/ }
   #section_five:after {
     content: "";
     clear: both;
@@ -1891,6 +1893,9 @@ svg#view-more .view-more-cls-3 {
     max-width: 1005px; }
     .sec_five_right .review_wrapper svg#blink_circle {
       width: 100px; }
+
+.single_slide a {
+  text-decoration: none; }
 
 .single_slide span.review_keyword {
   color: #80888d;
@@ -1954,7 +1959,8 @@ svg#view-more .view-more-cls-3 {
 .prev_next_wrapper {
   position: absolute;
   top: 235px;
-  right: -35px; }
+  right: -35px;
+  z-index: 10; }
   .prev_next_wrapper .slide_button {
     background: #f8a5bf;
     padding: 20px 13px;
@@ -2694,14 +2700,14 @@ a.price_book_it {
 a.review_button_testi {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 287px;
   text-align: center;
   background: #f8a5bf;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "JosefinSans-SemiBold";
-  font-size: 23px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   line-height: 1;
   padding: 25px 0px 22px;
@@ -2715,13 +2721,23 @@ a.review_button_testi {
 @media screen and (max-width: 767px) {
   .testominals_wrapper_page {
     margin-top: 48px; }
-  .single_testimonial_page:last-of-type {
-    margin-bottom: 25px; }
-  .single_testimonial_page span.review_keyword_page {
-    font-size: 38px;
-    margin-bottom: 29px; }
-  .single_testimonial_page .stars_page {
-    margin-bottom: 20px; } }
+  .single_testimonial_page {
+    padding-top: 45px;
+    margin: 0px auto 35px; }
+    .single_testimonial_page:last-of-type {
+      margin-bottom: 25px; }
+    .single_testimonial_page span.review_keyword_page {
+      font-size: 38px;
+      margin-bottom: 29px; }
+    .single_testimonial_page .stars_page {
+      margin-bottom: 20px; } }
+
+/* Media Query */
+@media screen and (max-width: 375px) {
+  a.review_button_testi {
+    width: 100%; }
+  body.page-template-page-testimonials .content h1 {
+    font-size: 44px; } }
 
 /* Media Query */
 .single_month_wrapper {

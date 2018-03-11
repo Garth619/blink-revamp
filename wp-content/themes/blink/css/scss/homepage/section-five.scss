@@ -1,6 +1,8 @@
 #section_five {
+/*
 	background: url(#{$themePath}images/store.jpg) top left no-repeat;
 	background-size:922px 964px;
+*/
 	&:after {
 		content:"";
 		clear:both;
@@ -49,6 +51,9 @@
 
 
 .single_slide {
+	a {
+		text-decoration: none;
+	}
 	span.review_keyword {
 		color:$grey;
 		font-size:47px;
@@ -121,6 +126,7 @@
 	position: absolute;
 	top:235px;
 	right:-35px;
+	z-index:10;
 	.slide_button {
 		background: $pink;
 		padding:20px 13px;

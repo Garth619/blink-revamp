@@ -53,14 +53,14 @@
 a.review_button_testi {
 	display: block;
 	margin:0 auto;
-	width:300px;
+	width: 287px;
 	text-align: center;
 	background:$pink;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-family: $josefinsemibold;
-  font-size: 23px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   line-height: 1;
   padding: 25px 0px 22px;
@@ -80,6 +80,8 @@ a.review_button_testi {
 	}
 	
 	.single_testimonial_page {
+		padding-top:45px;
+		margin: 0px auto 35px;
 		&:last-of-type {
 			margin-bottom:25px;
 		}
@@ -94,6 +96,27 @@ a.review_button_testi {
 	
 	
 	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 375px) {
+	
+	
+	
+	a.review_button_testi {
+		width:100%;
+	}
+	
+	
+	body.page-template-page-testimonials {
+		.content {
+			h1 {
+				font-size: 44px;
+			}
+		} 
+	}
 	
 	
 } /* Media Query */
