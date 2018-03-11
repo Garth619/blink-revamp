@@ -184,13 +184,6 @@ if (function_exists('acf_add_options_page')) {
         'capability' => 'edit_posts',
         'redirect' => false
     ));
-    acf_add_options_page(array(
-        'page_title' => 'Review Settings',
-        'menu_title' => 'Review Settings',
-        'menu_slug' => 'review-general-settings',
-        'capability' => 'edit_posts',
-        'redirect' => false
-    ));
 }
 
 /* ALLOW SVGs IN MEDIA UPLOAD

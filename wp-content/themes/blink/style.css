@@ -2252,7 +2252,8 @@ svg#accent {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    text-decoration: none; }
+    text-decoration: none;
+    height: 100%; }
     #section_seven .single_post_homepage a .single_post_homepage_image_wrapper {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
@@ -2795,7 +2796,7 @@ a.review_button_testi {
       padding: 0; }
 
 .blog_content {
-  padding-left: 45px;
+  padding-left: 75px;
   float: right;
   width: 75%; }
 

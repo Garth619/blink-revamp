@@ -4,11 +4,12 @@
 		
 		<?php echo file_get_contents("wp-content/themes/blink/images/accent.svg"); ?>
 		
-		<span class="signup_title">Sign Up For Our Latest Updates!</span><!-- signup_title -->
+		<span class="signup_title"><?php the_field( 'section_six_title' ); ?></span><!-- signup_title -->
 		
 		<div class="signup_description">
 			
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.			
+			<?php the_field( 'section_six_content' ); ?>
+					
 		</div><!-- signup_description -->
 		
 		<div class="sign_up_form">
