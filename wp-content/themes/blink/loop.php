@@ -24,8 +24,10 @@
 					<a class="" href="<?php the_permalink();?>">
 					
 						<div class="blog_img_wrapper">
-						
-							<img src="<?php bloginfo('template_directory');?>/images/eyelash-extensions.jpg"/>
+							
+							<?php $homepage_image = get_field( 'homepage_image' ); ?>
+							
+							<img src="<?php echo $homepage_image['url']; ?>" alt="<?php echo $$homepage_image['alt']; ?>" />
 						
 						</div><!-- blog_img_wrapper -->
 						

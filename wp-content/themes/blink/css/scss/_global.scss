@@ -25,10 +25,11 @@ img.aligncenter {
 }
 img.alignleft,
 img.alignright,
-img.aligncenter {
-	margin-bottom: 12px;
-	max-width:100%;
-	height:auto;
+img.aligncenter,
+img.alignnone {
+	margin-bottom: 12px !important;
+	max-width:100% !important;
+	height:auto !important;
 }
 
 

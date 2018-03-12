@@ -2,19 +2,25 @@
 	
 	<div class="blog_wrapper">
 		
-		
-		<?php $mymain_query = new WP_Query( array( 'post_type' => 'post','posts_per_page' => '4', 'order' => 'DSC' ) ); while($mymain_query->have_posts()) : $mymain_query->the_post(); ?>
+
       
       
       
+      <?php $posts = get_field('featured_blog_posts');
       
-     <div class="single_post_homepage">
+      if( $posts ): ?>
+         
+          <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+              <?php setup_postdata($post); ?>
+               <div class="single_post_homepage">
 			
 			<a class="" href="<?php the_permalink();?>">
 			
 			<div class="single_post_homepage_image_wrapper">
+				
+				<?php $homepage_image = get_field( 'homepage_image' ); ?>
 			
-				<div class="single_post_homepage_image_inner"></div><!-- single_post_homepage_image_wrapper -->
+				<div class="single_post_homepage_image_inner" style="background: url(<?php echo $homepage_image['url']; ?>) center center no-repeat;background-size:cover;"></div><!-- single_post_homepage_image_wrapper -->
 			
 			</div><!-- single_post_homepage_image_wrapper -->
 			
@@ -40,13 +46,21 @@
 			</a>
 			
 		</div><!-- single_post_homepage -->
+
+          <?php endforeach; ?>
+          
+          <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+      <?php endif; ?>
       
       
       
       
-     
-     <?php endwhile; ?>
-    <?php wp_reset_postdata(); // reset the query ?>
+      
+          
+      
+      
+      
+
 		
 		
 				
