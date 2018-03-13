@@ -15,91 +15,27 @@ get_header(); ?>
 		
 		<div class="faq_wrapper">
 			
-			<div class="faq_single">
+			<?php if(get_field('faqs')): ?>
+			 
+				<?php while(has_sub_field('faqs')): ?>
+			 
+					<div class="faq_single">
 				
-				<h2 class="question pink">How long do extensions last?</h2>
+						<h2 class="question pink"><?php the_sub_field( 'question' ); ?></h2>
 				
-				<div class="answer">
+						<div class="answer">
 				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
-				
-				</div><!-- answer -->
-				
-			</div><!-- faq_single -->
-			
-			<div class="faq_single">
-				
-				<h2 class="question pink">How long do extensions last?</h2>
-				
-				<div class="answer">
-				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
+						<?php the_sub_field( 'answer' ); ?>
 				
 				</div><!-- answer -->
 				
 			</div><!-- faq_single -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			<div class="faq_single">
-				
-				<h2 class="question pink">How long do extensions last?</h2>
-				
-				<div class="answer">
-				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
-				
-				</div><!-- answer -->
-				
-			</div><!-- faq_single -->
-			
-			<div class="faq_single">
-				
-				<h2 class="question pink">How long do extensions last?</h2>
-				
-				<div class="answer">
-				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
-				
-				</div><!-- answer -->
-				
-			</div><!-- faq_single -->
-			
-			<div class="faq_single">
-				
-				<h2 class="question pink">How long do extensions last?</h2>
-				
-				<div class="answer">
-				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
-				
-				</div><!-- answer -->
-				
-			</div><!-- faq_single -->
-			
-			<div class="faq_single">
-				
-				<h2 class="question pink">How long do extensions last?</h2>
-				
-				<div class="answer">
-				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
-				
-				</div><!-- answer -->
-				
-			</div><!-- faq_single -->
-			
-			<div class="faq_single">
-				
-				<h2 class="question pink">How long do extensions last?</h2>
-				
-				<div class="answer">
-				
-					<p>When applied properly, extensions can last up to about 6 weeks. The growth and shedding cycle of your natural lashes will cause the extensions to fall out gradually. Since your natural lashes are constantly shedding (each lash on its own individual cycle) you will constantly be shedding extensions. On average a person will lose about 5-10 lashes per week. They can last indefinitely with regular touch ups which are recommended every 2-3 weeks to maintain fullness</p>
-				
-				</div><!-- answer -->
-				
-			</div><!-- faq_single -->
-			
-			
+						
 						
 		</div><!-- faq_wrapper -->
 		

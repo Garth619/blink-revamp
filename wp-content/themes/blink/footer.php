@@ -149,6 +149,33 @@
 	
 	</footer>
 	
+	
+	
+	<div class="book_now_item_overlay" style="display:none;">
+		
+		<div class="book_now_item_overlay_inner">
+			
+			<div class="overlay_close"></div><!-- overlay_close -->
+			
+			<span class="select_location">Select a Location</span><!-- select_location -->
+			
+			
+			
+			 
+				
+					<a class="location" href="<?php the_sub_field( 'book_now_link' ); ?>" target="_blank"><?php the_sub_field( 'location_title' ); ?></a>
+					
+			    
+			
+			
+			
+		</div><!-- book_now_item_overlay_inner -->
+		
+		
+	</div><!-- book_now_item_overlay -->
+	
+	
+	
 	<div class="book_now_overlay">
 		
 		<div class="book_now_overlay_inner">

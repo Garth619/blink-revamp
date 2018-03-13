@@ -2553,7 +2553,7 @@ svg#accent {
       text-decoration: none;
       transition: all .2s ease-in-out; }
 
-a.price_book_it {
+.price_book_it {
   background: #f8a5bf;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -2568,8 +2568,9 @@ a.price_book_it {
   border-radius: 5px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  text-decoration: none; }
-  a.price_book_it:hover {
+  text-decoration: none;
+  cursor: pointer; }
+  .price_book_it:hover {
     background: #ef739a;
     text-decoration: none; }
 

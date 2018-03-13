@@ -147,7 +147,7 @@
 
 
 
-a.price_book_it {
+.price_book_it {
 	background: $pink;
 	margin-top:10px;
 	margin-bottom:20px;
@@ -162,6 +162,7 @@ a.price_book_it {
 	border-radius: 5px;
 	transition: all .2s ease-in-out;
 	text-decoration: none;
+	cursor: pointer;
 	&:hover {
 		background: $pinkdark;
 		text-decoration: none;

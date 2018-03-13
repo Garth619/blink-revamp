@@ -341,5 +341,11 @@ $('.overlay_close').on('click', function(e) {
 
 
 
+// pricing data attributes
+
+
+
+
+
 
 }); // document ready
