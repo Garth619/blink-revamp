@@ -1,0 +1,61 @@
+.book_page_wrapper {
+	text-align: center;
+}
+
+span.select_booking {
+	display: block;
+	font-size:35px;
+	margin-bottom:55px;
+}
+
+
+a.book_now_page_button {
+	background: $pink;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-family: $josefinsemibold;
+	padding: 20px 30px 18px;
+	letter-spacing: 0.08em;
+	border-radius: 5px;
+	margin:0 4px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		text-decoration: none;
+		background: $pinkdark;
+	}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	
+	a.book_now_page_button {
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		max-width: 275px;
+		margin-bottom:20px;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 450px) {
+	
+	body.page-template-page-book {
+		.content {
+			h1 {
+				font-size: 43px;
+				line-height: 45px;
+			}
+		} 
+	}
+	
+	
+	
+	
+} /* Media Query */

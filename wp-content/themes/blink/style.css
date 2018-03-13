@@ -3121,6 +3121,45 @@ body.single span.meta {
     display: none; } }
 
 /* Media Query */
+.book_page_wrapper {
+  text-align: center; }
+
+span.select_booking {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 55px; }
+
+a.book_now_page_button {
+  background: #f8a5bf;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-family: "JosefinSans-SemiBold";
+  padding: 20px 30px 18px;
+  letter-spacing: 0.08em;
+  border-radius: 5px;
+  margin: 0 4px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  a.book_now_page_button:hover {
+    text-decoration: none;
+    background: #ef739a; }
+
+@media screen and (max-width: 767px) {
+  a.book_now_page_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 275px;
+    margin-bottom: 20px; } }
+
+/* Media Query */
+@media screen and (max-width: 450px) {
+  body.page-template-page-book .content h1 {
+    font-size: 43px;
+    line-height: 45px; } }
+
+/* Media Query */
 .locations_wrapper {
   position: relative;
   padding: 122px 0 470px;
@@ -3819,7 +3858,7 @@ a.site_by {
     .book_now_overlay .book_now_overlay_inner a.location {
       padding: 20px 5px 18px;
       width: 100%;
-      max-width: 100%; } }
+      max-width: 275px; } }
 
 /* Media Query */
 .call_now_overlay.open {
@@ -3908,7 +3947,7 @@ a.site_by {
     .call_now_overlay .call_now_overlay_inner a.location {
       padding: 20px 5px 18px;
       width: 100%;
-      max-width: 100%; } }
+      max-width: 275px; } }
 
 /* Media Query */
 .video_overlay.open {
