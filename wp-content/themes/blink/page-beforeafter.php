@@ -15,108 +15,43 @@ get_header(); ?>
 		<div class="before_after_wrapper">
 			
 			
-			<div class="ba_section">
+			<?php if(get_field('before_and_after')): ?>
+			 
+				<?php while(has_sub_field('before_and_after')): ?>
+			 
+					<div class="ba_section">
 				
-				<h2>Classic Bashful</h2>
+						<h2><?php the_sub_field( 'section_title' ); ?></h2>
 				
-				<div class="ba_slideshow">
-					
-					<div class="ba_single_slide">
+						<div class="ba_slideshow">
+							
+							<?php if(get_sub_field('images')): ?>
+							 
+								<?php while(has_sub_field('images')): ?>
+							 
+									<div class="ba_single_slide">
+										
+										<?php $single_image = get_sub_field( 'single_image' ); ?>
 						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-bashfull-classic.jpg"/>
+										<img data-lazy="<?php echo $single_image['url']; ?>" <?php echo $single_image['alt']; ?>/>
 						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-bashful-classic.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-05.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-02.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-				</div><!-- ba_slideshow -->
+									</div><!-- ba_single_slide -->
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+
+
+					</div><!-- ba_slideshow -->
 				
-			</div><!-- ba_section -->
+				</div><!-- ba_section -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			<div class="ba_section">
-				
-				<h2>Classic Bashful</h2>
-				
-				<div class="ba_slideshow">
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-bashfull-classic.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-bashful-classic.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-05.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-02.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-				</div><!-- ba_slideshow -->
-				
-			</div><!-- ba_section -->
 			
-			<div class="ba_section">
-				
-				<h2>Classic Bashful</h2>
-				
-				<div class="ba_slideshow">
-					
-					<div class="ba_single_slide">
 						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-bashfull-classic.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-bashful-classic.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-05.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-					<div class="ba_single_slide">
-						
-						<img data-lazy="<?php bloginfo('template_directory');?>/images/ba-02.jpg"/>
-						
-					</div><!-- ba_single_slide -->
-					
-				</div><!-- ba_slideshow -->
-				
-			</div><!-- ba_section -->
-			
 			
 		</div><!-- before_after_wrapper -->
 		

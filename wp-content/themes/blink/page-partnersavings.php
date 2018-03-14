@@ -14,65 +14,27 @@ get_header(); ?>
 		
 		<div class="partner_wrapper">
 			
-			<div class="single_partner">
+			<?php if(get_field('partner_savings')): ?>
+			 
+				<?php while(has_sub_field('partner_savings')): ?>
+			 
+					<div class="single_partner">
 				
-				<h2>Angelica B Beauty</h2>
+						<h2><?php the_sub_field( 'title' ); ?></h2>
+						
+						<?php $image = get_sub_field( 'image' ); ?>
 				
-				<img class="partner_img" src="<?php bloginfo('template_directory');?>/images/angelica.jpg"/>
+						<img class="partner_img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>"/>
 				
-				<p>Angelica B Beauty is a charming studio specializing in body waxing and facial care. With expert estheticians, Angelica B Beauty is dedicated to helping women achieve healthy, beautiful skin ngelica B Beauty is a charming studio specializing in body waxing and facial care. With expert estheticians, Angelica B Beauty is dedicated to helping women achieve healthy, beautiful skin.</p>
+						<?php the_sub_field( 'description' ); ?>
 				
-				<span class="additional_description">$25 Brazilian wax + 20% all facials</span><!-- additional_description -->
+						<span class="additional_description"><?php the_sub_field( 'bold_description' ); ?></span><!-- additional_description -->
 				
-			</div><!-- single_partner -->
-			
-			<div class="single_partner">
-				
-				<h2>Angelica B Beauty</h2>
-				
-				<img class="partner_img" src="<?php bloginfo('template_directory');?>/images/envie-logo.png"/>
-				
-				<p>Angelica B Beauty is a charming studio specializing in body waxing and facial care. With expert estheticians, Angelica B Beauty is dedicated to helping women achieve healthy, beautiful skin.</p>
-				
-				<span class="additional_description">$25 Brazilian wax + 20% all facials</span><!-- additional_description -->
-				
-			</div><!-- single_partner -->
-			
-			<div class="single_partner">
-				
-				<h2>Angelica B Beauty</h2>
-				
-				<img class="partner_img" src="<?php bloginfo('template_directory');?>/images/studiobarrelogo.jpg"/>
-				
-				<p>Angelica B Beauty is a charming studio specializing in body waxing and facial care. With expert estheticians, Angelica B Beauty is dedicated to helping women achieve healthy, beautiful skin.</p>
-				
-				<span class="additional_description">$25 Brazilian wax + 20% all facials</span><!-- additional_description -->
-				
-			</div><!-- single_partner -->
-			
-			<div class="single_partner">
-				
-				<h2>Angelica B Beauty</h2>
-				
-				<img class="partner_img" src="<?php bloginfo('template_directory');?>/images/angelica.jpg"/>
-				
-				<p>Angelica B Beauty is a charming studio specializing in body waxing and facial care. With expert estheticians, Angelica B Beauty is dedicated to helping women achieve healthy, beautiful skin.</p>
-				
-				<span class="additional_description">$25 Brazilian wax + 20% all facials</span><!-- additional_description -->
-				
-			</div><!-- single_partner -->
-			
-			<div class="single_partner">
-				
-				<h2>Angelica B Beauty</h2>
-				
-				<img class="partner_img" src="<?php bloginfo('template_directory');?>/images/angelica.jpg"/>
-				
-				<p>Angelica B Beauty is a charming studio specializing in body waxing and facial care. With expert estheticians, Angelica B Beauty is dedicated to helping women achieve healthy, beautiful skin.</p>
-				
-				<span class="additional_description">$25 Brazilian wax + 20% all facials</span><!-- additional_description -->
-				
-			</div><!-- single_partner -->
+				</div><!-- single_partner -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 		</div><!-- partner_wrapper -->
 		
