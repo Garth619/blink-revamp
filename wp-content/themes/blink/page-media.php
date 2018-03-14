@@ -15,106 +15,53 @@ get_header(); ?>
 		
 		<div class="media_wrapper">
 			
-			<div class="single_month_wrapper">
-				
-				<h2>December 2015</h2>
 			
-				<div class="single_media_wrapper">
-					
-					<a href="">
+			<?php if(get_field('monthyear')): ?>
+			 
+				<?php while(has_sub_field('monthyear')): ?>
+			 
+					<div class="single_month_wrapper">
 				
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
-					
-					</div><!-- img_wrapper -->
-				
-					<div class="media_content">
-					
-						<h3>Perfect Your NYE Look With Tips From The Pros</h3>
-						
-						<span class="media_title">By Locale</span><!-- media_title -->
-						
-					</div><!-- media_content -->
-					
-					</a>
-				
-				</div><!-- single_media_wrapper -->
-				
-				<div class="single_media_wrapper">
-					
-					<a href="">
-				
-					<div class="img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
-					
-					</div><!-- img_wrapper -->
-				
-					<div class="media_content">
-					
-						<h3>Perfect Your NYE Look With Tips From The Pros</h3>
-						
-						<span class="media_title">By Locale</span><!-- media_title -->
-						
-					</div><!-- media_content -->
-					
-					</a>
-				
-				</div><!-- single_media_wrapper -->
+						<h2><?php the_sub_field( 'monthyear_title' ); ?></h2>
 			
-			</div><!-- single_month_wrapper -->
-			
-			<div class="single_month_wrapper">
+						<?php if(get_sub_field('single_media_post')): ?>
+					 
+							<?php while(has_sub_field('single_media_post')): ?>
+					 
+								<div class="single_media_wrapper">
+								
+									<a href="<?php the_sub_field( 'url_link' ); ?>" target="blank">
 				
-				<h2>December 2015</h2>
-			
-				<div class="single_media_wrapper">
+										<div class="img_wrapper">
+										
+											<?php $single_media_image = get_sub_field( 'single_media_image' ); ?>
 					
-					<a href="">
+											<img src="<?php echo $single_media_image['url']; ?>" alt="<?php echo $single_media_image['alt']; ?>" />
+					
+										</div><!-- img_wrapper -->
 				
-					<div class="img_wrapper">
+										<div class="media_content">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
-					
-					</div><!-- img_wrapper -->
-				
-					<div class="media_content">
-					
-						<h3>Perfect Your NYE Look With Tips From The Pros</h3>
+											<h3><?php the_sub_field( 'title' ); ?></h3>
 						
-						<span class="media_title">By Locale</span><!-- media_title -->
+											<span class="media_title"><?php the_sub_field( 'business_name' ); ?></span><!-- media_title -->
 						
-					</div><!-- media_content -->
+										</div><!-- media_content -->
 					
-					</a>
+									</a>
 				
-				</div><!-- single_media_wrapper -->
-				
-				<div class="single_media_wrapper">
+								</div><!-- single_media_wrapper -->
+					    
+								<?php endwhile; ?>
+					 
+							<?php endif; ?>
 					
-					<a href="">
-				
-					<div class="img_wrapper">
+						</div><!-- single_month_wrapper -->
 					
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
-					
-					</div><!-- img_wrapper -->
-				
-					<div class="media_content">
-					
-						<h3>Perfect Your NYE Look With Tips From The Pros</h3>
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 						
-						<span class="media_title">By Locale</span><!-- media_title -->
-						
-					</div><!-- media_content -->
-					
-					</a>
-				
-				</div><!-- single_media_wrapper -->
-			
-			</div><!-- single_month_wrapper -->
-			
 		</div><!-- media_wrapper -->
 		
 				

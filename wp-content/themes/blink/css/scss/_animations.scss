@@ -324,6 +324,53 @@ svg#accent {
 }
 
 
+
+
+// media page
+
+
+
+
+.single_media_wrapper {
+	&:hover {
+		.img_wrapper {
+			&:before {
+				opacity: 1;
+				letter-spacing: 0.35em;
+				transition-delay: 0ms, 200ms;
+			}
+		}
+	}
+	.img_wrapper {
+		position: relative;
+		img {
+			display: block;
+		}
+		&:before {
+			content:"View Site";
+			color:#fff;
+			position: absolute;
+			text-transform: uppercase;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			z-index:1;
+			background:rgba(248, 165, 191, 0.92);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			letter-spacing: 0.6em;
+			font-family: $josefinsemibold;
+			opacity: 0;
+			transition: opacity 300ms linear, letter-spacing 1600ms cubic-bezier(.17,.66,.34,.98);
+			transition-delay: 0ms, 0ms;
+		}
+	}
+}
+
+
+
 	
 } /* Media Query */
 
