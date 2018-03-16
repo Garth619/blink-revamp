@@ -147,6 +147,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-allservices.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-allservices.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-beforeafter.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -731,6 +744,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/ba-blush-volume-classic.jpg": {
+		"ft": 16384,
+		"iS": 123358,
+		"oA": 0,
+		"oAP": "\/images\/ba-blush-volume-classic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/blink-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -908,6 +931,16 @@
 		"iS": 53417,
 		"oA": 0,
 		"oAP": "\/images\/Jen-and-Janelle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/l.jpg": {
+		"ft": 16384,
+		"iS": 51276,
+		"oA": 0,
+		"oAP": "\/images\/l.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1999,6 +2032,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/loop.php",
+		"oF": 0
+		},
+	"\/page-allservices.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-allservices.php",
 		"oF": 0
 		},
 	"\/page-beforeafter.php": {

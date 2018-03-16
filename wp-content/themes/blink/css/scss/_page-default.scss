@@ -3,6 +3,11 @@
 	min-height:400px;
 	margin-top: 85px;
 	padding:160px 0 190px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 }
 
 .container {

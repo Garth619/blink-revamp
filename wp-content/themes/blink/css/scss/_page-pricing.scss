@@ -10,6 +10,7 @@
 	h2.price_intro_header {
 		display: inline-block;
 		font-family: $glosa;
+		color:$grey;
 		&:after {
 			content:"";
 			width:100%;
@@ -146,7 +147,7 @@
 	}
 
 
-
+.content {
 .price_book_it {
 	background: $pink;
 	margin-top:10px;
@@ -167,6 +168,7 @@
 		background: $pinkdark;
 		text-decoration: none;
 	}
+}
 }
 
 
