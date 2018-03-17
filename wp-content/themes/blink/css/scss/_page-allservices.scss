@@ -80,7 +80,25 @@ body.page-template-page-allservices {
 	ul {
 		li {
 			display: inline-block;
-			margin:0 3px;
+			margin-right:3px;
+			background: transparent;
+			&:last-of-type {
+				margin-right:0;
+				&:after {
+					display: none;
+				}
+			}
+			&:after {
+				content:"";
+				width:5px;
+				height:5px;
+				background: $pink;
+				display: inline-block;
+				margin-left:20px;
+				border-radius:50%;
+				position: relative;
+				top:-2px;
+			}
 		}
 	}
 	a.guarantee {
@@ -88,5 +106,35 @@ body.page-template-page-allservices {
 	}
 }
 
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+.additional_services {
+	
+	h3 {
+		
+	}
+	ul {
+		li {
+			display: block;
+			margin-right:0px;
+			&:after {
+				display: none;
+			}
+		}
+	}
+	a.guarantee {
+		
+	}
+}
+
+	
+	
+	
+	
+} /* Media Query */
 
   

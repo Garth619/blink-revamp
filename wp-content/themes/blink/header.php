@@ -46,6 +46,8 @@
 
 <?php wp_head(); ?>
 
+<?php the_field( 'scripts', 'option' ); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -74,9 +76,15 @@
 		
 		<div class="sticky_locations">
 			
-			<span class="location_title_phone">Solana Beach <a class="pink" href="">(858) 436-4456</a></span>
+			<?php if(get_field('locations_info',18)): ?>
+			 
+				<?php while(has_sub_field('locations_info',18)): ?>
 			
-			<span class="location_title_phone">Mission Valley <a class="pink" href="">(619) 964-6082</a></span>
+						<span class="location_title_phone"><?php the_sub_field( 'location_title' ); ?> <a class="pink" href="tel:<?php the_sub_field( 'phone' ); ?>"><?php the_sub_field( 'phone' ); ?></a></span>
+		
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 			<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
 			

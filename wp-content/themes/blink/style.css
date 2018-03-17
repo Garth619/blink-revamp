@@ -3194,10 +3194,33 @@ body.page-template-page-allservices .container {
   text-align: center; }
   .additional_services ul li {
     display: inline-block;
-    margin: 0 3px; }
+    margin-right: 3px;
+    background: transparent; }
+    .additional_services ul li:last-of-type {
+      margin-right: 0; }
+      .additional_services ul li:last-of-type:after {
+        display: none; }
+    .additional_services ul li:after {
+      content: "";
+      width: 5px;
+      height: 5px;
+      background: #f8a5bf;
+      display: inline-block;
+      margin-left: 20px;
+      border-radius: 50%;
+      position: relative;
+      top: -2px; }
   .additional_services a.guarantee {
     text-decoration: underline; }
 
+@media screen and (max-width: 767px) {
+  .additional_services ul li {
+    display: block;
+    margin-right: 0px; }
+    .additional_services ul li:after {
+      display: none; } }
+
+/* Media Query */
 .book_page_wrapper {
   text-align: center; }
 
