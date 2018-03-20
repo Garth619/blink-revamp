@@ -327,6 +327,20 @@ $('svg#tel, .call_us_cta').on('click', function(e) {
 });
 
 
+// Book Item Overlay
+
+
+
+$('.price_book_it').on('click', function(e) {
+  
+
+	$('.book_now_item_overlay').addClass('open');
+
+
+});
+
+
+
 
 // Overlay Close
 
@@ -341,9 +355,70 @@ $('.overlay_close').on('click', function(e) {
 
 
 
+// Overlay Close Book Item
+
+
+
+$('.book_item_close').on('click', function(e) {
+  
+
+	$('.book_now_item_overlay').removeClass('open');
+	
+	
+	 $('.book_now_item_buttons a').delay(500).hide(0);
+   
+  
+
+
+});
+
+
+
+
+
+
+
+
+
 // pricing data attributes
 
 
+$('.book_now_item_buttons a').hide();
+
+
+$('span.price_book_it').click(function(e) {
+   
+   // e.preventDefault();
+   
+   missiondata = $(this).attr('data-mission');
+   
+   solanadata = $(this).attr('data-solana');
+   
+   
+   $('.book_now_item_buttons a.misson_button').attr("href", missiondata);
+   
+   $('.book_now_item_buttons a.solana_button').attr("href", solanadata);
+   
+   
+   if ($('.book_now_item_buttons a.misson_button').attr('href') != '') { 
+    
+		 $('.book_now_item_buttons a.misson_button').show();
+
+ 		} 
+ 		
+ 	if ($('.book_now_item_buttons a.solana_button').attr('href') != '') { 
+    
+		$('.book_now_item_buttons a.solana_button').show();
+
+ 	} 
+
+   
+   
+   
+ });
+ 
+ 
+ 
 
 
 

@@ -27,8 +27,9 @@ get_header(); ?>
 						<p><?php the_sub_field( 'specials_description' ); ?></p>
 						
 						
+
 				
-						<span data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_beach' ); ?>" class="price_book_it">Book It!</span><!-- price_book_it -->
+					<span data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_beach' ); ?>" class="price_book_it">Book It!</span><!-- price_book_it -->
 					
 				
 					</div><!-- single_special -->
