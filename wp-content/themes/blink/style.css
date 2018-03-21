@@ -2459,6 +2459,9 @@ svg#accent {
     margin-top: 0; } }
 
 /* Media Query */
+body.page-template-page-pricing .container {
+  max-width: 1350px; }
+
 .price_block_section:not(:first-of-type) {
   margin-top: 30px; }
 
@@ -2584,6 +2587,9 @@ svg#accent {
   .content .price_book_it:hover {
     background: #ef739a;
     text-decoration: none; }
+
+.content .price_book_it.subitem {
+  margin-bottom: 45px; }
 
 @media screen and (max-width: 1060px) {
   .price_wrapper {

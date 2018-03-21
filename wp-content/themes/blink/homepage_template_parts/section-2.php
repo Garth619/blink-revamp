@@ -6,7 +6,7 @@
 			
 			<?php echo file_get_contents("wp-content/themes/blink/images/blink-circle.svg"); ?>
 			
-			<span class="sec_two_intro"<?php the_field( 'section_two_header' ); ?></span><!-- sec_two_intro -->
+			<span class="sec_two_intro"><?php the_field( 'section_two_header' ); ?></span><!-- sec_two_intro -->
 			
 			<span class="sec_two_intro_content"><?php the_field( 'section_two_content' ); ?></span><!-- sec_two_intro_content -->
 			

@@ -1,3 +1,10 @@
+body.page-template-page-pricing {
+	.container {
+		max-width:1350px;
+	}
+}
+
+
 .price_wrapper {
 	
 }
@@ -168,6 +175,9 @@
 		background: $pinkdark;
 		text-decoration: none;
 	}
+}
+.price_book_it.subitem {
+	margin-bottom:45px;
 }
 }
 

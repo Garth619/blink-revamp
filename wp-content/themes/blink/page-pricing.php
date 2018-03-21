@@ -19,6 +19,93 @@ get_header(); ?>
 		
 		<div class="price_wrapper">
 			
+			
+			<?php if(get_field('pricing_section')): ?>
+			
+				<div class="price_block_section">
+			 
+				<?php while(has_sub_field('pricing_section')): ?>
+				
+					<h2 class="price_intro_header"><?php the_sub_field( 'price_section_title' ); ?></h2><!-- price_intro_header -->
+					
+					<div class="mobile_slide">
+						
+						<div class="pricing_single_wrapper">
+							
+							<?php if(get_sub_field('pricing_subitems')): ?>
+							 
+								<?php while(has_sub_field('pricing_subitems')): ?>
+							 
+									<?php if ( get_row_layout() == 'items_like_bashful' ) : ?>
+									
+									
+										<?php if(get_sub_field('single_sub_item')): ?>
+										
+											<div class="pricing_single_wrapper">
+												
+												<h3 class="price_single_header"><?php the_sub_field( 'menu_item_title' ); ?></h3><!-- price_single_header -->
+												
+												<span class="price_book_it subitem" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
+										 
+												<?php while(has_sub_field('single_sub_item')): ?>
+										 
+												
+													<div class="price_single_bullet">
+						
+														<div class="price_single_bullet_inner">
+						
+															<span class="title"><?php the_sub_field( 'sub_item_title' ); ?></span><!-- title -->
+															<span class="dots"></span><!-- dots -->
+															<span class="price"><?php the_sub_field( 'sub_item_price' ); ?></span><!-- price -->
+						
+														</div><!-- price_single_bullet_inner -->
+														
+														<?php if( get_sub_field('sub_item_quick_description')): ?>
+														
+															<span class="additional_description"><?php the_sub_field( 'sub_item_quick_description' ); ?></span><!-- additional_description -->
+														<?php endif;?>
+														
+													</div><!-- price_single_bullet -->
+												
+												
+										    <?php endwhile; ?>
+										    
+										  
+										    
+										    
+										    
+										    <div class="single_description_content">
+							
+							<?php the_sub_field( 'item_large_description' ); ?>
+							
+						</div><!-- single_description_content -->
+											
+											</div><!-- pricing_single_wrapper -->
+										 
+										<?php endif; ?>
+									
+									
+									<?php endif;?>
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+							
+						</div><!-- pricing_single_wrapper -->
+						
+					</div><!-- mobile_slide -->
+			 
+				<?php endwhile; ?>
+				
+				</div><!-- price_block_section -->
+			 
+			<?php endif; ?>
+			
+			
+			
+			
+			
+			
 			<div class="price_block_section">
 				
 				<h2 class="price_intro_header">Full Set</h2><!-- price_intro_header -->
