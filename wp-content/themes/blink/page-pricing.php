@@ -45,7 +45,7 @@ get_header(); ?>
 												
 												<h3 class="price_single_header"><?php the_sub_field( 'menu_item_title' ); ?></h3><!-- price_single_header -->
 												
-												<span class="price_book_it subitem" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
+												
 										 
 												<?php while(has_sub_field('single_sub_item')): ?>
 										 
@@ -57,8 +57,12 @@ get_header(); ?>
 															<span class="title"><?php the_sub_field( 'sub_item_title' ); ?></span><!-- title -->
 															<span class="dots"></span><!-- dots -->
 															<span class="price"><?php the_sub_field( 'sub_item_price' ); ?></span><!-- price -->
+															
+															
 						
 														</div><!-- price_single_bullet_inner -->
+														
+														
 														
 														<?php if( get_sub_field('sub_item_quick_description')): ?>
 														
@@ -66,6 +70,12 @@ get_header(); ?>
 														<?php endif;?>
 														
 													</div><!-- price_single_bullet -->
+													
+													<?php if(get_sub_field('book_it_link_mission_valley') || get_sub_field( 'book_it_link_solana_valley' )) { ?>
+														
+															<span class="price_book_it" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
+														
+														<?php } ?>
 												
 												
 										    <?php endwhile; ?>
