@@ -2518,7 +2518,8 @@ body.page-template-page-pricing .container {
       font-size: 50px;
       color: #f8a5bf;
       letter-spacing: 0.04em;
-      margin-bottom: 6px; }
+      margin-bottom: 6px;
+      margin-top: -8px; }
     .price_single_bullet .price_single_bullet_inner span.dots {
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;
