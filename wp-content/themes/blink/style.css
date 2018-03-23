@@ -2460,7 +2460,7 @@ svg#accent {
 
 /* Media Query */
 body.page-template-page-pricing .container {
-  max-width: 1350px; }
+  max-width: 1080px; }
 
 .price_block_section:not(:first-of-type) {
   margin-top: 30px; }

@@ -114,16 +114,28 @@ get_header(); ?>
 														<span class="price"><?php the_sub_field( 'sub_item_price' ); ?></span><!-- price -->
 						
 													</div><!-- price_single_bullet_inner -->
+													
+													<?php if( get_sub_field('sub_item_quick_description')): ?>
+														
+															<span class="additional_description"><?php the_sub_field( 'sub_item_quick_description' ); ?></span><!-- additional_description -->
+														<?php endif;?>
 						
 													<?php if(get_sub_field('book_it_link_mission_valley') || get_sub_field( 'book_it_link_solana_valley' )) { ?>
 														
 														<span class="price_book_it" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
 														
 													<?php } ?>
+													
 						
 												</div><!-- price_single_bullet -->
 										    
 											<?php endwhile; ?>
+											
+											<div class="single_description_content">
+							
+													<?php the_sub_field( 'item_large_description' ); ?>
+							
+											</div><!-- single_description_content -->
 											
 											</div><!-- pricing_single_wrapper -->
 										 
