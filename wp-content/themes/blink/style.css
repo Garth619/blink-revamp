@@ -1248,6 +1248,11 @@ a.book_appointment {
   bottom: 320px;
   right: 85px; }
 
+.prod2 {
+  position: absolute;
+  bottom: 0px;
+  right: 183px; }
+
 @media screen and (max-width: 1700px) {
   .products {
     left: -81px; }
@@ -1270,7 +1275,9 @@ a.book_appointment {
   .coffee {
     right: -105px; }
   .photo {
-    left: -180px; } }
+    left: -180px; }
+  .prod2 {
+    right: 123px; } }
 
 /* Media Query */
 @media screen and (max-width: 1280px) {
@@ -1292,7 +1299,9 @@ a.book_appointment {
       border-bottom: 20px solid transparent;
       border-left: 26px solid #f8a5bf;
       top: 29px;
-      left: 41px; } }
+      left: 41px; }
+  .prod2 {
+    right: 60px; } }
 
 /* Media Query */
 @media screen and (max-width: 1045px) {
@@ -1308,6 +1317,11 @@ a.book_appointment {
     font-size: 20px; }
   .learn_more_wrapper {
     margin: 128px 0 0; } }
+
+/* Media Query */
+@media screen and (max-width: 835px) {
+  .prod2 {
+    right: 0px; } }
 
 /* Media Query */
 @media screen and (max-width: 767px) {

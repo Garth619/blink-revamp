@@ -1068,6 +1068,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/prod2.png": {
+		"ft": 32768,
+		"iS": 64913,
+		"oA": 0,
+		"oAP": "\/images\/prod2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/products.png": {
 		"ft": 32768,
 		"iS": 87465,

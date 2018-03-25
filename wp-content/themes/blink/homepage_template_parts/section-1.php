@@ -51,6 +51,8 @@
 	
 	<img class="photo" src="<?php bloginfo('template_directory');?>/images/photo.png"/>
 	
-		<img class="coffee" src="<?php bloginfo('template_directory');?>/images/coffee.png"/>
+	<img class="coffee" src="<?php bloginfo('template_directory');?>/images/coffee.png"/>
+	
+	<img class="prod2" src="<?php bloginfo('template_directory');?>/images/prod2.png"/>
 	
 </section><!-- section_one -->

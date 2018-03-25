@@ -171,6 +171,12 @@ a.book_appointment {
 	right:85px;
 }
 
+.prod2 {
+	position: absolute;
+  bottom: 0px;
+  right: 183px;
+}
+
 
 
 @media screen and (max-width: 1700px) {
@@ -228,6 +234,12 @@ a.book_appointment {
 	}
 	
 	
+.prod2 {
+	
+  right: 123px;
+}
+	
+	
 	
 } /* Media Query */
 
@@ -270,7 +282,12 @@ a.book_appointment {
 			top: 29px;
 			left: 41px;
 		}
-	}   	
+	}  
+	
+	
+	.prod2 {
+		right: 60px;
+	} 	
 	
 	
 	
@@ -306,6 +323,19 @@ a.book_appointment {
 	.learn_more_wrapper {
 		margin: 128px 0 0;
 	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 835px) {
+	
+	
+	.prod2 {
+		right: 0px;
+	} 	
 	
 	
 	
