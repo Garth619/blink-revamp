@@ -18,6 +18,7 @@ body.page-template-page-pricing {
 		display: inline-block;
 		font-family: $glosa;
 		color:$grey;
+		margin-bottom:0;
 		&:after {
 			content:"";
 			width:100%;
@@ -35,8 +36,9 @@ body.page-template-page-pricing {
 
 .pricing_single_wrapper.no_h3_header {
 	&:first-of-type {
-		margin-top: 0px;
+		margin-top: 57px;
 	}
+	
 }
 
 
@@ -71,7 +73,10 @@ body.page-template-page-pricing {
 
 
 .price_single_bullet.no_h3_header {
-	margin-bottom:20px;
+	margin-bottom: 37px;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
 }
 
 .price_single_bullet {
@@ -151,6 +156,15 @@ body.page-template-page-pricing {
 				transition: all .2s ease-in-out;
 				
 			}
+		}
+	}
+	
+	
+	
+	.price_single_content {
+		margin-bottom:10px;
+		span {
+			display: block;
 		}
 	}
 
@@ -237,6 +251,10 @@ body.page-template-page-pricing {
 	
 	.mobile_slide {
 		display: none;
+	}
+	
+	.price_single_bullet .price_single_bullet_inner span.title.no_h3_header {
+		font-size:43px;
 	}
 	
 	

@@ -2124,6 +2124,13 @@
 		"oAP": "\/page-partnersavings.php",
 		"oF": 0
 		},
+	"\/page-pricing-backup.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-pricing-backup.html",
+		"oF": 0
+		},
 	"\/page-pricing.php": {
 		"cB": 0,
 		"ft": 8192,

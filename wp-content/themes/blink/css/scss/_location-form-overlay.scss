@@ -132,13 +132,13 @@
 		
 		
 		
+
 	.book_now_overlay.open, .call_now_overlay.open, .location_form_overlay.open, .book_now_item_overlay.open {
 		
 		.overlay_close {
-			
 			&:before, &:after {
-				transform-origin: 28px 0 0;
 				transition-delay: 1000ms;
+				transform-origin: 28px 0px 0;
 			}
 			&:before {
 				transform: rotate(-45deg);
@@ -149,6 +149,7 @@
 		}
 		
 	}
+
 	
 	
 	
@@ -157,16 +158,19 @@
 		
 		.overlay_close {
 			position: absolute;
-			top:45px;
-			right:45px;
+			top:22px;
+			right:22px;
 			cursor: pointer;
+			width:54px;
+			height:54px;
+			padding-top:24px;
 			&:before, &:after {
 				content:"";
 				width:55px;
 				height:2px;
 				background: $pink;
 				display: block;
-				transform-origin: 28px 0 0;
+				transform-origin: 0px 0 0;
 				transition: all 500ms cubic-bezier(.17,.66,.34,.98);
 			}
 		}
