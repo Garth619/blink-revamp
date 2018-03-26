@@ -3746,7 +3746,7 @@ a.site_by {
   .location_form_overlay .location_form_inner {
     background: #fff;
     max-width: 700px;
-    margin: 200px auto;
+    margin: 120px auto;
     padding: 80px 30px 60px;
     position: relative; }
     .location_form_overlay .location_form_inner span.question {
