@@ -23,9 +23,11 @@ get_header(); ?>
 				
 			 
 				<?php while(has_sub_field('pricing_section')): ?>
-					
-					<div class="price_block_section">
 				
+					<?php $lowercasetitle = 	get_sub_field( 'price_section_title' ); ?>
+					
+					<div id="<?php print (str_replace(' ', '-', strtolower($lowercasetitle))); ?>" class="price_block_section">
+						
 					<h2 class="price_intro_header"><?php the_sub_field( 'price_section_title' ); ?></h2><!-- price_intro_header -->
 					
 					<div class="mobile_slide">
@@ -40,7 +42,9 @@ get_header(); ?>
 									
 										<?php if(get_sub_field('single_sub_item')): ?>
 										
-											<div class="pricing_single_wrapper">
+											<?php $lowercase = 	get_sub_field( 'menu_item_title' ); ?>
+										
+											<div id="<?php print (str_replace(' ', '-', strtolower($lowercase))); ?>" class="pricing_single_wrapper">
 												
 												<h3 class="price_single_header"><?php the_sub_field( 'menu_item_title' ); ?></h3><!-- price_single_header -->
 												
@@ -105,8 +109,11 @@ get_header(); ?>
 											<div class="pricing_single_wrapper no_h3_header">
 										 
 											<?php while(has_sub_field('single_sub_item')): ?>
-										 
-												<div class="price_single_bullet no_h3_header">
+											
+											
+											<?php $lowercase = 	get_sub_field( 'sub_item_title' ); ?>
+										
+												<div id="<?php print (str_replace(' ', '-', strtolower($lowercase))); ?>" class="price_single_bullet no_h3_header">
 						
 													<div class="price_single_bullet_inner">
 						

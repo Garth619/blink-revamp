@@ -42,7 +42,7 @@ get_header(); ?>
 		
 				<p><?php the_sub_field( 'description' ); ?></p>
 		
-				<a class="see_pricing_button" href="">See Pricing</a>
+				<a class="see_pricing_button" href="<?php the_sub_field( 'link' ); ?>">See Pricing</a>
 		
 			</div><!-- single_allserv_price -->
 	    

@@ -3359,6 +3359,7 @@ a.book_now_page_button {
       top: -3px; }
     .location_col span.leave_comment svg {
       width: 30px;
+      height: auto;
       margin-right: 5px; }
       .location_col span.leave_comment svg .email-cls-1, .location_col span.leave_comment svg .email-cls-2, .location_col span.leave_comment svg .email-cls-3, .location_col span.leave_comment svg .email-cls-4 {
         fill: #fff; }
