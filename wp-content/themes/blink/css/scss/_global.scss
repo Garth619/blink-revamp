@@ -112,6 +112,33 @@ img.alignnone {
 }
 
 
+a.shop_now_page_button {
+	 background: #f8a5bf;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: $josefinsemibold;
+    line-height: 1;
+    padding: 18px 20px 16px;
+    display: inline-block;
+    letter-spacing: 0.04em;
+    border-radius: 5px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+	    background: $pinkdark;
+	    text-decoration: none;
+    }
+  }
+
+
+
+
 
 @media screen and (max-width: 1384px) {
 	

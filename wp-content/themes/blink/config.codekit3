@@ -1027,6 +1027,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/pin.png": {
+		"ft": 32768,
+		"iS": 2118,
+		"oA": 0,
+		"oAP": "\/images\/pin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/pinkbg.jpg": {
 		"ft": 16384,
 		"iS": 36358,
@@ -2154,6 +2165,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-pricingspecials.php",
+		"oF": 0
+		},
+	"\/page-shop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-shop.php",
 		"oF": 0
 		},
 	"\/page-testimonials.php": {
