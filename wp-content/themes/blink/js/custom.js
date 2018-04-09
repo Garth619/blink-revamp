@@ -220,7 +220,10 @@ $('.ba_slideshow').slick({
   lazyLoad: 'ondemand',
   slidesToShow: 1,
   slidesToScroll: 1,
-  dots:true
+  dots:true,
+  autoplay: true,
+  autoplaySpeed: 4500,
+  pauseOnHover:true
 });
 
 
