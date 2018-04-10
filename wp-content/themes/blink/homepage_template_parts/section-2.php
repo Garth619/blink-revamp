@@ -26,14 +26,17 @@
 							<a class="" href="<?php the_permalink(49);?>">
 						
 								<img src="<?php echo $gallery_images['featured_image_one']['url']; ?>" alt="<?php echo $gallery_images['featured_image_one']['alt']; ?>" />
-					
-								<div class="gallery_caption">
+								<?php if($gallery_images['featured_image_caption']) { ?>
+								
+									<div class="gallery_caption">
 						
-								<?php echo $gallery_images['featured_image_caption']; ?>
+										<?php echo $gallery_images['featured_image_caption']; ?>
 						
-							</div><!-- gallery_caption -->
+									</div><!-- gallery_caption -->
+							
+								<?php } ?>
 					
-						</a>
+							</a>
 					
 					</div><!-- single_gallery -->
 				    
@@ -43,11 +46,15 @@
 					
 							<img src="<?php echo $gallery_images['image_two']['url']; ?>" alt="<?php echo $gallery_images['image_two']['alt']; ?>" />
 					
-							<div class="gallery_caption">
+							<?php if($gallery_images['image_two_caption']) { ?>
+							
+								<div class="gallery_caption">
 						
-								<?php echo $gallery_images['image_two_caption']; ?>
+									<?php echo $gallery_images['image_two_caption']; ?>
 					
-						</div><!-- gallery_caption -->
+								</div><!-- gallery_caption -->
+						
+							<?php } ?>
 					
 						</a>
 					
@@ -59,11 +66,15 @@
 					
 					<img src="<?php echo $gallery_images['image_three']['url']; ?>" alt="<?php echo $gallery_images['image_three']['alt']; ?>" />
 					
-					<div class="gallery_caption">
+					<?php if($gallery_images['image_three_caption']) { ?>
+					
+						<div class="gallery_caption">
 						
-						<?php echo $gallery_images['image_three_caption']; ?>
+							<?php echo $gallery_images['image_three_caption']; ?>
 						
-					</div><!-- gallery_caption -->
+						</div><!-- gallery_caption -->
+					
+					<?php } ?>
 					
 					</a>
 					
@@ -75,11 +86,15 @@
 					
 					<img src="<?php echo $gallery_images['image_four']['url']; ?>" alt="<?php echo $gallery_images['image_four']['alt']; ?>" />
 					
-					<div class="gallery_caption">
+					<?php if($gallery_images['image_four_caption']) { ?>
+					
+						<div class="gallery_caption">
 						
-						<?php echo $gallery_images['image_four_caption']; ?>
+							<?php echo $gallery_images['image_four_caption']; ?>
 						
-					</div><!-- gallery_caption -->
+						</div><!-- gallery_caption -->
+					
+					<?php } ?>
 					
 					</a>
 					
