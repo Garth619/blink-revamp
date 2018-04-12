@@ -135,7 +135,7 @@
 			
 				<span class="copyright">&copy; <?php echo date("Y"); ?> Blink Lash Boutique</span>
 			
-				<a class="site_by" href="">
+				<a class="site_by" href="mailto:garrettwcullen@gmail.com">
 					
 					<span>Site By</span>
 					
