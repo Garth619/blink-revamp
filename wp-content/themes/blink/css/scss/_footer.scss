@@ -203,14 +203,34 @@ a.location_book_now {
 				flex-basis: 100%;
 			}
 			li#field_2_6 {
+				flex-basis:100%;
+				margin-bottom:0;
+				&:after {
+					display: none;
+				}
 				ul {
 					margin:0;
+					
+					li {
+						display: flex;
+						flex-basis: 100%;
+						&:after {
+							display: none;
+						}
+					}
 				}
 				label {
 					display: block;
+					font-family: $josefin;
+					font-size: 24px;
+					letter-spacing: 0.04em;
+					flex-grow: 1;
+					color:#80888d;
 				}
 				input {
-					width:80px;
+					width:30px;
+					
+					-webkit-appearance: checkbox;
 				}
 			}
 			li {
