@@ -205,6 +205,9 @@ a.location_book_now {
 			li#field_2_6 {
 				flex-basis:100%;
 				margin-bottom:0;
+				> label {
+					display: block;
+				}
 				&:after {
 					display: none;
 				}
