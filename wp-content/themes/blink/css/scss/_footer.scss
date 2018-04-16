@@ -205,9 +205,7 @@ a.location_book_now {
 			li#field_2_6 {
 				flex-basis:100%;
 				margin-bottom:0;
-				> label {
-					display: block;
-				}
+				
 				&:after {
 					display: none;
 				}
@@ -220,16 +218,17 @@ a.location_book_now {
 						&:after {
 							display: none;
 						}
+						label {
+							display: block;
+							font-family: $josefin;
+							font-size: 24px;
+							letter-spacing: 0.04em;
+							flex-grow: 1;
+							color:#80888d;
+						}
 					}
 				}
-				label {
-					display: block;
-					font-family: $josefin;
-					font-size: 24px;
-					letter-spacing: 0.04em;
-					flex-grow: 1;
-					color:#80888d;
-				}
+				
 				input {
 					width:30px;
 					-webkit-appearance: checkbox;
