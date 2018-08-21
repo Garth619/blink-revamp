@@ -7,7 +7,7 @@
 		"uuidString": "B9C3CC45-6F5B-4EBC-84EE-04869B398677"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -697,6 +697,7 @@
 	"\/images\/angelica.jpg": {
 		"ft": 16384,
 		"iS": 9070,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/angelica.jpg",
 		"oF": 0,
@@ -727,6 +728,7 @@
 	"\/images\/ba-02.jpg": {
 		"ft": 16384,
 		"iS": 67853,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ba-02.jpg",
 		"oF": 0,
@@ -737,6 +739,7 @@
 	"\/images\/ba-05.jpg": {
 		"ft": 16384,
 		"iS": 66828,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ba-05.jpg",
 		"oF": 0,
@@ -747,6 +750,7 @@
 	"\/images\/ba-bashful-classic.jpg": {
 		"ft": 16384,
 		"iS": 87256,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ba-bashful-classic.jpg",
 		"oF": 0,
@@ -757,6 +761,7 @@
 	"\/images\/ba-bashfull-classic.jpg": {
 		"ft": 16384,
 		"iS": 96169,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ba-bashfull-classic.jpg",
 		"oF": 0,
@@ -767,6 +772,7 @@
 	"\/images\/ba-blush-volume-classic.jpg": {
 		"ft": 16384,
 		"iS": 123358,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ba-blush-volume-classic.jpg",
 		"oF": 0,
@@ -787,6 +793,7 @@
 	"\/images\/blog.jpg": {
 		"ft": 16384,
 		"iS": 34045,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blog.jpg",
 		"oF": 0,
@@ -839,6 +846,7 @@
 	"\/images\/eyelash-extensions.jpg": {
 		"ft": 16384,
 		"iS": 13210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/eyelash-extensions.jpg",
 		"oF": 0,
@@ -849,6 +857,7 @@
 	"\/images\/faqs.jpg": {
 		"ft": 16384,
 		"iS": 61493,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/faqs.jpg",
 		"oF": 0,
@@ -869,6 +878,7 @@
 	"\/images\/footer-bg.jpg": {
 		"ft": 16384,
 		"iS": 161146,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer-bg.jpg",
 		"oF": 0,
@@ -879,6 +889,7 @@
 	"\/images\/gallery1.jpg": {
 		"ft": 16384,
 		"iS": 50353,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/gallery1.jpg",
 		"oF": 0,
@@ -889,6 +900,7 @@
 	"\/images\/gallery2.jpg": {
 		"ft": 16384,
 		"iS": 43832,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/gallery2.jpg",
 		"oF": 0,
@@ -899,6 +911,7 @@
 	"\/images\/gallery3.jpg": {
 		"ft": 16384,
 		"iS": 52667,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/gallery3.jpg",
 		"oF": 0,
@@ -909,6 +922,7 @@
 	"\/images\/gallery4.jpg": {
 		"ft": 16384,
 		"iS": 43332,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/gallery4.jpg",
 		"oF": 0,
@@ -929,6 +943,7 @@
 	"\/images\/grey-bg.jpg": {
 		"ft": 16384,
 		"iS": 49217,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/grey-bg.jpg",
 		"oF": 0,
@@ -949,6 +964,7 @@
 	"\/images\/Jen-and-Janelle.jpg": {
 		"ft": 16384,
 		"iS": 53417,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Jen-and-Janelle.jpg",
 		"oF": 0,
@@ -959,6 +975,7 @@
 	"\/images\/l.jpg": {
 		"ft": 16384,
 		"iS": 51276,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/l.jpg",
 		"oF": 0,
@@ -989,6 +1006,7 @@
 	"\/images\/meet.jpg": {
 		"ft": 16384,
 		"iS": 93644,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/meet.jpg",
 		"oF": 0,
@@ -999,6 +1017,7 @@
 	"\/images\/menu-bg.jpg": {
 		"ft": 16384,
 		"iS": 43427,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/menu-bg.jpg",
 		"oF": 0,
@@ -1009,6 +1028,7 @@
 	"\/images\/mobile_video.jpg": {
 		"ft": 16384,
 		"iS": 31934,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/mobile_video.jpg",
 		"oF": 0,
@@ -1041,6 +1061,7 @@
 	"\/images\/pinkbg.jpg": {
 		"ft": 16384,
 		"iS": 36358,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pinkbg.jpg",
 		"oF": 0,
@@ -1062,6 +1083,7 @@
 	"\/images\/pricing-example.jpg": {
 		"ft": 16384,
 		"iS": 46171,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pricing-example.jpg",
 		"oF": 0,
@@ -1072,6 +1094,7 @@
 	"\/images\/pricing.jpg": {
 		"ft": 16384,
 		"iS": 76607,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/pricing.jpg",
 		"oF": 0,
@@ -1115,6 +1138,7 @@
 	"\/images\/sec-one-bg.jpg": {
 		"ft": 16384,
 		"iS": 57855,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sec-one-bg.jpg",
 		"oF": 0,
@@ -1125,6 +1149,7 @@
 	"\/images\/services.jpg": {
 		"ft": 16384,
 		"iS": 76605,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/services.jpg",
 		"oF": 0,
@@ -1135,6 +1160,7 @@
 	"\/images\/store.jpg": {
 		"ft": 16384,
 		"iS": 130326,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/store.jpg",
 		"oF": 0,
@@ -1145,6 +1171,7 @@
 	"\/images\/studiobarrelogo.jpg": {
 		"ft": 16384,
 		"iS": 16394,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/studiobarrelogo.jpg",
 		"oF": 0,
@@ -2246,7 +2273,8 @@
 	"creationDate": 542048773,
 	"displayValue": "blink",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama"
+	"iconImageName": "meme-obama",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4049,6 +4077,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
