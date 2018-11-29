@@ -14,19 +14,26 @@
 		
 		<div class="location_wrapper">
 			
+			<?php if(get_field('location_states',18)): ?>
+			 
+				<?php while(has_sub_field('location_states',18)): ?>
 			
-			<?php if(get_field('locations_info',18)): ?>
+					<?php if(get_sub_field('locations_info')): ?>
 			 
-				<?php while(has_sub_field('locations_info',18)): ?>
+						<?php while(has_sub_field('locations_info')): ?>
 			 
-					<div class="location_single">
+							<div class="location_single">
 				
-						<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
+								<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
 				
-						<a class="tel" href="tel:<?php the_sub_field( 'phone' ); ?>"><?php the_sub_field( 'phone' ); ?></a><!-- tel -->
+								<a class="tel" href="tel:<?php the_sub_field( 'phone' ); ?>"><?php the_sub_field( 'phone' ); ?></a><!-- tel -->
 				
-					</div><!-- location_single -->
+							</div><!-- location_single -->
 			    
+						<?php endwhile; ?>
+			 
+					<?php endif; ?>
+			
 				<?php endwhile; ?>
 			 
 			<?php endif; ?>

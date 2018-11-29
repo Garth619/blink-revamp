@@ -8,16 +8,20 @@ footer {
 	position: relative;
 	padding:122px 0 470px;
 	background: url(#{$themePath}images/pinkbg.jpg) top left ;
-	.locations_inner {
-		max-width:1070px;
-		margin:0 auto;
+	span.large_header {
+		color:#fff;
+		font-family: $glosa;
+		font-size: 64px;
+		letter-spacing: 0.04em;
 		text-align: center;
-		span.large_header {
-			color:#fff;
-			font-family: $glosa;
-			font-size: 64px;
-			letter-spacing: 0.04em;
-		}
+		display: block;
+	}
+	.locations_inner {
+		max-width:1600px;
+		margin:0 auto;
+		padding-left:20px;
+		padding-right:20px;
+		text-align: center;
 	}
 	.products, .photo, .coffee {
 		display: none;
@@ -38,7 +42,7 @@ footer {
 		border-bottom:2px solid #fff;
 		padding-bottom:3px;
 		font-family: $josefinsemibold;
-		font-size: 24px;
+		font-size: 22px;
 		margin-bottom:30px;
 	}
 	a {
@@ -47,7 +51,7 @@ footer {
 	}
 	a, ul, span {
 		display: block;
-		font-size: 26px;
+		font-size: 24px;
 		font-family: $josefin;
 		line-height: 33px;
 		letter-spacing: 0.02em;
@@ -362,13 +366,14 @@ a.site_by {
 	
 .locations_wrapper {
 	padding: 84px 0 470px;
-	.locations_inner {
-		span.large_header {
+	span.large_header {
 			max-width: 600px;
 			display: block;
 			margin-left:auto;
 			margin-right:auto;
 		}
+	.locations_inner {
+		
 	}
 }
 
@@ -441,13 +446,14 @@ a.site_by {
 	background: url(#{$themePath}images/sec-one-bg.jpg) top center repeat;
 	background-size:800px;
 	overflow: hidden;
+	span.large_header {
+			display: none;
+		}
 	.locations_inner {
 		max-width:1070px;
 		margin:0 auto;
 		text-align: center;
-		span.large_header {
-			display: none;
-		}
+		
 	}
 	.products, .coffee {
 		display: block;

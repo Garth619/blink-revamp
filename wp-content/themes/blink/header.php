@@ -76,15 +76,26 @@
 		
 		<div class="sticky_locations">
 			
-			<?php if(get_field('locations_info',18)): ?>
+			
+			<?php if(get_field('location_states',18)): ?>
 			 
-				<?php while(has_sub_field('locations_info',18)): ?>
+				<?php while(has_sub_field('location_states',18)): ?>
+				
+					<?php if(get_sub_field('locations_info')): ?>
+			 
+						<?php while(has_sub_field('locations_info')): ?>
 			
 						<span class="location_title_phone"><?php the_sub_field( 'location_title' ); ?> <a class="pink" href="tel:<?php the_sub_field( 'phone' ); ?>"><?php the_sub_field( 'phone' ); ?></a></span>
 		
+						<?php endwhile; ?>
+			 
+						<?php endif; ?>
+			 
 				<?php endwhile; ?>
 			 
 			<?php endif; ?>
+			
+			
 			
 			<?php echo file_get_contents("wp-content/themes/blink/images/tel.svg"); ?>
 			

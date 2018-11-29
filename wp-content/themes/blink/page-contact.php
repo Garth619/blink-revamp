@@ -14,13 +14,14 @@ get_header(); ?>
 		
 		<div class="contact_wrapper">
 			
+			<?php if(get_field('location_states')): ?>
+			 
+				<?php while(has_sub_field('location_states')): ?>
 			
-			<?php if(get_field('locations_info')): ?>
+			<?php if(get_sub_field('locations_info')): ?>
 		 
 			<?php while(has_sub_field('locations_info')): ?>
 		 
-				
-				
 				<div class="location_col">
 			
 					<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
@@ -79,6 +80,10 @@ get_header(); ?>
 				
 				
 		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
+		
 			<?php endwhile; ?>
 		 
 		<?php endif; ?>

@@ -102,16 +102,17 @@ header {
 		text-align: left;
 		font-family: $josefinsemibold;
 		text-transform: uppercase;
-		font-size:17px;
+		font-size:13px;
 		color:$grey;
 		letter-spacing: 0.1em;
 		margin-left:20px;
-		&:first-of-type {
-			margin-bottom:4px;
+		margin-bottom:6px;
+		&:last-of-type {
+			margin-bottom:0px;
 		}
 		a.pink {
 			color:$pink;
-			font-size:20px;
+			font-size:14px;
 			text-decoration: none;
 			margin-left:8px;
 		}
@@ -361,11 +362,15 @@ ul#menu-menu-1 {
    
    .sticky_locations {
 	   span.location_title_phone {
+/*
 		   font-size: 17px;
 		   margin-left: 7px;
+*/
 		   a.pink {
+/*
 			   font-size: 17px;
 			   letter-spacing: 0.05em;
+*/
 		   }
 	   }
    } 
@@ -596,9 +601,9 @@ ul#menu-menu-1 {
 		margin-top:4px;
 		margin-left:5px;
 		span.location_title_phone {
-			font-size: 18px;
+			//font-size: 18px;
 			a.pink {
-				font-size:20px;
+				//font-size:20px;
 			}
 		}
 	}
@@ -831,9 +836,10 @@ ul#menu-menu-1 {
 .sticky_locations {
 	
 	span.location_title_phone {
-		font-size:15px;
+		//font-size:15px;
+		margin-left:6px;
 		a.pink {
-			font-size: 15px;
+			//font-size: 15px;
 		}
 	}
 }

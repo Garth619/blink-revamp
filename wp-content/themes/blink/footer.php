@@ -4,16 +4,20 @@
 		
 		<?php if(!is_page_template( 'page-contact.php' )) { ?>
 		
-		<div class="locations_inner">
-		
 		<span class="large_header">Book an Appointment Today!</span><!-- large_header -->
 		
+		<div class="locations_inner">
 		
 		
 		
-			<?php if(get_field('locations_info',18)): ?>
+		
+		<?php if(get_field('location_states',18)): ?>
+			 
+				<?php while(has_sub_field('location_states',18)): ?>
+		
+			<?php if(get_sub_field('locations_info')): ?>
 		 
-			<?php while(has_sub_field('locations_info',18)): ?>
+			<?php while(has_sub_field('locations_info')): ?>
 		 
 				
 				
@@ -78,6 +82,10 @@
 			<?php endwhile; ?>
 		 
 		<?php endif; ?>		
+		
+		<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
 		</div><!-- locations_inner -->
 		
@@ -186,15 +194,22 @@
 			
 			<span class="select_location">Book a Location</span><!-- select_location -->
 			
-			
-			<?php if(get_field('locations_info',18)): ?>
+			<?php if(get_field('location_states',18)): ?>
 			 
-				<?php while(has_sub_field('locations_info',18)): ?>
-			 
-				
-					<a class="location" href="<?php the_sub_field( 'book_now_link' ); ?>" target="_blank"><?php the_sub_field( 'location_title' ); ?></a>
+				<?php while(has_sub_field('location_states',18)): ?>
 					
-			    
+					<span class="state_title"><?php the_sub_field( 'location_state' ); ?></span><!-- state_title -->
+			
+					<?php if(get_sub_field('locations_info')): ?>
+			 
+						<?php while(has_sub_field('locations_info')): ?>
+			 
+							<a class="location" href="<?php the_sub_field( 'book_now_link' ); ?>" target="_blank"><?php the_sub_field( 'location_title' ); ?></a>
+					
+						<?php endwhile; ?>
+			 
+					<?php endif; ?>
+			
 				<?php endwhile; ?>
 			 
 			<?php endif; ?>
@@ -214,9 +229,25 @@
 			
 			<span class="call_location">Call a Location</span><!-- select_location -->
 			
-			<a class="location" href="tel:6199646082">Mission Valley</a>
+			<?php if(get_field('location_states',18)): ?>
+			 
+				<?php while(has_sub_field('location_states',18)): ?>
+					
+					<span class="state_title"><?php the_sub_field( 'location_state' ); ?></span><!-- state_title -->
 			
-			<a class="location" href="tel:8584364456">Solana Beach</a>
+					<?php if(get_sub_field('locations_info')): ?>
+			 
+						<?php while(has_sub_field('locations_info')): ?>
+			 
+							<a class="location" href="tel:<?php the_sub_field( 'phone' ); ?>"><?php the_sub_field( 'location_title' ); ?></a>
+					
+						<?php endwhile; ?>
+			 
+					<?php endif; ?>
+			
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 		</div><!-- call_now_overlay_inner -->
 		
