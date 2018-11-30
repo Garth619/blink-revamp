@@ -24,6 +24,8 @@
 				<div class="location_col">
 			
 					<span class="location_title"><?php the_sub_field( 'location_title' ); ?></span><!-- location_title -->
+					
+					<div class="mobile_slidetoggle">
 			
 					<a class="address" href="<?php the_sub_field( 'address_link' ); ?>" target="_blank"><?php the_sub_field( 'address' ); ?></a>
 			
@@ -74,6 +76,8 @@
 				</div><!-- social_icons -->
 			
 				<a class="location_book_now" href="<?php the_sub_field( 'book_now_link' ); ?>" target="_blank">Book Now!</a><!-- location_book_now -->
+				
+				</div><!-- mobile_slidetoggle -->
 			
 			</div><!-- location_col -->
 				
@@ -170,10 +174,15 @@
 			
 					<div class="book_now_item_buttons">
 						
+						<span class="state_title ca_title">California</span><!-- state_title -->
 						
-						<a class="location misson_button" href="" target="_blank">Mission Valley</a>
+						<a class="location misson_button" href="" target="_blank">Mission Valley, CA</a>
 						
-						<a class="location solana_button" href="" target="_blank">Solana Beach</a>
+						<a class="location solana_button" href="" target="_blank">Solana Beach, CA</a>
+						
+						<span class="state_title wa_title">Washington</span><!-- state_title -->
+						
+						<a class="location spokane_button" href="" target="_blank">Spokane, WA</a>
 						
 						
 					</div><!-- book_now_item_buttons -->

@@ -29,7 +29,7 @@ get_header(); ?>
 						
 
 				
-					<span data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_beach' ); ?>" class="price_book_it">Book It!</span><!-- price_book_it -->
+					<span data-spokane="<?php the_sub_field( 'book_it_link_spokane' ); ?>" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_beach' ); ?>" class="price_book_it">Book It!</span><!-- price_book_it -->
 					
 				
 					</div><!-- single_special -->

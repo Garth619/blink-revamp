@@ -1,10 +1,7 @@
 <section id="section_seven">
 	
 	<div class="blog_wrapper">
-		
 
-      
-      
       
       <?php $posts = get_field('featured_blog_posts');
       

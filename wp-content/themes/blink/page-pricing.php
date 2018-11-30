@@ -74,9 +74,9 @@ get_header(); ?>
 														
 													</div><!-- price_single_bullet -->
 													
-													<?php if(get_sub_field('book_it_link_mission_valley') || get_sub_field( 'book_it_link_solana_valley' )) { ?>
+													<?php if(get_sub_field('book_it_link_mission_valley') || get_sub_field( 'book_it_link_solana_valley' ) || get_sub_field( 'book_it_link_spokane' )) { ?>
 														
-															<span class="price_book_it" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
+															<span class="price_book_it" data-spokane="<?php the_sub_field( 'book_it_link_spokane' ); ?>" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
 														
 													<?php } ?>
 												
@@ -128,9 +128,9 @@ get_header(); ?>
 															<span class="additional_description"><?php the_sub_field( 'sub_item_quick_description' ); ?></span><!-- additional_description -->
 														<?php endif;?>
 						
-													<?php if(get_sub_field('book_it_link_mission_valley') || get_sub_field( 'book_it_link_solana_valley' )) { ?>
+													<?php if(get_sub_field('book_it_link_mission_valley') || get_sub_field( 'book_it_link_solana_valley' ) || get_sub_field( 'book_it_link_spokane' )) { ?>
 														
-														<span class="price_book_it" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
+														<span class="price_book_it" data-spokane="<?php the_sub_field( 'book_it_link_spokane' ); ?>" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_valley' ); ?>" >Book It!</span><!-- price_book_it -->
 														
 													<?php } ?>
 													
@@ -192,7 +192,7 @@ get_header(); ?>
 																	
 																		<span class="price_single_content_title"><?php the_sub_field( 'title' ); ?></span><!-- price_single_content_title -->
 																	
-																		<span class="price_book_it" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_beach' ); ?>">Book It!</span><!-- price_book_it -->
+																		<span class="price_book_it" data-spokane="<?php the_sub_field( 'book_it_link_spokane' ); ?>" data-mission="<?php the_sub_field( 'book_it_link_mission_valley' ); ?>" data-solana="<?php the_sub_field( 'book_it_link_solana_beach' ); ?>">Book It!</span><!-- price_book_it -->
 																	
 																	</div><!-- price_single_content -->
 															    

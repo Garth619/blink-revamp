@@ -151,7 +151,36 @@ checkWidthcase();
 
 
 
+// mobile locations slidetoggle
 
+
+	
+
+
+
+
+/*
+	function checkWidthlocation() {
+    
+    if (windowWidth < 767) {
+        
+      
+    	$('body.page-template-page-home .location_col span.location_title').on('click', function(e) {
+	  
+				$(this).next('.mobile_slidetoggle').slideToggle(400);
+	
+			});
+    	   		
+    		
+    } 
+    
+    
+ 
+};
+	
+
+checkWidthlocation();
+*/
 
 
 
@@ -368,7 +397,7 @@ $('.book_item_close').on('click', function(e) {
 	$('.book_now_item_overlay').removeClass('open');
 	
 	
-	 $('.book_now_item_buttons a').delay(500).hide(0);
+	 $('.book_now_item_buttons a, .book_now_item_buttons span.state_title').delay(500).hide(0);
    
   
 
@@ -386,7 +415,7 @@ $('.book_item_close').on('click', function(e) {
 // pricing data attributes
 
 
-$('.book_now_item_buttons a').hide();
+$('.book_now_item_buttons a, .book_now_item_buttons span.state_title').hide();
 
 
 $('span.price_book_it').click(function(e) {
@@ -397,21 +426,33 @@ $('span.price_book_it').click(function(e) {
    
    solanadata = $(this).attr('data-solana');
    
+   spokanedata = $(this).attr('data-spokane');
+   
    
    $('.book_now_item_buttons a.misson_button').attr("href", missiondata);
    
    $('.book_now_item_buttons a.solana_button').attr("href", solanadata);
    
+   $('.book_now_item_buttons a.spokane_button').attr("href", spokanedata);
+   
    
    if ($('.book_now_item_buttons a.misson_button').attr('href') != '') { 
     
-		 $('.book_now_item_buttons a.misson_button').show();
+		 $('.book_now_item_buttons a.misson_button, span.ca_title').show();
 
  		} 
  		
  	if ($('.book_now_item_buttons a.solana_button').attr('href') != '') { 
     
-		$('.book_now_item_buttons a.solana_button').show();
+		$('.book_now_item_buttons a.solana_button, span.ca_title').show();
+		
+	}
+ 	
+ 	if ($('.book_now_item_buttons a.spokane_button').attr('href') != '') { 
+    
+		$('.book_now_item_buttons a.spokane_button, span.wa_title').show();
+		
+		
 
  	} 
 
