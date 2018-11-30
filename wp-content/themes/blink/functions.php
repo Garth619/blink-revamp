@@ -24,7 +24,7 @@ function my_jquery_enqueue() {
      wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 8, 'all' ); 
 
      // Load my javascripts
-     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
+     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), 2, true );
      
      if(is_front_page()) {
      
