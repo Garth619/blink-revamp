@@ -792,7 +792,7 @@
 		},
 	"/images/blog.jpg": {
 		"ft": 16384,
-		"iS": 34045,
+		"iS": 25529,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/blog.jpg",
@@ -845,7 +845,7 @@
 		},
 	"/images/eyelash-extensions.jpg": {
 		"ft": 16384,
-		"iS": 13210,
+		"iS": 73247,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/eyelash-extensions.jpg",
@@ -856,7 +856,7 @@
 		},
 	"/images/faqs.jpg": {
 		"ft": 16384,
-		"iS": 61493,
+		"iS": 40141,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/faqs.jpg",
@@ -877,7 +877,7 @@
 		},
 	"/images/footer-bg.jpg": {
 		"ft": 16384,
-		"iS": 161146,
+		"iS": 136858,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/footer-bg.jpg",
@@ -888,7 +888,7 @@
 		},
 	"/images/gallery1.jpg": {
 		"ft": 16384,
-		"iS": 50353,
+		"iS": 26694,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gallery1.jpg",
@@ -899,7 +899,7 @@
 		},
 	"/images/gallery2.jpg": {
 		"ft": 16384,
-		"iS": 43832,
+		"iS": 24491,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gallery2.jpg",
@@ -910,7 +910,7 @@
 		},
 	"/images/gallery3.jpg": {
 		"ft": 16384,
-		"iS": 52667,
+		"iS": 29227,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gallery3.jpg",
@@ -921,7 +921,7 @@
 		},
 	"/images/gallery4.jpg": {
 		"ft": 16384,
-		"iS": 43332,
+		"iS": 22989,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gallery4.jpg",
@@ -942,7 +942,7 @@
 		},
 	"/images/grey-bg.jpg": {
 		"ft": 16384,
-		"iS": 49217,
+		"iS": 43216,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/grey-bg.jpg",
@@ -1005,7 +1005,7 @@
 		},
 	"/images/meet.jpg": {
 		"ft": 16384,
-		"iS": 93644,
+		"iS": 71198,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/meet.jpg",
@@ -1016,7 +1016,7 @@
 		},
 	"/images/menu-bg.jpg": {
 		"ft": 16384,
-		"iS": 43427,
+		"iS": 42834,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/menu-bg.jpg",
@@ -1027,7 +1027,7 @@
 		},
 	"/images/mobile_video.jpg": {
 		"ft": 16384,
-		"iS": 31934,
+		"iS": 23395,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/mobile_video.jpg",
@@ -1060,7 +1060,7 @@
 		},
 	"/images/pinkbg.jpg": {
 		"ft": 16384,
-		"iS": 36358,
+		"iS": 29253,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/pinkbg.jpg",
@@ -1093,7 +1093,7 @@
 		},
 	"/images/pricing.jpg": {
 		"ft": 16384,
-		"iS": 76607,
+		"iS": 55953,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/pricing.jpg",
@@ -1104,7 +1104,7 @@
 		},
 	"/images/prod2.png": {
 		"ft": 32768,
-		"iS": 64913,
+		"iS": 25399,
 		"oA": 0,
 		"oAP": "/images/prod2.png",
 		"oF": 0,
@@ -1126,7 +1126,7 @@
 		},
 	"/images/rcm.png": {
 		"ft": 32768,
-		"iS": 3427,
+		"iS": 2339,
 		"oA": 0,
 		"oAP": "/images/rcm.png",
 		"oF": 0,
@@ -1137,7 +1137,7 @@
 		},
 	"/images/sec-one-bg.jpg": {
 		"ft": 16384,
-		"iS": 57855,
+		"iS": 49456,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/sec-one-bg.jpg",
@@ -1148,7 +1148,7 @@
 		},
 	"/images/services.jpg": {
 		"ft": 16384,
-		"iS": 76605,
+		"iS": 27450,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/services.jpg",
@@ -1159,7 +1159,7 @@
 		},
 	"/images/store.jpg": {
 		"ft": 16384,
-		"iS": 130326,
+		"iS": 97530,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/store.jpg",
@@ -2217,7 +2217,7 @@
 		},
 	"/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 8762,
 		"oA": 0,
 		"oAP": "/screenshot.png",
 		"oF": 0,
