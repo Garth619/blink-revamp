@@ -44,7 +44,10 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 						createWaypoint("mobile_trigger", "#sticky_trigger", "visible", -135, null, true);
 
-						createWaypoint("sticky_trigger", ".internal_main", "visible", 0, null, true);
+						createWaypoint("sticky_trigger", "#internal_trigger", "visible", 0, null, true);
+						
+						 
+            createWaypoint("internal_trigger", ".first_time_offer_wrapper", "visible", 140, null, true);
 
 
 

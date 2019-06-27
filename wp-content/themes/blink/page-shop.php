@@ -6,7 +6,7 @@
 get_header(); ?>
 
 
-<div class="internal_main">
+<div id="internal_trigger" class="internal_main">
 	
 	
 	<div class="container content">
@@ -17,7 +17,7 @@ get_header(); ?>
 		
 		<a class="shop_now_page_button" href="<?php the_field( 'solana_beach_link' ); ?>" target="_blank">Solana Beach</a>
 		
-		<a class="shop_now_page_button" href="<?php the_field( 'mission_beach_link' ); ?>" target="_blank">Mission Valley</a>
+		<a class="shop_now_page_button" href="<?php the_field( 'mission_beach_link' ); ?>" target="_blank">Mission Beach</a>
 		
 	</div><!-- container -->
 	

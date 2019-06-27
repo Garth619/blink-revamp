@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="internal_main">
+	<div id="internal_trigger" class="internal_main">
 	
 	
 	<div class="container content">

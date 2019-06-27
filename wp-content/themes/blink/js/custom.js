@@ -22,51 +22,40 @@ jQuery(document).ready(function($){
  
  
  
- 
- function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
-                var waypoint = new Waypoint({
-                    element: document.getElementById(triggerElementId),
-                    handler: function(direction) {
-                        if (direction === 'down') {
-                            jQuery(animatedElement).addClass(className);
+  function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
+      if(jQuery('#' + triggerElementId).length) {
+        var waypoint = new Waypoint({
+          element: document.getElementById(triggerElementId),
+          handler: function (direction) {
+            if (direction === 'down') {
+              jQuery(animatedElement).addClass(className);
 
-                            if(typeof functionName === 'function') {
-                                functionName.call();
-                            }
-                        }
+              if (typeof functionName === 'function') {
+                functionName();
+                this.destroy();
+              }
 
-                        else {
+            } else if (direction === 'up') {
+              if (reverse) {
+                jQuery(animatedElement).removeClass(className);
+              }
 
-                            if(reverse) {
-                                jQuery(animatedElement).removeClass(className);
-
-                                if(typeof functionName === 'function') {
-                                    functionName.call();
-                                }
-                            }
-
-                        }
-                    },
-                    offset: offsetVal
-                    // Integer or percent
-                    // 500 means when element is 500px from the top of the page, the event triggers
-                    // 50% means when element is 50% from the top of the page, the event triggers
-                });
             }
-
-            //Waypoint Instance - Add Class To Element
-            //Template -> createWaypoint("id-name", ".class-name", "class-to-be-added", offset-value, null, true);
-            //Example -> createWaypoint("section-2", ".section-2-orange-dot", "section-2-orange-dot-active", 500, null, true);
-
-            //Waypoint Instance - Call Function
-            //Template -> createWaypoint("id-name", null, null, null, function-name, true);
-            //Example -> createWaypoint("section-2", null, null, null, test, true);
+          },
+          offset: offsetVal
+          // Integer or percent
+          // 500 means when element is 500px from the top of the page, the event triggers
+          // 50% means when element is 50% from the top of the page, the event triggers
+        });
+      }
+    }
 
 
 						createWaypoint("mobile_trigger", "#sticky_trigger", "visible", -135, null, true);
 						
 						
 						createWaypoint("sticky_trigger", ".locations_wrapper", "visible", 0, null, true);
+						
 
 
 
