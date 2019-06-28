@@ -221,6 +221,21 @@ a.book_appointment {
 } /* Media Query */
 
 
+@media screen and (max-width: 1360px) {
+	
+	
+	
+	#section_one {
+		margin-top: 107px;
+	}
+	
+	.sec_one_internal_content {
+    padding-top: 105px;
+	}
+	
+	
+} /* Media Query */
+
 
 @media screen and (max-width: 1335px) {
 	
@@ -351,6 +366,19 @@ a.book_appointment {
 	
 	.learn_more_wrapper {
 		margin: 128px 0 0;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 860px) {
+	
+	
+	#section_one {
+		margin-top: 81px;
 	}
 	
 	

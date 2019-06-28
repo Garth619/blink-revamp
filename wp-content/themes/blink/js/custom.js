@@ -54,7 +54,7 @@ jQuery(document).ready(function($){
 						createWaypoint("mobile_trigger", "#sticky_trigger", "visible", -135, null, true);
 						
 						
-						createWaypoint("sticky_trigger", ".locations_wrapper", "visible", 0, null, true);
+						createWaypoint("sticky_trigger", ".first_time_offer_wrapper", "visible-mobile", 0, null, true);
 						
 
 

@@ -276,6 +276,7 @@ ul#menu-menu-1 {
 	
 	.first_time_offer_wrapper {
 		width:100%;
+		padding:0 45px;
 		height: 140px;
 		background: $pink;
 		position: fixed;
@@ -661,6 +662,9 @@ ul#menu-menu-1 {
 	
 	.sticky_book_now {
 		flex-basis: 150px;
+		height:100%;
+		margin-right:0;
+		
 		a {
 			font-size:19px;
 			padding-top: 46px;
@@ -782,7 +786,38 @@ ul#menu-menu-1 {
 		}
 	}
 	
+	.first_time_offer_wrapper {
+		top: 107px;
+		height: 180px;
+		z-index:0;
+		height:auto;
+		position: relative;
+		padding:45px 20px;
+		transition: none;
+	}
 	
+	
+	.first_time_inner {
+		flex-direction: column;
+		text-align: center;
+		span {
+			display: block;
+			font-size: 19px;
+			line-height: 22px;
+		}
+		span.new_client {
+			margin-bottom:15px;
+		}
+		span.first_time_offer {
+			margin-bottom:20px;
+		}
+		a.first_time_button {
+			display: inline-block;
+			margin:0;
+			font-size: 15px;
+		}
+	}
+	    
 	
 	
 	
@@ -912,6 +947,11 @@ ul#menu-menu-1 {
 			//font-size: 15px;
 		}
 	}
+}
+
+
+.first_time_offer_wrapper {
+	top:81px;
 }
 	
 	
@@ -1073,6 +1113,21 @@ ul#menu-menu-1 {
 		}
 		
 	}
+	
+	
+	
+	   .first_time_offer_wrapper {
+		 		top: 0px;
+		 		order:-3;
+		
+			}
+	
+		
+		.first_time_offer_wrapper.visible-mobile {
+			margin-top:80px;
+		}
+	
+	
 
 	
 	
@@ -1142,6 +1197,9 @@ ul#menu-menu-1 {
 
 
 
+
+
+
 @media screen and (max-width: 570px) {
 	
 	
@@ -1175,6 +1233,11 @@ ul#menu-menu-1 {
 	}
 } 
 
+
+.first_time_inner {
+	max-width:330px;
+	margin:0 auto;
+}
 	
 	
 	

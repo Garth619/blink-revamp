@@ -214,6 +214,7 @@ a.shop_now_page_button {
 body.page-template-page-home  {
 	.locations_wrapper {
 		order:-2;
+		//margin-top: 182px;
 	}
 }
 
@@ -249,6 +250,23 @@ img.aligncenter {
 	}
 }
 	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 600px) {
+	
+	
+	body.page-template-page-home  {
+	.locations_wrapper {
+		order:-2;
+		
+	}
+}
+
 	
 	
 	

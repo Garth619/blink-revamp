@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
     }
             
             
-            createWaypoint("section_one", ".first_time_offer_wrapper", "visible", 140, null, true);
+            
 
 
 						createWaypoint("section_two", "#section_two", "visible", 235, null, true);
@@ -57,7 +57,25 @@ jQuery(document).ready(function($){
 
 						
 	
+		
+		
 	
+	
+	
+		function checkWidthcase() {
+	    
+	    if ($(window).width() > 1360) {
+	        
+	      
+	    	createWaypoint("section_one", ".first_time_offer_wrapper", "visible", 140, null, true);
+	    	   		
+	    		
+	    } 
+	    
+		};
+		
+	
+	checkWidthcase();
 	
 	
 	// Video overlay
