@@ -165,7 +165,7 @@
 		
 		
 
-	.book_now_overlay.open, .call_now_overlay.open, .location_form_overlay.open, .book_now_item_overlay.open {
+	.book_now_overlay.open, .call_now_overlay.open, .location_form_overlay.open, .book_now_item_overlay.open, .redeem_now_overlay.open {
 		
 		.overlay_close {
 			&:before, &:after {
@@ -202,8 +202,14 @@
 				height:2px;
 				background: $pink;
 				display: block;
-				transform-origin: 0px 0 0;
+				transform-origin: 28px 0px 0;
 				transition: all 500ms cubic-bezier(.17,.66,.34,.98);
+				&:before {
+					transform: rotate(-45deg);
+				}
+				&:after {
+					transform: rotate(45deg);
+				}
 			}
 		}
 		

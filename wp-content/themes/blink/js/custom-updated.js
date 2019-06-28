@@ -16,13 +16,15 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 
 
+
 jQuery(document).ready(function($){
-  
- 
- 
- 
- 
-  function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
+
+
+		/* Waypoints
+     --------------------------------------------------------------------------------------- */
+
+
+    function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
       if(jQuery('#' + triggerElementId).length) {
         var waypoint = new Waypoint({
           element: document.getElementById(triggerElementId),
@@ -49,30 +51,63 @@ jQuery(document).ready(function($){
         });
       }
     }
-
-
-						createWaypoint("mobile_trigger", "#sticky_trigger", "visible", -135, null, true);
+		
+		// homepage
+		
+		// like if only on homepage
+		
+		if($('#section_one').length >0 ){
+		
+			createWaypoint("mobile_trigger", "#sticky_trigger", "visible", -135, null, true);
+		
+		}
+		
+		
 						
+		createWaypoint("sticky_trigger", ".first_time_offer_wrapper", "visible-mobile", 0, null, true);
+		
+		//createWaypoint("sticky_trigger", "#internal_trigger", "visible", 0, null, true);
+		
+		createWaypoint("section_two", "#section_two", "visible", 235, null, true);
 						
-						createWaypoint("sticky_trigger", "body.page-template-page-home .first_time_offer_wrapper", "visible-mobile", 0, null, true);
+		createWaypoint("section_three", "#section_three", "visible", 420, null, true);
 						
+		createWaypoint("section_four", "#section_four", "visible", 200, null, true);
 
+		createWaypoint("section_five", "#section_five", "visible", 350, null, true);
+						
+		createWaypoint("section_six", "#section_six", "visible", 300, null, true);
+						
+		createWaypoint("section_seven", "#section_seven", "visible", 370, null, true);
+		
 
-
-	$('#section_one').addClass('ready');
+		
+		function firstimeMinimize() {
+	    
+	    if ($(window).width() > 1360) {
+	        
+	      
+	    	createWaypoint("section_one", ".first_time_offer_wrapper", "visible", 140, null, true);
+	    	
+	    	createWaypoint("internal_trigger", ".first_time_offer_wrapper", "visible", 140, null, true);
+	    	   		
+	    		
+	    } 
+	    
+		};
+		
 	
-	
-	
-	
-	
-	
-	var windowWidth = $(window).width();
-
-
-
-	function checkWidthcase() {
+	firstimeMinimize();
+		
+		
+		
+	$('#section_one').addClass('ready');	
+		
+		
+		
+	function mobileMenu() {
     
-    if (windowWidth < 1360) {
+    if ($(window).width() < 1360) {
 	    
 	    
 	    $('.sticky_menu_wrapper').on('click', function(e) {
@@ -134,57 +169,11 @@ jQuery(document).ready(function($){
 };
 	
 
-checkWidthcase();
-
-
-
-
-
-// mobile locations slidetoggle
-
-
-	
-
-
-
-
-/*
-	function checkWidthlocation() {
-    
-    if (windowWidth < 767) {
-        
-      
-    	$('body.page-template-page-home .location_col span.location_title').on('click', function(e) {
-	  
-				$(this).next('.mobile_slidetoggle').slideToggle(400);
-	
-			});
-    	   		
-    		
-    } 
-    
-    
- 
-};
-	
-
-checkWidthlocation();
-*/
-
-
-
-
+mobileMenu();
 
 
 
 // mobile menu
-
-
-
-	
-
-
-
 
 
 
@@ -249,14 +238,10 @@ $('.ba_slideshow').slick({
 // Pricing Toggle
 
 
-	
-	var windowWidth = $(window).width();
-
-
 
 	function priceToggle() {
     
-    if (windowWidth < 1060) {
+    if ($(window).width() < 1060) {
         
       
     	$('h2.price_intro_header').on('click', function(e) {
@@ -334,6 +319,16 @@ $('.sticky_book_now, a.book_appointment').on('click', function(e) {
 });
 
 
+// Reddem Now Overlay
+
+$('.first_time_button').on('click', function(e) {
+  
+
+	$('.redeem_now_overlay').addClass('open');
+
+
+});
+
 
 
 // Call us overlay
@@ -369,7 +364,7 @@ $('.price_book_it').on('click', function(e) {
 $('.overlay_close').on('click', function(e) {
   
 
-	$('.location_form_overlay, .book_now_overlay, .call_now_overlay').removeClass('open');
+	$('.location_form_overlay, .book_now_overlay, .call_now_overlay, .redeem_now_overlay').removeClass('open');
 
 
 });
@@ -392,10 +387,6 @@ $('.book_item_close').on('click', function(e) {
 
 
 });
-
-
-
-
 
 
 
@@ -452,8 +443,80 @@ $('span.price_book_it').click(function(e) {
  
  
  
+ 
+ 
+ // Video overlay
+	
+	
+	
+if($('.play_button_wrapper').length >0 ){
+		
+		
+	var video = document.getElementById("video");
+	
+	
+	$('.play_button_wrapper').on('click', function(e) {
+	  
+		$('.video_overlay').addClass('open');
+		
+		video.play();
+	
+	});
+	
+
+	$('#video').on('click', function(e) {
+  
+		$('.pause_wrapper').toggleClass('hide');
+		$('.overlay_play_wrapper').toggleClass('show');
+	
+	});
+	
+
+
+	video.addEventListener("click", function() {
+  
+  	if (video.paused == true) {
+  
+  		video.play();
+  	
+  	} else {
+   
+    	video.pause();
+    
+   }
+	
+});
+
+
+	$('span.video_close').on('click', function(e) {
+	  
+		$('.video_overlay').removeClass('open');
+		
+		video.pause();
+	
+	});
+
+
+	// mobile
+
+
+	var elem = document.getElementById("video");
+
+	$('.mobile_video').on('click', function(e) {
+  
+		$('.video_overlay').addClass('open');
+		
+		video.play();
+	
+	});
+
+
+} // end if
+	
 
 
 
+}); // Document Ready
 
-}); // document ready
+
+

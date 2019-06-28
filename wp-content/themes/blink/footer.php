@@ -230,6 +230,45 @@
 	</div><!-- book_now_overlay -->
 	
 	
+	
+	<div class="redeem_now_overlay">
+		
+		<div class="redeem_now_overlay_inner">
+			
+			<div class="overlay_close"></div><!-- overlay_close -->
+			
+			<span class="select_location">Choose a Location</span><!-- select_location -->
+			
+			<?php if(get_field('location_states',18)): ?>
+			 
+				<?php while(has_sub_field('location_states',18)): ?>
+					
+					<span class="state_title"><?php the_sub_field( 'location_state' ); ?></span><!-- state_title -->
+			
+					<?php if(get_sub_field('locations_info')): ?>
+			 
+						<?php while(has_sub_field('locations_info')): ?>
+			 
+							<a class="location" href="<?php the_sub_field( 'redeem_now_link' ); ?>" target="_blank"><?php the_sub_field( 'location_title' ); ?></a>
+					
+						<?php endwhile; ?>
+			 
+					<?php endif; ?>
+			
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
+			
+		</div><!-- redeem_now_overlay_inner -->
+		
+		
+	</div><!-- redeem_now_overlay -->
+	
+	
+	
+	
+	
 	<div class="call_now_overlay">
 		
 		<div class="call_now_overlay_inner">

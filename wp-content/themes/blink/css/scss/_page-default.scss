@@ -1,8 +1,8 @@
 .internal_main {
 	width:100%;
 	min-height:400px;
-	margin-top: 260px;
-	padding:160px 0 190px;
+	margin-top: 380px;
+	padding:0px 0 190px;
 	&:after {
 		content:"";
 		clear:both;
@@ -26,7 +26,7 @@
 	
 	
 .internal_main {
-	padding:100px 0;
+	
 }
 	
 	
@@ -35,12 +35,21 @@
 } /* Media Query */
 
 
+@media screen and (max-width: 1360px) {
+	
+	.internal_main {
+	  margin-top: 210px;
+	}
+	
+	
+} /* Media Query */
+
 
 @media screen and (max-width: 1060px) {
 	
 	
 .internal_main {
-	padding:70px 0;
+// 	padding:70px 0;
 }
 
 
