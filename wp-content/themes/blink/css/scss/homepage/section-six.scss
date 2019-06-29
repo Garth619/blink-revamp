@@ -106,6 +106,26 @@ svg#accent {
 }
 
 
+.sign_up_button {
+	   background: #f8a5bf;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "JosefinSans-SemiBold";
+    font-size: 23px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    padding: 25px 45px 22px;
+    border-radius: 5px;
+    display: inline-block;
+		transition: all 200ms ease-in-out;
+    cursor: pointer;
+    &:hover {
+	    background: $pinkdark;
+    }
+}
+
+
 
 @media screen and (max-width: 1060px) {
 	

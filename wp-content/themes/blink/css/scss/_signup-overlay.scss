@@ -1,0 +1,133 @@
+.sign_up_overlay.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.sign_up_overlay {
+	opacity: 0;
+	visibility: hidden;
+	transition: all 400ms linear;
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background:rgba(0, 0, 0, 0.7);
+	z-index:500;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	padding:0 30px;
+	.sign_up_overlay_inner {
+		background: #fff;
+		max-width:700px;
+		margin:200px auto;
+		padding:80px 30px 60px;
+		position: relative;
+		text-align: center;
+		span.select_location {
+			color:$grey;
+			font-family: $glosa;
+			font-size:53px;
+			letter-spacing: 0.02em;
+			line-height: 57px;
+			display: block;
+			text-align: center;
+			&:after {
+				content:"";
+				width:200px;
+				height:3px;
+				background: $pink;
+				display: block;
+				margin:30px auto 35px;
+			}
+		}
+		
+		a.location {
+			text-transform: uppercase;
+			font-family: $josefinsemibold;
+			padding:20px 30px 18px;
+			text-decoration: none;
+			font-size:21px;
+			letter-spacing: 0.08em;
+			color:#fff;
+			background: $pink;
+			display: block;
+			text-align: center;
+			width:100%;
+			max-width:320px;
+			margin:0px auto 30px;
+			border-radius: 5px;
+			transition: all .2s ease-in-out;
+			&:hover {
+				background: $pinkdark;
+			}
+		}
+	}
+}
+
+span.state_title {
+	font-family:$josefinsemibold;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color:$grey;
+	font-size:20px;
+	display: block;
+	margin-bottom:10px;
+}
+
+
+@media screen and (max-width: 1060px) {
+	
+.sign_up_overlay {
+	.sign_up_overlay_inner {
+		margin:100px auto;
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+.sign_up_overlay {
+	padding: 0 17px;
+	.sign_up_overlay_inner {
+		margin:43px auto;
+		padding: 80px 30px 30px;
+		max-width:500px;
+		span.select_location {
+			font-size: 44px;
+			line-height: 45px;
+			&:after {
+				margin: 17px auto 45px;
+			}
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 420px) {
+	
+	
+.sign_up_overlay {
+	.sign_up_overlay_inner {
+		padding: 80px 17px 30px;
+		a.location {
+			padding: 20px 5px 18px;
+			width:100%;
+			max-width: 325px;
+		}
+	}
+}
+	
+	
+} /* Media Query */

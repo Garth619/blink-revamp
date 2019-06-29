@@ -14,7 +14,9 @@
 		
 		<div class="sign_up_form">
 			
-			<?php gravity_form(1, false, false, false, '', true, 123); ?>
+			<span class="sign_up_button">Enter Your Email Address</span><!-- sign_up_button -->
+			
+			<?php //gravity_form(1, false, false, false, '', true, 123); ?>
 			
 		</div><!-- sign_up_form -->
 		

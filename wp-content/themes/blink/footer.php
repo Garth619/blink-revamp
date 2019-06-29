@@ -312,6 +312,55 @@
 	
 	
 	
+	
+	
+	<div class="sign_up_overlay">
+		
+		<div class="sign_up_overlay_inner">
+			
+			<div class="overlay_close"></div><!-- overlay_close -->
+			
+			<span class="select_location">Choose a Location</span><!-- select_location -->
+			
+					
+					<?php if(get_field('mission_valley_signup_link') || get_field('solana_beach_signup_link')) { ?>
+					
+						<span class="state_title">California</span><!-- state_title -->
+					
+					<?php } ?>
+					
+					<?php if(get_field('mission_valley_signup_link')) { ?>
+			
+						<a class="location" href="<?php the_field( 'mission_valley_signup_link'); ?>" target="_blank">Mission Valley, CA</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('solana_beach_signup_link')) { ?>
+					
+						<a class="location" href="<?php the_field( 'solana_beach_signup_link'); ?>" target="_blank">Solana Beach, CA</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('spokane_signup_link')) { ?>
+					
+						<span class="state_title">Washington</span><!-- state_title -->
+					
+						<a class="location" href="<?php the_field( 'spokane_signup_link'); ?>" target="_blank">Spokane, WA</a>
+					
+					<?php } ?>
+						
+			</div><!-- sign_up_overlay_inner -->
+		
+		
+	</div><!-- sign_up_overlay -->
+	
+	
+	
+	
+	
+	
+	
+	
 	<div class="call_now_overlay">
 		
 		<div class="call_now_overlay_inner">

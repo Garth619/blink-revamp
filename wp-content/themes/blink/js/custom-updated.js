@@ -370,6 +370,21 @@ $('.price_book_it').on('click', function(e) {
 
 
 
+// Sign Up Overlay
+
+
+
+$('.sign_up_button').on('click', function(e) {
+  
+
+	$('.sign_up_overlay').addClass('open');
+
+
+});
+
+
+
+
 
 // Overlay Close
 
@@ -377,7 +392,7 @@ $('.price_book_it').on('click', function(e) {
 $('.overlay_close').on('click', function(e) {
   
 
-	$('.location_form_overlay, .book_now_overlay, .call_now_overlay, .redeem_now_overlay, .buy_it_item_overlay').removeClass('open');
+	$('.location_form_overlay, .book_now_overlay, .call_now_overlay, .redeem_now_overlay, .buy_it_item_overlay, .sign_up_overlay').removeClass('open');
 
 
 });
