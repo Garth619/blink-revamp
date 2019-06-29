@@ -195,6 +195,43 @@
 	
 	
 	
+	
+	
+	<div class="buy_it_item_overlay">
+		
+		<div class="buy_it_item_overlay_inner">
+			
+			<div class="overlay_close book_item_close"></div><!-- overlay_close -->
+			
+			<span class="select_location">Select a Location</span><!-- select_location -->
+			
+			
+					<div class="buy_it_item_buttons">
+						
+						<span class="state_title ca_title">California</span><!-- state_title -->
+						
+						<a class="location misson_button" href="" target="_blank">Mission Valley, CA</a>
+						
+						<a class="location solana_button" href="" target="_blank">Solana Beach, CA</a>
+						
+						<span class="state_title wa_title">Washington</span><!-- state_title -->
+						
+						<a class="location spokane_button" href="" target="_blank">Spokane, WA</a>
+						
+						
+					</div><!-- buy_it_item_buttons -->
+			
+			
+		</div><!-- buy_it_item_overlay_inner -->
+		
+		
+	</div><!-- buy_it_item_overlay -->
+	
+	
+	
+	
+	
+	
 	<div class="book_now_overlay">
 		
 		<div class="book_now_overlay_inner">
@@ -239,28 +276,34 @@
 			
 			<span class="select_location">Choose a Location</span><!-- select_location -->
 			
-			<?php if(get_field('location_states',18)): ?>
-			 
-				<?php while(has_sub_field('location_states',18)): ?>
 					
-					<span class="state_title"><?php the_sub_field( 'location_state' ); ?></span><!-- state_title -->
-			
-					<?php if(get_sub_field('locations_info')): ?>
-			 
-						<?php while(has_sub_field('locations_info')): ?>
-			 
-							<a class="location" href="<?php the_sub_field( 'redeem_now_link' ); ?>" target="_blank"><?php the_sub_field( 'location_title' ); ?></a>
+					<?php if(get_field('mission_valley_redeem','option') || get_field('solana_beach_redeem','option')) { ?>
 					
-						<?php endwhile; ?>
-			 
-					<?php endif; ?>
+						<span class="state_title">California</span><!-- state_title -->
+					
+					<?php } ?>
+					
+					<?php if(get_field('mission_valley_redeem','option')) { ?>
 			
-				<?php endwhile; ?>
-			 
-			<?php endif; ?>
-			
-			
-		</div><!-- redeem_now_overlay_inner -->
+						<a class="location" href="<?php the_field( 'mission_valley_redeem', 'option' ); ?>" target="_blank">Mission Valley, CA</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('solana_beach_redeem','option')) { ?>
+					
+						<a class="location" href="<?php the_field( 'solana_beach_redeem', 'option' ); ?>" target="_blank">Solana Beach, CA</a>
+					
+					<?php } ?>
+					
+					<?php if(get_field('spokane_redeem','option')) { ?>
+					
+						<span class="state_title">Washington</span><!-- state_title -->
+					
+						<a class="location" href="<?php the_field( 'spokane_redeem', 'option' ); ?>" target="_blank">Spokane, WA</a>
+					
+					<?php } ?>
+						
+			</div><!-- redeem_now_overlay_inner -->
 		
 		
 	</div><!-- redeem_now_overlay -->

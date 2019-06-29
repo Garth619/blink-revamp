@@ -362,6 +362,18 @@ $('.price_book_it').on('click', function(e) {
 
 
 
+// Buy It Overlay
+
+
+
+$('.price_buy_it').on('click', function(e) {
+  
+
+	$('.buy_it_item_overlay').addClass('open');
+
+
+});
+
 
 // Overlay Close
 
@@ -369,7 +381,7 @@ $('.price_book_it').on('click', function(e) {
 $('.overlay_close').on('click', function(e) {
   
 
-	$('.location_form_overlay, .book_now_overlay, .call_now_overlay').removeClass('open');
+	$('.location_form_overlay, .book_now_overlay, .call_now_overlay, .buy_it_item_overlay').removeClass('open');
 
 
 });
@@ -449,6 +461,55 @@ $('span.price_book_it').click(function(e) {
    
    
  });
+ 
+ 
+ 
+ // buy it
+ 
+ 
+ $('span.price_buy_it').click(function(e) {
+   
+   // e.preventDefault();
+   
+   missiondata = $(this).attr('data-mission-buy');
+   
+   solanadata = $(this).attr('data-solana-buy');
+   
+   spokanedata = $(this).attr('data-spokane-buy');
+   
+   
+   $('.book_now_item_buttons a.misson_button').attr("href", missiondata);
+   
+   $('.book_now_item_buttons a.solana_button').attr("href", solanadata);
+   
+   $('.book_now_item_buttons a.spokane_button').attr("href", spokanedata);
+   
+   
+   if ($('.book_now_item_buttons a.misson_button').attr('href') != '') { 
+    
+		 $('.book_now_item_buttons a.misson_button, span.ca_title').show();
+
+ 		} 
+ 		
+ 	if ($('.book_now_item_buttons a.solana_button').attr('href') != '') { 
+    
+		$('.book_now_item_buttons a.solana_button, span.ca_title').show();
+		
+	}
+ 	
+ 	if ($('.book_now_item_buttons a.spokane_button').attr('href') != '') { 
+    
+		$('.book_now_item_buttons a.spokane_button, span.wa_title').show();
+		
+		
+
+ 	} 
+
+   
+   
+   
+ });
+
  
  
  

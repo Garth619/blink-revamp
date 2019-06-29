@@ -136,9 +136,9 @@
 	
 	<div class="first_time_inner">
 		
-		<span class="new_client">New Client Intro Special!</span><!-- new_client -->
+		<span class="new_client"><?php the_field( 'new_client_special_verbiage', 'option' ); ?></span><!-- new_client -->
 		
-		<span class="first_time_offer">Classic Blush Full Set - $89 (Reg $149)</span><!-- first_time_offer -->
+		<span class="first_time_offer"><?php the_field( 'new_client_special_offer', 'option' ); ?></span><!-- first_time_offer -->
 		
 		<a class="first_time_button">Redeem Now!</a><!-- first_time_button -->
 		
