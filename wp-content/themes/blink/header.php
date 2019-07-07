@@ -140,9 +140,13 @@
 		
 		<span class="first_time_offer"><?php the_field( 'new_client_special_offer', 'option' ); ?></span><!-- first_time_offer -->
 		
+		<span class="new_client_disclaimer mobile"><?php the_field( 'disclaimer', 'option' ); ?></span><!-- new_client_disclaimer -->
+		
 		<a class="first_time_button">Redeem Now!</a><!-- first_time_button -->
 		
 	</div><!-- first_time_inner -->
+	
+	<span class="new_client_disclaimer desktop"><?php the_field( 'disclaimer', 'option' ); ?></span><!-- new_client_disclaimer -->
 	
 </div><!-- first_time_offer -->
 			
